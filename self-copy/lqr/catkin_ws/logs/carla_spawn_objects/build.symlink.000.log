@@ -1,0 +1,7 @@
+Symlinking /home/hua/shenlan-control/lqr/catkin_ws/devel/share/carla_spawn_objects/cmake/carla_spawn_objectsConfig-version.cmake
+Symlinking /home/hua/shenlan-control/lqr/catkin_ws/devel/share/carla_spawn_objects/cmake/carla_spawn_objectsConfig.cmake
+Symlinking /home/hua/shenlan-control/lqr/catkin_ws/devel/lib/python3/dist-packages/carla_spawn_objects/__init__.py
+Symlinking /home/hua/shenlan-control/lqr/catkin_ws/devel/lib/pkgconfig/carla_spawn_objects.pc
+Symlinking /home/hua/shenlan-control/lqr/catkin_ws/devel/lib/carla_spawn_objects/carla_spawn_objects.py
+Symlinking /home/hua/shenlan-control/lqr/catkin_ws/devel/lib/carla_spawn_objects/cmake.lock
+Symlinking /home/hua/shenlan-control/lqr/catkin_ws/devel/lib/carla_spawn_objects/set_initial_pose.py

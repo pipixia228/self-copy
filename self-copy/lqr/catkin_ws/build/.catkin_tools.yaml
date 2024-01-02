@@ -1,0 +1,6 @@
+devel_space: /home/hua/shenlan-control/lqr/catkin_ws/devel
+install: false
+install_space: /home/hua/shenlan-control/lqr/catkin_ws/install
+profile: default
+source_space: /home/hua/shenlan-control/lqr/catkin_ws/src
+workspace: /home/hua/shenlan-control/lqr/catkin_ws
