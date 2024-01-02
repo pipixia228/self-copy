@@ -1,0 +1,153 @@
+Symlinking /home/hua/shenlan-control/stanley/catkin_ws/devel/share/roseus/ros/carla_waypoint_types/manifest.l
+Symlinking /home/hua/shenlan-control/stanley/catkin_ws/devel/share/roseus/ros/carla_waypoint_types/srv/GetWaypoint.l
+Symlinking /home/hua/shenlan-control/stanley/catkin_ws/devel/share/roseus/ros/carla_waypoint_types/srv/GetActorWaypoint.l
+Symlinking /home/hua/shenlan-control/stanley/catkin_ws/devel/share/roseus/ros/carla_waypoint_types/msg/CarlaWaypoint.l
+Symlinking /home/hua/shenlan-control/stanley/catkin_ws/devel/share/gennodejs/ros/carla_waypoint_types/_index.js
+Symlinking /home/hua/shenlan-control/stanley/catkin_ws/devel/share/gennodejs/ros/carla_waypoint_types/srv/GetWaypoint.js
+Symlinking /home/hua/shenlan-control/stanley/catkin_ws/devel/share/gennodejs/ros/carla_waypoint_types/srv/GetActorWaypoint.js
+Symlinking /home/hua/shenlan-control/stanley/catkin_ws/devel/share/gennodejs/ros/carla_waypoint_types/srv/_index.js
+Symlinking /home/hua/shenlan-control/stanley/catkin_ws/devel/share/gennodejs/ros/carla_waypoint_types/msg/_index.js
+Symlinking /home/hua/shenlan-control/stanley/catkin_ws/devel/share/gennodejs/ros/carla_waypoint_types/msg/CarlaWaypoint.js
+Symlinking /home/hua/shenlan-control/stanley/catkin_ws/devel/share/common-lisp/ros/carla_waypoint_types/srv/_package_GetWaypoint.lisp
+Symlinking /home/hua/shenlan-control/stanley/catkin_ws/devel/share/common-lisp/ros/carla_waypoint_types/srv/GetActorWaypoint.lisp
+Symlinking /home/hua/shenlan-control/stanley/catkin_ws/devel/share/common-lisp/ros/carla_waypoint_types/srv/GetWaypoint.lisp
+Symlinking /home/hua/shenlan-control/stanley/catkin_ws/devel/share/common-lisp/ros/carla_waypoint_types/srv/_package.lisp
+Symlinking /home/hua/shenlan-control/stanley/catkin_ws/devel/share/common-lisp/ros/carla_waypoint_types/srv/_package_GetActorWaypoint.lisp
+Symlinking /home/hua/shenlan-control/stanley/catkin_ws/devel/share/common-lisp/ros/carla_waypoint_types/srv/carla_waypoint_types-srv.asd
+Symlinking /home/hua/shenlan-control/stanley/catkin_ws/devel/share/common-lisp/ros/carla_waypoint_types/msg/_package_CarlaWaypoint.lisp
+Symlinking /home/hua/shenlan-control/stanley/catkin_ws/devel/share/common-lisp/ros/carla_waypoint_types/msg/carla_waypoint_types-msg.asd
+Symlinking /home/hua/shenlan-control/stanley/catkin_ws/devel/share/common-lisp/ros/carla_waypoint_types/msg/_package.lisp
+Symlinking /home/hua/shenlan-control/stanley/catkin_ws/devel/share/common-lisp/ros/carla_waypoint_types/msg/CarlaWaypoint.lisp
+Symlinking /home/hua/shenlan-control/stanley/catkin_ws/devel/share/carla_waypoint_types/cmake/carla_waypoint_types-msg-paths.cmake
+Symlinking /home/hua/shenlan-control/stanley/catkin_ws/devel/share/carla_waypoint_types/cmake/carla_waypoint_typesConfig.cmake
+Symlinking /home/hua/shenlan-control/stanley/catkin_ws/devel/share/carla_waypoint_types/cmake/carla_waypoint_typesConfig-version.cmake
+Symlinking /home/hua/shenlan-control/stanley/catkin_ws/devel/share/carla_waypoint_types/cmake/carla_waypoint_types-msg-extras.cmake
+Symlinking /home/hua/shenlan-control/stanley/catkin_ws/devel/lib/python3/dist-packages/carla_waypoint_types/__init__.py
+Symlinking /home/hua/shenlan-control/stanley/catkin_ws/devel/lib/python3/dist-packages/carla_waypoint_types/srv/_GetActorWaypoint.py
+Symlinking /home/hua/shenlan-control/stanley/catkin_ws/devel/lib/python3/dist-packages/carla_waypoint_types/srv/__init__.py
+Symlinking /home/hua/shenlan-control/stanley/catkin_ws/devel/lib/python3/dist-packages/carla_waypoint_types/srv/_GetWaypoint.py
+Symlinking /home/hua/shenlan-control/stanley/catkin_ws/devel/lib/python3/dist-packages/carla_waypoint_types/msg/_CarlaWaypoint.py
+Symlinking /home/hua/shenlan-control/stanley/catkin_ws/devel/lib/python3/dist-packages/carla_waypoint_types/msg/__init__.py
+Symlinking /home/hua/shenlan-control/stanley/catkin_ws/devel/lib/pkgconfig/carla_waypoint_types.pc
+Symlinking /home/hua/shenlan-control/stanley/catkin_ws/devel/include/carla_waypoint_types/GetWaypointResponse.h
+Symlinking /home/hua/shenlan-control/stanley/catkin_ws/devel/include/carla_waypoint_types/GetWaypointRequest.h
+Symlinking /home/hua/shenlan-control/stanley/catkin_ws/devel/include/carla_waypoint_types/GetActorWaypointRequest.h
+Symlinking /home/hua/shenlan-control/stanley/catkin_ws/devel/include/carla_waypoint_types/GetActorWaypointResponse.h
+Symlinking /home/hua/shenlan-control/stanley/catkin_ws/devel/include/carla_waypoint_types/GetWaypoint.h
+Symlinking /home/hua/shenlan-control/stanley/catkin_ws/devel/include/carla_waypoint_types/GetActorWaypoint.h
+Symlinking /home/hua/shenlan-control/stanley/catkin_ws/devel/include/carla_waypoint_types/CarlaWaypoint.h
+Cleaning: (/home/hua/catkin_ws/devel/.private/carla_waypoint_types/cmake.lock, /home/hua/catkin_ws/devel/./cmake.lock)
+Cleaning: (/home/hua/catkin_ws/devel/.private/carla_waypoint_types/share/roseus/ros/carla_waypoint_types/manifest.l, /home/hua/catkin_ws/devel/share/roseus/ros/carla_waypoint_types/manifest.l)
+Cleaning: (/home/hua/catkin_ws/devel/.private/carla_waypoint_types/share/roseus/ros/carla_waypoint_types/srv/GetWaypoint.l, /home/hua/catkin_ws/devel/share/roseus/ros/carla_waypoint_types/srv/GetWaypoint.l)
+Cleaning: (/home/hua/catkin_ws/devel/.private/carla_waypoint_types/share/roseus/ros/carla_waypoint_types/srv/GetActorWaypoint.l, /home/hua/catkin_ws/devel/share/roseus/ros/carla_waypoint_types/srv/GetActorWaypoint.l)
+Cleaning: (/home/hua/catkin_ws/devel/.private/carla_waypoint_types/share/roseus/ros/carla_waypoint_types/msg/CarlaWaypoint.l, /home/hua/catkin_ws/devel/share/roseus/ros/carla_waypoint_types/msg/CarlaWaypoint.l)
+Cleaning: (/home/hua/catkin_ws/devel/.private/carla_waypoint_types/share/gennodejs/ros/carla_waypoint_types/_index.js, /home/hua/catkin_ws/devel/share/gennodejs/ros/carla_waypoint_types/_index.js)
+Cleaning: (/home/hua/catkin_ws/devel/.private/carla_waypoint_types/share/gennodejs/ros/carla_waypoint_types/srv/GetWaypoint.js, /home/hua/catkin_ws/devel/share/gennodejs/ros/carla_waypoint_types/srv/GetWaypoint.js)
+Cleaning: (/home/hua/catkin_ws/devel/.private/carla_waypoint_types/share/gennodejs/ros/carla_waypoint_types/srv/GetActorWaypoint.js, /home/hua/catkin_ws/devel/share/gennodejs/ros/carla_waypoint_types/srv/GetActorWaypoint.js)
+Cleaning: (/home/hua/catkin_ws/devel/.private/carla_waypoint_types/share/gennodejs/ros/carla_waypoint_types/srv/_index.js, /home/hua/catkin_ws/devel/share/gennodejs/ros/carla_waypoint_types/srv/_index.js)
+Cleaning: (/home/hua/catkin_ws/devel/.private/carla_waypoint_types/share/gennodejs/ros/carla_waypoint_types/msg/_index.js, /home/hua/catkin_ws/devel/share/gennodejs/ros/carla_waypoint_types/msg/_index.js)
+Cleaning: (/home/hua/catkin_ws/devel/.private/carla_waypoint_types/share/gennodejs/ros/carla_waypoint_types/msg/CarlaWaypoint.js, /home/hua/catkin_ws/devel/share/gennodejs/ros/carla_waypoint_types/msg/CarlaWaypoint.js)
+Cleaning: (/home/hua/catkin_ws/devel/.private/carla_waypoint_types/share/common-lisp/ros/carla_waypoint_types/srv/_package_GetWaypoint.lisp, /home/hua/catkin_ws/devel/share/common-lisp/ros/carla_waypoint_types/srv/_package_GetWaypoint.lisp)
+Cleaning: (/home/hua/catkin_ws/devel/.private/carla_waypoint_types/share/common-lisp/ros/carla_waypoint_types/srv/GetActorWaypoint.lisp, /home/hua/catkin_ws/devel/share/common-lisp/ros/carla_waypoint_types/srv/GetActorWaypoint.lisp)
+Cleaning: (/home/hua/catkin_ws/devel/.private/carla_waypoint_types/share/common-lisp/ros/carla_waypoint_types/srv/GetWaypoint.lisp, /home/hua/catkin_ws/devel/share/common-lisp/ros/carla_waypoint_types/srv/GetWaypoint.lisp)
+Cleaning: (/home/hua/catkin_ws/devel/.private/carla_waypoint_types/share/common-lisp/ros/carla_waypoint_types/srv/_package.lisp, /home/hua/catkin_ws/devel/share/common-lisp/ros/carla_waypoint_types/srv/_package.lisp)
+Cleaning: (/home/hua/catkin_ws/devel/.private/carla_waypoint_types/share/common-lisp/ros/carla_waypoint_types/srv/_package_GetActorWaypoint.lisp, /home/hua/catkin_ws/devel/share/common-lisp/ros/carla_waypoint_types/srv/_package_GetActorWaypoint.lisp)
+Cleaning: (/home/hua/catkin_ws/devel/.private/carla_waypoint_types/share/common-lisp/ros/carla_waypoint_types/srv/carla_waypoint_types-srv.asd, /home/hua/catkin_ws/devel/share/common-lisp/ros/carla_waypoint_types/srv/carla_waypoint_types-srv.asd)
+Cleaning: (/home/hua/catkin_ws/devel/.private/carla_waypoint_types/share/common-lisp/ros/carla_waypoint_types/msg/_package_CarlaWaypoint.lisp, /home/hua/catkin_ws/devel/share/common-lisp/ros/carla_waypoint_types/msg/_package_CarlaWaypoint.lisp)
+Cleaning: (/home/hua/catkin_ws/devel/.private/carla_waypoint_types/share/common-lisp/ros/carla_waypoint_types/msg/carla_waypoint_types-msg.asd, /home/hua/catkin_ws/devel/share/common-lisp/ros/carla_waypoint_types/msg/carla_waypoint_types-msg.asd)
+Cleaning: (/home/hua/catkin_ws/devel/.private/carla_waypoint_types/share/common-lisp/ros/carla_waypoint_types/msg/_package.lisp, /home/hua/catkin_ws/devel/share/common-lisp/ros/carla_waypoint_types/msg/_package.lisp)
+Cleaning: (/home/hua/catkin_ws/devel/.private/carla_waypoint_types/share/common-lisp/ros/carla_waypoint_types/msg/CarlaWaypoint.lisp, /home/hua/catkin_ws/devel/share/common-lisp/ros/carla_waypoint_types/msg/CarlaWaypoint.lisp)
+Cleaning: (/home/hua/catkin_ws/devel/.private/carla_waypoint_types/share/carla_waypoint_types/cmake/carla_waypoint_types-msg-paths.cmake, /home/hua/catkin_ws/devel/share/carla_waypoint_types/cmake/carla_waypoint_types-msg-paths.cmake)
+Cleaning: (/home/hua/catkin_ws/devel/.private/carla_waypoint_types/share/carla_waypoint_types/cmake/carla_waypoint_typesConfig.cmake, /home/hua/catkin_ws/devel/share/carla_waypoint_types/cmake/carla_waypoint_typesConfig.cmake)
+Cleaning: (/home/hua/catkin_ws/devel/.private/carla_waypoint_types/share/carla_waypoint_types/cmake/carla_waypoint_typesConfig-version.cmake, /home/hua/catkin_ws/devel/share/carla_waypoint_types/cmake/carla_waypoint_typesConfig-version.cmake)
+Cleaning: (/home/hua/catkin_ws/devel/.private/carla_waypoint_types/share/carla_waypoint_types/cmake/carla_waypoint_types-msg-extras.cmake, /home/hua/catkin_ws/devel/share/carla_waypoint_types/cmake/carla_waypoint_types-msg-extras.cmake)
+Cleaning: (/home/hua/catkin_ws/devel/.private/carla_waypoint_types/lib/python3/dist-packages/carla_waypoint_types/__init__.py, /home/hua/catkin_ws/devel/lib/python3/dist-packages/carla_waypoint_types/__init__.py)
+Cleaning: (/home/hua/catkin_ws/devel/.private/carla_waypoint_types/lib/python3/dist-packages/carla_waypoint_types/srv/_GetActorWaypoint.py, /home/hua/catkin_ws/devel/lib/python3/dist-packages/carla_waypoint_types/srv/_GetActorWaypoint.py)
+Cleaning: (/home/hua/catkin_ws/devel/.private/carla_waypoint_types/lib/python3/dist-packages/carla_waypoint_types/srv/__init__.py, /home/hua/catkin_ws/devel/lib/python3/dist-packages/carla_waypoint_types/srv/__init__.py)
+Cleaning: (/home/hua/catkin_ws/devel/.private/carla_waypoint_types/lib/python3/dist-packages/carla_waypoint_types/srv/_GetWaypoint.py, /home/hua/catkin_ws/devel/lib/python3/dist-packages/carla_waypoint_types/srv/_GetWaypoint.py)
+Cleaning: (/home/hua/catkin_ws/devel/.private/carla_waypoint_types/lib/python3/dist-packages/carla_waypoint_types/msg/_CarlaWaypoint.py, /home/hua/catkin_ws/devel/lib/python3/dist-packages/carla_waypoint_types/msg/_CarlaWaypoint.py)
+Cleaning: (/home/hua/catkin_ws/devel/.private/carla_waypoint_types/lib/python3/dist-packages/carla_waypoint_types/msg/__init__.py, /home/hua/catkin_ws/devel/lib/python3/dist-packages/carla_waypoint_types/msg/__init__.py)
+Cleaning: (/home/hua/catkin_ws/devel/.private/carla_waypoint_types/lib/pkgconfig/carla_waypoint_types.pc, /home/hua/catkin_ws/devel/lib/pkgconfig/carla_waypoint_types.pc)
+Cleaning: (/home/hua/catkin_ws/devel/.private/carla_waypoint_types/include/carla_waypoint_types/GetWaypointResponse.h, /home/hua/catkin_ws/devel/include/carla_waypoint_types/GetWaypointResponse.h)
+Cleaning: (/home/hua/catkin_ws/devel/.private/carla_waypoint_types/include/carla_waypoint_types/GetWaypointRequest.h, /home/hua/catkin_ws/devel/include/carla_waypoint_types/GetWaypointRequest.h)
+Cleaning: (/home/hua/catkin_ws/devel/.private/carla_waypoint_types/include/carla_waypoint_types/GetActorWaypointRequest.h, /home/hua/catkin_ws/devel/include/carla_waypoint_types/GetActorWaypointRequest.h)
+Cleaning: (/home/hua/catkin_ws/devel/.private/carla_waypoint_types/include/carla_waypoint_types/GetActorWaypointResponse.h, /home/hua/catkin_ws/devel/include/carla_waypoint_types/GetActorWaypointResponse.h)
+Cleaning: (/home/hua/catkin_ws/devel/.private/carla_waypoint_types/include/carla_waypoint_types/GetWaypoint.h, /home/hua/catkin_ws/devel/include/carla_waypoint_types/GetWaypoint.h)
+Cleaning: (/home/hua/catkin_ws/devel/.private/carla_waypoint_types/include/carla_waypoint_types/GetActorWaypoint.h, /home/hua/catkin_ws/devel/include/carla_waypoint_types/GetActorWaypoint.h)
+Cleaning: (/home/hua/catkin_ws/devel/.private/carla_waypoint_types/include/carla_waypoint_types/CarlaWaypoint.h, /home/hua/catkin_ws/devel/include/carla_waypoint_types/CarlaWaypoint.h)
+Unlinking: /home/hua/catkin_ws/devel/share/roseus/ros/carla_waypoint_types/manifest.l
+Already unlinked: {}
+Unlinking: /home/hua/catkin_ws/devel/share/roseus/ros/carla_waypoint_types/srv/GetWaypoint.l
+Already unlinked: {}
+Unlinking: /home/hua/catkin_ws/devel/share/roseus/ros/carla_waypoint_types/srv/GetActorWaypoint.l
+Already unlinked: {}
+Unlinking: /home/hua/catkin_ws/devel/share/roseus/ros/carla_waypoint_types/msg/CarlaWaypoint.l
+Already unlinked: {}
+Unlinking: /home/hua/catkin_ws/devel/share/gennodejs/ros/carla_waypoint_types/_index.js
+Already unlinked: {}
+Unlinking: /home/hua/catkin_ws/devel/share/gennodejs/ros/carla_waypoint_types/srv/GetWaypoint.js
+Already unlinked: {}
+Unlinking: /home/hua/catkin_ws/devel/share/gennodejs/ros/carla_waypoint_types/srv/GetActorWaypoint.js
+Already unlinked: {}
+Unlinking: /home/hua/catkin_ws/devel/share/gennodejs/ros/carla_waypoint_types/srv/_index.js
+Already unlinked: {}
+Unlinking: /home/hua/catkin_ws/devel/share/gennodejs/ros/carla_waypoint_types/msg/_index.js
+Already unlinked: {}
+Unlinking: /home/hua/catkin_ws/devel/share/gennodejs/ros/carla_waypoint_types/msg/CarlaWaypoint.js
+Already unlinked: {}
+Unlinking: /home/hua/catkin_ws/devel/share/common-lisp/ros/carla_waypoint_types/srv/_package_GetWaypoint.lisp
+Already unlinked: {}
+Unlinking: /home/hua/catkin_ws/devel/share/common-lisp/ros/carla_waypoint_types/srv/GetActorWaypoint.lisp
+Already unlinked: {}
+Unlinking: /home/hua/catkin_ws/devel/share/common-lisp/ros/carla_waypoint_types/srv/GetWaypoint.lisp
+Already unlinked: {}
+Unlinking: /home/hua/catkin_ws/devel/share/common-lisp/ros/carla_waypoint_types/srv/_package.lisp
+Already unlinked: {}
+Unlinking: /home/hua/catkin_ws/devel/share/common-lisp/ros/carla_waypoint_types/srv/_package_GetActorWaypoint.lisp
+Already unlinked: {}
+Unlinking: /home/hua/catkin_ws/devel/share/common-lisp/ros/carla_waypoint_types/srv/carla_waypoint_types-srv.asd
+Already unlinked: {}
+Unlinking: /home/hua/catkin_ws/devel/share/common-lisp/ros/carla_waypoint_types/msg/_package_CarlaWaypoint.lisp
+Already unlinked: {}
+Unlinking: /home/hua/catkin_ws/devel/share/common-lisp/ros/carla_waypoint_types/msg/carla_waypoint_types-msg.asd
+Already unlinked: {}
+Unlinking: /home/hua/catkin_ws/devel/share/common-lisp/ros/carla_waypoint_types/msg/_package.lisp
+Already unlinked: {}
+Unlinking: /home/hua/catkin_ws/devel/share/common-lisp/ros/carla_waypoint_types/msg/CarlaWaypoint.lisp
+Already unlinked: {}
+Unlinking: /home/hua/catkin_ws/devel/share/carla_waypoint_types/cmake/carla_waypoint_types-msg-paths.cmake
+Already unlinked: {}
+Unlinking: /home/hua/catkin_ws/devel/share/carla_waypoint_types/cmake/carla_waypoint_typesConfig.cmake
+Already unlinked: {}
+Unlinking: /home/hua/catkin_ws/devel/share/carla_waypoint_types/cmake/carla_waypoint_typesConfig-version.cmake
+Already unlinked: {}
+Unlinking: /home/hua/catkin_ws/devel/share/carla_waypoint_types/cmake/carla_waypoint_types-msg-extras.cmake
+Already unlinked: {}
+Unlinking: /home/hua/catkin_ws/devel/lib/python3/dist-packages/carla_waypoint_types/__init__.py
+Already unlinked: {}
+Unlinking: /home/hua/catkin_ws/devel/lib/python3/dist-packages/carla_waypoint_types/srv/_GetActorWaypoint.py
+Already unlinked: {}
+Unlinking: /home/hua/catkin_ws/devel/lib/python3/dist-packages/carla_waypoint_types/srv/__init__.py
+Already unlinked: {}
+Unlinking: /home/hua/catkin_ws/devel/lib/python3/dist-packages/carla_waypoint_types/srv/_GetWaypoint.py
+Already unlinked: {}
+Unlinking: /home/hua/catkin_ws/devel/lib/python3/dist-packages/carla_waypoint_types/msg/_CarlaWaypoint.py
+Already unlinked: {}
+Unlinking: /home/hua/catkin_ws/devel/lib/python3/dist-packages/carla_waypoint_types/msg/__init__.py
+Already unlinked: {}
+Unlinking: /home/hua/catkin_ws/devel/lib/pkgconfig/carla_waypoint_types.pc
+Already unlinked: {}
+Unlinking: /home/hua/catkin_ws/devel/include/carla_waypoint_types/GetWaypointResponse.h
+Already unlinked: {}
+Unlinking: /home/hua/catkin_ws/devel/include/carla_waypoint_types/GetWaypointRequest.h
+Already unlinked: {}
+Unlinking: /home/hua/catkin_ws/devel/include/carla_waypoint_types/GetActorWaypointRequest.h
+Already unlinked: {}
+Unlinking: /home/hua/catkin_ws/devel/include/carla_waypoint_types/GetActorWaypointResponse.h
+Already unlinked: {}
+Unlinking: /home/hua/catkin_ws/devel/include/carla_waypoint_types/GetWaypoint.h
+Already unlinked: {}
+Unlinking: /home/hua/catkin_ws/devel/include/carla_waypoint_types/GetActorWaypoint.h
+Already unlinked: {}
+Unlinking: /home/hua/catkin_ws/devel/include/carla_waypoint_types/CarlaWaypoint.h
+Already unlinked: {}

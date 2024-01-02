@@ -1,0 +1,1 @@
+/home/hua/deepblue_planning_control-master/pro2_stanley/devel/.private/stanley_control/lib/pkgconfig/stanley_control.pc

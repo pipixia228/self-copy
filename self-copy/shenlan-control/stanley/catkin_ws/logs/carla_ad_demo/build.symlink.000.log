@@ -1,0 +1,13 @@
+Symlinking /home/hua/shenlan-control/stanley/catkin_ws/devel/share/carla_ad_demo/cmake/carla_ad_demoConfig-version.cmake
+Symlinking /home/hua/shenlan-control/stanley/catkin_ws/devel/share/carla_ad_demo/cmake/carla_ad_demoConfig.cmake
+Symlinking /home/hua/shenlan-control/stanley/catkin_ws/devel/lib/pkgconfig/carla_ad_demo.pc
+Cleaning: (/home/hua/catkin_ws/devel/.private/carla_ad_demo/cmake.lock, /home/hua/catkin_ws/devel/./cmake.lock)
+Cleaning: (/home/hua/catkin_ws/devel/.private/carla_ad_demo/share/carla_ad_demo/cmake/carla_ad_demoConfig-version.cmake, /home/hua/catkin_ws/devel/share/carla_ad_demo/cmake/carla_ad_demoConfig-version.cmake)
+Cleaning: (/home/hua/catkin_ws/devel/.private/carla_ad_demo/share/carla_ad_demo/cmake/carla_ad_demoConfig.cmake, /home/hua/catkin_ws/devel/share/carla_ad_demo/cmake/carla_ad_demoConfig.cmake)
+Cleaning: (/home/hua/catkin_ws/devel/.private/carla_ad_demo/lib/pkgconfig/carla_ad_demo.pc, /home/hua/catkin_ws/devel/lib/pkgconfig/carla_ad_demo.pc)
+Unlinking: /home/hua/catkin_ws/devel/share/carla_ad_demo/cmake/carla_ad_demoConfig-version.cmake
+Already unlinked: {}
+Unlinking: /home/hua/catkin_ws/devel/share/carla_ad_demo/cmake/carla_ad_demoConfig.cmake
+Already unlinked: {}
+Unlinking: /home/hua/catkin_ws/devel/lib/pkgconfig/carla_ad_demo.pc
+Already unlinked: {}

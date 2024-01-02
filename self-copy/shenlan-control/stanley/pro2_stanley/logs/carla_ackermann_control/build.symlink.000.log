@@ -1,0 +1,10 @@
+Symlinking /home/hua/deepblue_planning_control-master/pro2_stanley/devel/share/carla_ackermann_control/docs/EgoVehicleControlParameterConfig.wikidoc
+Symlinking /home/hua/deepblue_planning_control-master/pro2_stanley/devel/share/carla_ackermann_control/docs/EgoVehicleControlParameterConfig.dox
+Symlinking /home/hua/deepblue_planning_control-master/pro2_stanley/devel/share/carla_ackermann_control/docs/EgoVehicleControlParameterConfig-usage.dox
+Symlinking /home/hua/deepblue_planning_control-master/pro2_stanley/devel/share/carla_ackermann_control/cmake/carla_ackermann_controlConfig-version.cmake
+Symlinking /home/hua/deepblue_planning_control-master/pro2_stanley/devel/share/carla_ackermann_control/cmake/carla_ackermann_controlConfig.cmake
+Symlinking /home/hua/deepblue_planning_control-master/pro2_stanley/devel/lib/python3/dist-packages/carla_ackermann_control/__init__.py
+Symlinking /home/hua/deepblue_planning_control-master/pro2_stanley/devel/lib/python3/dist-packages/carla_ackermann_control/cfg/__init__.py
+Symlinking /home/hua/deepblue_planning_control-master/pro2_stanley/devel/lib/python3/dist-packages/carla_ackermann_control/cfg/EgoVehicleControlParameterConfig.py
+Symlinking /home/hua/deepblue_planning_control-master/pro2_stanley/devel/lib/pkgconfig/carla_ackermann_control.pc
+Symlinking /home/hua/deepblue_planning_control-master/pro2_stanley/devel/include/carla_ackermann_control/EgoVehicleControlParameterConfig.h

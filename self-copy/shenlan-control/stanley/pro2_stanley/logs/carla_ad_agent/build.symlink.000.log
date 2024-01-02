@@ -1,0 +1,4 @@
+Symlinking /home/hua/deepblue_planning_control-master/pro2_stanley/devel/share/carla_ad_agent/cmake/carla_ad_agentConfig.cmake
+Symlinking /home/hua/deepblue_planning_control-master/pro2_stanley/devel/share/carla_ad_agent/cmake/carla_ad_agentConfig-version.cmake
+Symlinking /home/hua/deepblue_planning_control-master/pro2_stanley/devel/lib/python3/dist-packages/carla_ad_agent/__init__.py
+Symlinking /home/hua/deepblue_planning_control-master/pro2_stanley/devel/lib/pkgconfig/carla_ad_agent.pc

@@ -1,0 +1,4 @@
+Symlinking /home/hua/deepblue_planning_control-master/pro2_stanley/devel/share/ros_compatibility/cmake/ros_compatibilityConfig.cmake
+Symlinking /home/hua/deepblue_planning_control-master/pro2_stanley/devel/share/ros_compatibility/cmake/ros_compatibilityConfig-version.cmake
+Symlinking /home/hua/deepblue_planning_control-master/pro2_stanley/devel/lib/python3/dist-packages/ros_compatibility/__init__.py
+Symlinking /home/hua/deepblue_planning_control-master/pro2_stanley/devel/lib/pkgconfig/ros_compatibility.pc

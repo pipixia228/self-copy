@@ -1,0 +1,1 @@
+/home/hua/shenlan-control/mpc/catkin_ws/devel/.private/rosbridge_library/share/roseus/ros/rosbridge_library/msg/Num.l

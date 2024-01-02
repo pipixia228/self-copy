@@ -1,0 +1,17 @@
+Symlinking /home/hua/shenlan-control/stanley/catkin_ws/devel/share/ros_compatibility/cmake/ros_compatibilityConfig.cmake
+Symlinking /home/hua/shenlan-control/stanley/catkin_ws/devel/share/ros_compatibility/cmake/ros_compatibilityConfig-version.cmake
+Symlinking /home/hua/shenlan-control/stanley/catkin_ws/devel/lib/python3/dist-packages/ros_compatibility/__init__.py
+Symlinking /home/hua/shenlan-control/stanley/catkin_ws/devel/lib/pkgconfig/ros_compatibility.pc
+Cleaning: (/home/hua/catkin_ws/devel/.private/ros_compatibility/cmake.lock, /home/hua/catkin_ws/devel/./cmake.lock)
+Cleaning: (/home/hua/catkin_ws/devel/.private/ros_compatibility/share/ros_compatibility/cmake/ros_compatibilityConfig.cmake, /home/hua/catkin_ws/devel/share/ros_compatibility/cmake/ros_compatibilityConfig.cmake)
+Cleaning: (/home/hua/catkin_ws/devel/.private/ros_compatibility/share/ros_compatibility/cmake/ros_compatibilityConfig-version.cmake, /home/hua/catkin_ws/devel/share/ros_compatibility/cmake/ros_compatibilityConfig-version.cmake)
+Cleaning: (/home/hua/catkin_ws/devel/.private/ros_compatibility/lib/python3/dist-packages/ros_compatibility/__init__.py, /home/hua/catkin_ws/devel/lib/python3/dist-packages/ros_compatibility/__init__.py)
+Cleaning: (/home/hua/catkin_ws/devel/.private/ros_compatibility/lib/pkgconfig/ros_compatibility.pc, /home/hua/catkin_ws/devel/lib/pkgconfig/ros_compatibility.pc)
+Unlinking: /home/hua/catkin_ws/devel/share/ros_compatibility/cmake/ros_compatibilityConfig.cmake
+Already unlinked: {}
+Unlinking: /home/hua/catkin_ws/devel/share/ros_compatibility/cmake/ros_compatibilityConfig-version.cmake
+Already unlinked: {}
+Unlinking: /home/hua/catkin_ws/devel/lib/python3/dist-packages/ros_compatibility/__init__.py
+Already unlinked: {}
+Unlinking: /home/hua/catkin_ws/devel/lib/pkgconfig/ros_compatibility.pc
+Already unlinked: {}

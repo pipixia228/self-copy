@@ -1,0 +1,17 @@
+Symlinking /home/hua/shenlan-control/stanley/catkin_ws/devel/share/rviz_carla_plugin/cmake/rviz_carla_pluginConfig-version.cmake
+Symlinking /home/hua/shenlan-control/stanley/catkin_ws/devel/share/rviz_carla_plugin/cmake/rviz_carla_pluginConfig.cmake
+Symlinking /home/hua/shenlan-control/stanley/catkin_ws/devel/lib/librviz_carla_plugin.so
+Symlinking /home/hua/shenlan-control/stanley/catkin_ws/devel/lib/pkgconfig/rviz_carla_plugin.pc
+Cleaning: (/home/hua/catkin_ws/devel/.private/rviz_carla_plugin/cmake.lock, /home/hua/catkin_ws/devel/./cmake.lock)
+Cleaning: (/home/hua/catkin_ws/devel/.private/rviz_carla_plugin/share/rviz_carla_plugin/cmake/rviz_carla_pluginConfig-version.cmake, /home/hua/catkin_ws/devel/share/rviz_carla_plugin/cmake/rviz_carla_pluginConfig-version.cmake)
+Cleaning: (/home/hua/catkin_ws/devel/.private/rviz_carla_plugin/share/rviz_carla_plugin/cmake/rviz_carla_pluginConfig.cmake, /home/hua/catkin_ws/devel/share/rviz_carla_plugin/cmake/rviz_carla_pluginConfig.cmake)
+Cleaning: (/home/hua/catkin_ws/devel/.private/rviz_carla_plugin/lib/librviz_carla_plugin.so, /home/hua/catkin_ws/devel/lib/librviz_carla_plugin.so)
+Cleaning: (/home/hua/catkin_ws/devel/.private/rviz_carla_plugin/lib/pkgconfig/rviz_carla_plugin.pc, /home/hua/catkin_ws/devel/lib/pkgconfig/rviz_carla_plugin.pc)
+Unlinking: /home/hua/catkin_ws/devel/share/rviz_carla_plugin/cmake/rviz_carla_pluginConfig-version.cmake
+Already unlinked: {}
+Unlinking: /home/hua/catkin_ws/devel/share/rviz_carla_plugin/cmake/rviz_carla_pluginConfig.cmake
+Already unlinked: {}
+Unlinking: /home/hua/catkin_ws/devel/lib/librviz_carla_plugin.so
+Already unlinked: {}
+Unlinking: /home/hua/catkin_ws/devel/lib/pkgconfig/rviz_carla_plugin.pc
+Already unlinked: {}

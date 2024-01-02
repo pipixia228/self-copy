@@ -1,0 +1,6 @@
+Symlinking /home/hua/deepblue_planning_control-master/pro2_stanley/devel/share/carla_walker_agent/cmake/carla_walker_agentConfig.cmake
+Symlinking /home/hua/deepblue_planning_control-master/pro2_stanley/devel/share/carla_walker_agent/cmake/carla_walker_agentConfig-version.cmake
+Symlinking /home/hua/deepblue_planning_control-master/pro2_stanley/devel/lib/python3/dist-packages/carla_walker_agent/__init__.py
+Symlinking /home/hua/deepblue_planning_control-master/pro2_stanley/devel/lib/pkgconfig/carla_walker_agent.pc
+Symlinking /home/hua/deepblue_planning_control-master/pro2_stanley/devel/lib/carla_walker_agent/carla_walker_agent.py
+Symlinking /home/hua/deepblue_planning_control-master/pro2_stanley/devel/lib/carla_walker_agent/cmake.lock

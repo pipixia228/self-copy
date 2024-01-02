@@ -1,0 +1,17 @@
+Symlinking /home/hua/shenlan-control/stanley/catkin_ws/devel/share/pcl_recorder/cmake/pcl_recorderConfig-version.cmake
+Symlinking /home/hua/shenlan-control/stanley/catkin_ws/devel/share/pcl_recorder/cmake/pcl_recorderConfig.cmake
+Symlinking /home/hua/shenlan-control/stanley/catkin_ws/devel/lib/pkgconfig/pcl_recorder.pc
+Symlinking /home/hua/shenlan-control/stanley/catkin_ws/devel/lib/pcl_recorder/pcl_recorder_node
+Cleaning: (/home/hua/catkin_ws/devel/.private/pcl_recorder/cmake.lock, /home/hua/catkin_ws/devel/./cmake.lock)
+Cleaning: (/home/hua/catkin_ws/devel/.private/pcl_recorder/share/pcl_recorder/cmake/pcl_recorderConfig-version.cmake, /home/hua/catkin_ws/devel/share/pcl_recorder/cmake/pcl_recorderConfig-version.cmake)
+Cleaning: (/home/hua/catkin_ws/devel/.private/pcl_recorder/share/pcl_recorder/cmake/pcl_recorderConfig.cmake, /home/hua/catkin_ws/devel/share/pcl_recorder/cmake/pcl_recorderConfig.cmake)
+Cleaning: (/home/hua/catkin_ws/devel/.private/pcl_recorder/lib/pkgconfig/pcl_recorder.pc, /home/hua/catkin_ws/devel/lib/pkgconfig/pcl_recorder.pc)
+Cleaning: (/home/hua/catkin_ws/devel/.private/pcl_recorder/lib/pcl_recorder/pcl_recorder_node, /home/hua/catkin_ws/devel/lib/pcl_recorder/pcl_recorder_node)
+Unlinking: /home/hua/catkin_ws/devel/share/pcl_recorder/cmake/pcl_recorderConfig-version.cmake
+Already unlinked: {}
+Unlinking: /home/hua/catkin_ws/devel/share/pcl_recorder/cmake/pcl_recorderConfig.cmake
+Already unlinked: {}
+Unlinking: /home/hua/catkin_ws/devel/lib/pkgconfig/pcl_recorder.pc
+Already unlinked: {}
+Unlinking: /home/hua/catkin_ws/devel/lib/pcl_recorder/pcl_recorder_node
+Already unlinked: {}

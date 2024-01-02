@@ -1,0 +1,8 @@
+prefix=/home/hua/deepblue_planning_control-master/pro2_stanley/install
+
+Name: ros_compatibility
+Description: Description of ros_compatibility
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: rospy

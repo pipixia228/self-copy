@@ -1,0 +1,4 @@
+Symlinking /home/hua/deepblue_planning_control-master/pro2_stanley/devel/share/rviz_carla_plugin/cmake/rviz_carla_pluginConfig-version.cmake
+Symlinking /home/hua/deepblue_planning_control-master/pro2_stanley/devel/share/rviz_carla_plugin/cmake/rviz_carla_pluginConfig.cmake
+Symlinking /home/hua/deepblue_planning_control-master/pro2_stanley/devel/lib/librviz_carla_plugin.so
+Symlinking /home/hua/deepblue_planning_control-master/pro2_stanley/devel/lib/pkgconfig/rviz_carla_plugin.pc

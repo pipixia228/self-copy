@@ -1,0 +1,25 @@
+Symlinking /home/hua/shenlan-control/stanley/catkin_ws/devel/share/carla_waypoint_publisher/cmake/carla_waypoint_publisherConfig-version.cmake
+Symlinking /home/hua/shenlan-control/stanley/catkin_ws/devel/share/carla_waypoint_publisher/cmake/carla_waypoint_publisherConfig.cmake
+Symlinking /home/hua/shenlan-control/stanley/catkin_ws/devel/lib/python3/dist-packages/carla_waypoint_publisher/__init__.py
+Symlinking /home/hua/shenlan-control/stanley/catkin_ws/devel/lib/pkgconfig/carla_waypoint_publisher.pc
+Symlinking /home/hua/shenlan-control/stanley/catkin_ws/devel/lib/carla_waypoint_publisher/carla_waypoint_publisher.py
+Symlinking /home/hua/shenlan-control/stanley/catkin_ws/devel/lib/carla_waypoint_publisher/cmake.lock
+Cleaning: (/home/hua/catkin_ws/devel/.private/carla_waypoint_publisher/cmake.lock, /home/hua/catkin_ws/devel/./cmake.lock)
+Cleaning: (/home/hua/catkin_ws/devel/.private/carla_waypoint_publisher/share/carla_waypoint_publisher/cmake/carla_waypoint_publisherConfig-version.cmake, /home/hua/catkin_ws/devel/share/carla_waypoint_publisher/cmake/carla_waypoint_publisherConfig-version.cmake)
+Cleaning: (/home/hua/catkin_ws/devel/.private/carla_waypoint_publisher/share/carla_waypoint_publisher/cmake/carla_waypoint_publisherConfig.cmake, /home/hua/catkin_ws/devel/share/carla_waypoint_publisher/cmake/carla_waypoint_publisherConfig.cmake)
+Cleaning: (/home/hua/catkin_ws/devel/.private/carla_waypoint_publisher/lib/python3/dist-packages/carla_waypoint_publisher/__init__.py, /home/hua/catkin_ws/devel/lib/python3/dist-packages/carla_waypoint_publisher/__init__.py)
+Cleaning: (/home/hua/catkin_ws/devel/.private/carla_waypoint_publisher/lib/pkgconfig/carla_waypoint_publisher.pc, /home/hua/catkin_ws/devel/lib/pkgconfig/carla_waypoint_publisher.pc)
+Cleaning: (/home/hua/catkin_ws/devel/.private/carla_waypoint_publisher/lib/carla_waypoint_publisher/carla_waypoint_publisher.py, /home/hua/catkin_ws/devel/lib/carla_waypoint_publisher/carla_waypoint_publisher.py)
+Cleaning: (/home/hua/catkin_ws/devel/.private/carla_waypoint_publisher/lib/carla_waypoint_publisher/cmake.lock, /home/hua/catkin_ws/devel/lib/carla_waypoint_publisher/cmake.lock)
+Unlinking: /home/hua/catkin_ws/devel/share/carla_waypoint_publisher/cmake/carla_waypoint_publisherConfig-version.cmake
+Already unlinked: {}
+Unlinking: /home/hua/catkin_ws/devel/share/carla_waypoint_publisher/cmake/carla_waypoint_publisherConfig.cmake
+Already unlinked: {}
+Unlinking: /home/hua/catkin_ws/devel/lib/python3/dist-packages/carla_waypoint_publisher/__init__.py
+Already unlinked: {}
+Unlinking: /home/hua/catkin_ws/devel/lib/pkgconfig/carla_waypoint_publisher.pc
+Already unlinked: {}
+Unlinking: /home/hua/catkin_ws/devel/lib/carla_waypoint_publisher/carla_waypoint_publisher.py
+Already unlinked: {}
+Unlinking: /home/hua/catkin_ws/devel/lib/carla_waypoint_publisher/cmake.lock
+Already unlinked: {}

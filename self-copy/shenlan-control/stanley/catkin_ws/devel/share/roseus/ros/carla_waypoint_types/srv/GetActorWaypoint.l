@@ -1,0 +1,1 @@
+/home/hua/shenlan-control/stanley/catkin_ws/devel/.private/carla_waypoint_types/share/roseus/ros/carla_waypoint_types/srv/GetActorWaypoint.l

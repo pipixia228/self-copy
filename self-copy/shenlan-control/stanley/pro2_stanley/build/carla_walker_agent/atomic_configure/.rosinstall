@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/hua/deepblue_planning_control-master/pro2_stanley/devel/.private/carla_walker_agent/setup.sh
