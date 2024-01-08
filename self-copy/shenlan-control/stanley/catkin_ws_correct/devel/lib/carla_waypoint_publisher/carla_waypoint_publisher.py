@@ -1,0 +1,1 @@
+/home/hua/shenlan-control/stanley/catkin_ws_correct/devel/.private/carla_waypoint_publisher/lib/carla_waypoint_publisher/carla_waypoint_publisher.py

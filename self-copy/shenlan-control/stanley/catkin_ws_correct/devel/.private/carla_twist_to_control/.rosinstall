@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/hua/shenlan-control/stanley/catkin_ws_correct/devel/.private/carla_twist_to_control/setup.sh

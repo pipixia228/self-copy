@@ -1,1 +1,1 @@
-/home/hua/deepblue_planning_control-master/pro2_stanley/devel/.private/carla_manual_control/lib/pkgconfig/carla_manual_control.pc
+/home/hua/shenlan-control/stanley/pro2_stanley/devel/.private/carla_manual_control/lib/pkgconfig/carla_manual_control.pc

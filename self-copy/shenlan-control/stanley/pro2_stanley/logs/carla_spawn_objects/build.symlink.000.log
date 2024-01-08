@@ -1,7 +1,22 @@
-Symlinking /home/hua/deepblue_planning_control-master/pro2_stanley/devel/share/carla_spawn_objects/cmake/carla_spawn_objectsConfig-version.cmake
-Symlinking /home/hua/deepblue_planning_control-master/pro2_stanley/devel/share/carla_spawn_objects/cmake/carla_spawn_objectsConfig.cmake
-Symlinking /home/hua/deepblue_planning_control-master/pro2_stanley/devel/lib/python3/dist-packages/carla_spawn_objects/__init__.py
-Symlinking /home/hua/deepblue_planning_control-master/pro2_stanley/devel/lib/pkgconfig/carla_spawn_objects.pc
-Symlinking /home/hua/deepblue_planning_control-master/pro2_stanley/devel/lib/carla_spawn_objects/carla_spawn_objects.py
-Symlinking /home/hua/deepblue_planning_control-master/pro2_stanley/devel/lib/carla_spawn_objects/cmake.lock
-Symlinking /home/hua/deepblue_planning_control-master/pro2_stanley/devel/lib/carla_spawn_objects/set_initial_pose.py
+Symlinking /home/hua/shenlan-control/stanley/pro2_stanley/devel/share/carla_spawn_objects/cmake/carla_spawn_objectsConfig-version.cmake
+Symlinking /home/hua/shenlan-control/stanley/pro2_stanley/devel/share/carla_spawn_objects/cmake/carla_spawn_objectsConfig.cmake
+Symlinking /home/hua/shenlan-control/stanley/pro2_stanley/devel/lib/python3/dist-packages/carla_spawn_objects/__init__.py
+Symlinking /home/hua/shenlan-control/stanley/pro2_stanley/devel/lib/pkgconfig/carla_spawn_objects.pc
+Symlinking /home/hua/shenlan-control/stanley/pro2_stanley/devel/lib/carla_spawn_objects/carla_spawn_objects.py
+Symlinking /home/hua/shenlan-control/stanley/pro2_stanley/devel/lib/carla_spawn_objects/cmake.lock
+Symlinking /home/hua/shenlan-control/stanley/pro2_stanley/devel/lib/carla_spawn_objects/set_initial_pose.py
+Cleaning: (/home/hua/deepblue_planning_control-master/pro2_stanley/devel/.private/carla_spawn_objects/cmake.lock, /home/hua/deepblue_planning_control-master/pro2_stanley/devel/./cmake.lock)
+Cleaning: (/home/hua/deepblue_planning_control-master/pro2_stanley/devel/.private/carla_spawn_objects/share/carla_spawn_objects/cmake/carla_spawn_objectsConfig-version.cmake, /home/hua/deepblue_planning_control-master/pro2_stanley/devel/share/carla_spawn_objects/cmake/carla_spawn_objectsConfig-version.cmake)
+Cleaning: (/home/hua/deepblue_planning_control-master/pro2_stanley/devel/.private/carla_spawn_objects/share/carla_spawn_objects/cmake/carla_spawn_objectsConfig.cmake, /home/hua/deepblue_planning_control-master/pro2_stanley/devel/share/carla_spawn_objects/cmake/carla_spawn_objectsConfig.cmake)
+Cleaning: (/home/hua/deepblue_planning_control-master/pro2_stanley/devel/.private/carla_spawn_objects/lib/python3/dist-packages/carla_spawn_objects/__init__.py, /home/hua/deepblue_planning_control-master/pro2_stanley/devel/lib/python3/dist-packages/carla_spawn_objects/__init__.py)
+Cleaning: (/home/hua/deepblue_planning_control-master/pro2_stanley/devel/.private/carla_spawn_objects/lib/pkgconfig/carla_spawn_objects.pc, /home/hua/deepblue_planning_control-master/pro2_stanley/devel/lib/pkgconfig/carla_spawn_objects.pc)
+Cleaning: (/home/hua/deepblue_planning_control-master/pro2_stanley/devel/.private/carla_spawn_objects/lib/carla_spawn_objects/carla_spawn_objects.py, /home/hua/deepblue_planning_control-master/pro2_stanley/devel/lib/carla_spawn_objects/carla_spawn_objects.py)
+Cleaning: (/home/hua/deepblue_planning_control-master/pro2_stanley/devel/.private/carla_spawn_objects/lib/carla_spawn_objects/cmake.lock, /home/hua/deepblue_planning_control-master/pro2_stanley/devel/lib/carla_spawn_objects/cmake.lock)
+Cleaning: (/home/hua/deepblue_planning_control-master/pro2_stanley/devel/.private/carla_spawn_objects/lib/carla_spawn_objects/set_initial_pose.py, /home/hua/deepblue_planning_control-master/pro2_stanley/devel/lib/carla_spawn_objects/set_initial_pose.py)
+Unlinking: /home/hua/deepblue_planning_control-master/pro2_stanley/devel/share/carla_spawn_objects/cmake/carla_spawn_objectsConfig-version.cmake
+Unlinking: /home/hua/deepblue_planning_control-master/pro2_stanley/devel/share/carla_spawn_objects/cmake/carla_spawn_objectsConfig.cmake
+Unlinking: /home/hua/deepblue_planning_control-master/pro2_stanley/devel/lib/python3/dist-packages/carla_spawn_objects/__init__.py
+Unlinking: /home/hua/deepblue_planning_control-master/pro2_stanley/devel/lib/pkgconfig/carla_spawn_objects.pc
+Unlinking: /home/hua/deepblue_planning_control-master/pro2_stanley/devel/lib/carla_spawn_objects/carla_spawn_objects.py
+Unlinking: /home/hua/deepblue_planning_control-master/pro2_stanley/devel/lib/carla_spawn_objects/cmake.lock
+Unlinking: /home/hua/deepblue_planning_control-master/pro2_stanley/devel/lib/carla_spawn_objects/set_initial_pose.py

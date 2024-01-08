@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/hua/deepblue_planning_control-master/pro2_stanley/src/carla-ros-bridge/carla_ad_agent
+CMAKE_SOURCE_DIR = /home/hua/shenlan-control/stanley/pro2_stanley/src/carla-ros-bridge/carla_ad_agent
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/hua/deepblue_planning_control-master/pro2_stanley/build/carla_ad_agent
+CMAKE_BINARY_DIR = /home/hua/shenlan-control/stanley/pro2_stanley/build/carla_ad_agent
 
 # Utility rule file for _run_tests_carla_ad_agent.
 
@@ -67,6 +67,6 @@ CMakeFiles/_run_tests_carla_ad_agent.dir/clean:
 .PHONY : CMakeFiles/_run_tests_carla_ad_agent.dir/clean
 
 CMakeFiles/_run_tests_carla_ad_agent.dir/depend:
-	cd /home/hua/deepblue_planning_control-master/pro2_stanley/build/carla_ad_agent && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/hua/deepblue_planning_control-master/pro2_stanley/src/carla-ros-bridge/carla_ad_agent /home/hua/deepblue_planning_control-master/pro2_stanley/src/carla-ros-bridge/carla_ad_agent /home/hua/deepblue_planning_control-master/pro2_stanley/build/carla_ad_agent /home/hua/deepblue_planning_control-master/pro2_stanley/build/carla_ad_agent /home/hua/deepblue_planning_control-master/pro2_stanley/build/carla_ad_agent/CMakeFiles/_run_tests_carla_ad_agent.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/hua/shenlan-control/stanley/pro2_stanley/build/carla_ad_agent && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/hua/shenlan-control/stanley/pro2_stanley/src/carla-ros-bridge/carla_ad_agent /home/hua/shenlan-control/stanley/pro2_stanley/src/carla-ros-bridge/carla_ad_agent /home/hua/shenlan-control/stanley/pro2_stanley/build/carla_ad_agent /home/hua/shenlan-control/stanley/pro2_stanley/build/carla_ad_agent /home/hua/shenlan-control/stanley/pro2_stanley/build/carla_ad_agent/CMakeFiles/_run_tests_carla_ad_agent.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/_run_tests_carla_ad_agent.dir/depend
 

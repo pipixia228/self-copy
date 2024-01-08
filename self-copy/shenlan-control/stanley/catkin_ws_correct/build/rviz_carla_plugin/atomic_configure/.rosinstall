@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/hua/shenlan-control/stanley/catkin_ws_correct/devel/.private/rviz_carla_plugin/setup.sh

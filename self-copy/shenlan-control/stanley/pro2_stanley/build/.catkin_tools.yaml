@@ -1,6 +1,6 @@
-devel_space: /home/hua/deepblue_planning_control-master/pro2_stanley/devel
+devel_space: /home/hua/shenlan-control/stanley/pro2_stanley/devel
 install: false
-install_space: /home/hua/deepblue_planning_control-master/pro2_stanley/install
+install_space: /home/hua/shenlan-control/stanley/pro2_stanley/install
 profile: default
-source_space: /home/hua/deepblue_planning_control-master/pro2_stanley/src
-workspace: /home/hua/deepblue_planning_control-master/pro2_stanley
+source_space: /home/hua/shenlan-control/stanley/pro2_stanley/src
+workspace: /home/hua/shenlan-control/stanley/pro2_stanley

@@ -1,0 +1,1 @@
+/home/hua/shenlan-control/stanley/catkin_ws_correct/devel/.private/carla_manual_control/share/carla_manual_control/cmake/carla_manual_controlConfig.cmake

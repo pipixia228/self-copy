@@ -1,8 +1,8 @@
 file(REMOVE_RECURSE
-  "/home/hua/deepblue_planning_control-master/pro2_stanley/devel/.private/carla_waypoint_types/share/roseus/ros/carla_waypoint_types/manifest.l"
-  "/home/hua/deepblue_planning_control-master/pro2_stanley/devel/.private/carla_waypoint_types/share/roseus/ros/carla_waypoint_types/msg/CarlaWaypoint.l"
-  "/home/hua/deepblue_planning_control-master/pro2_stanley/devel/.private/carla_waypoint_types/share/roseus/ros/carla_waypoint_types/srv/GetActorWaypoint.l"
-  "/home/hua/deepblue_planning_control-master/pro2_stanley/devel/.private/carla_waypoint_types/share/roseus/ros/carla_waypoint_types/srv/GetWaypoint.l"
+  "/home/hua/shenlan-control/stanley/pro2_stanley/devel/.private/carla_waypoint_types/share/roseus/ros/carla_waypoint_types/manifest.l"
+  "/home/hua/shenlan-control/stanley/pro2_stanley/devel/.private/carla_waypoint_types/share/roseus/ros/carla_waypoint_types/msg/CarlaWaypoint.l"
+  "/home/hua/shenlan-control/stanley/pro2_stanley/devel/.private/carla_waypoint_types/share/roseus/ros/carla_waypoint_types/srv/GetActorWaypoint.l"
+  "/home/hua/shenlan-control/stanley/pro2_stanley/devel/.private/carla_waypoint_types/share/roseus/ros/carla_waypoint_types/srv/GetWaypoint.l"
   "CMakeFiles/carla_waypoint_types_generate_messages_eus"
 )
 

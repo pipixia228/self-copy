@@ -1,9 +1,9 @@
 file(REMOVE_RECURSE
-  "/home/hua/deepblue_planning_control-master/pro2_stanley/devel/.private/carla_ackermann_msgs/include/carla_ackermann_msgs/EgoVehicleControlCurrent.h"
-  "/home/hua/deepblue_planning_control-master/pro2_stanley/devel/.private/carla_ackermann_msgs/include/carla_ackermann_msgs/EgoVehicleControlInfo.h"
-  "/home/hua/deepblue_planning_control-master/pro2_stanley/devel/.private/carla_ackermann_msgs/include/carla_ackermann_msgs/EgoVehicleControlMaxima.h"
-  "/home/hua/deepblue_planning_control-master/pro2_stanley/devel/.private/carla_ackermann_msgs/include/carla_ackermann_msgs/EgoVehicleControlStatus.h"
-  "/home/hua/deepblue_planning_control-master/pro2_stanley/devel/.private/carla_ackermann_msgs/include/carla_ackermann_msgs/EgoVehicleControlTarget.h"
+  "/home/hua/shenlan-control/stanley/pro2_stanley/devel/.private/carla_ackermann_msgs/include/carla_ackermann_msgs/EgoVehicleControlCurrent.h"
+  "/home/hua/shenlan-control/stanley/pro2_stanley/devel/.private/carla_ackermann_msgs/include/carla_ackermann_msgs/EgoVehicleControlInfo.h"
+  "/home/hua/shenlan-control/stanley/pro2_stanley/devel/.private/carla_ackermann_msgs/include/carla_ackermann_msgs/EgoVehicleControlMaxima.h"
+  "/home/hua/shenlan-control/stanley/pro2_stanley/devel/.private/carla_ackermann_msgs/include/carla_ackermann_msgs/EgoVehicleControlStatus.h"
+  "/home/hua/shenlan-control/stanley/pro2_stanley/devel/.private/carla_ackermann_msgs/include/carla_ackermann_msgs/EgoVehicleControlTarget.h"
   "CMakeFiles/carla_ackermann_msgs_generate_messages_cpp"
 )
 

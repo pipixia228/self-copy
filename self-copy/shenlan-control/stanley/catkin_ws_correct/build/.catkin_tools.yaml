@@ -1,0 +1,6 @@
+devel_space: /home/hua/shenlan-control/stanley/catkin_ws_correct/devel
+install: false
+install_space: /home/hua/shenlan-control/stanley/catkin_ws_correct/install
+profile: default
+source_space: /home/hua/shenlan-control/stanley/catkin_ws_correct/src
+workspace: /home/hua/shenlan-control/stanley/catkin_ws_correct

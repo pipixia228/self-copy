@@ -1,8 +1,8 @@
 file(REMOVE_RECURSE
-  "/home/hua/deepblue_planning_control-master/pro2_stanley/devel/.private/carla_ros_scenario_runner_types/share/gennodejs/ros/carla_ros_scenario_runner_types/msg/CarlaScenario.js"
-  "/home/hua/deepblue_planning_control-master/pro2_stanley/devel/.private/carla_ros_scenario_runner_types/share/gennodejs/ros/carla_ros_scenario_runner_types/msg/CarlaScenarioList.js"
-  "/home/hua/deepblue_planning_control-master/pro2_stanley/devel/.private/carla_ros_scenario_runner_types/share/gennodejs/ros/carla_ros_scenario_runner_types/msg/CarlaScenarioRunnerStatus.js"
-  "/home/hua/deepblue_planning_control-master/pro2_stanley/devel/.private/carla_ros_scenario_runner_types/share/gennodejs/ros/carla_ros_scenario_runner_types/srv/ExecuteScenario.js"
+  "/home/hua/shenlan-control/stanley/pro2_stanley/devel/.private/carla_ros_scenario_runner_types/share/gennodejs/ros/carla_ros_scenario_runner_types/msg/CarlaScenario.js"
+  "/home/hua/shenlan-control/stanley/pro2_stanley/devel/.private/carla_ros_scenario_runner_types/share/gennodejs/ros/carla_ros_scenario_runner_types/msg/CarlaScenarioList.js"
+  "/home/hua/shenlan-control/stanley/pro2_stanley/devel/.private/carla_ros_scenario_runner_types/share/gennodejs/ros/carla_ros_scenario_runner_types/msg/CarlaScenarioRunnerStatus.js"
+  "/home/hua/shenlan-control/stanley/pro2_stanley/devel/.private/carla_ros_scenario_runner_types/share/gennodejs/ros/carla_ros_scenario_runner_types/srv/ExecuteScenario.js"
   "CMakeFiles/carla_ros_scenario_runner_types_generate_messages_nodejs"
 )
 

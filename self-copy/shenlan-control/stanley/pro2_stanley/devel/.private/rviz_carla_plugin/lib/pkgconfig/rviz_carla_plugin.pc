@@ -1,4 +1,4 @@
-prefix=/home/hua/deepblue_planning_control-master/pro2_stanley/devel/.private/rviz_carla_plugin
+prefix=/home/hua/shenlan-control/stanley/pro2_stanley/devel/.private/rviz_carla_plugin
 
 Name: rviz_carla_plugin
 Description: Description of rviz_carla_plugin

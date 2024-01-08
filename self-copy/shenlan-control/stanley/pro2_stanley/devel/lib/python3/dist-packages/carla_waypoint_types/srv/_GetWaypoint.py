@@ -1,1 +1,1 @@
-/home/hua/deepblue_planning_control-master/pro2_stanley/devel/.private/carla_waypoint_types/lib/python3/dist-packages/carla_waypoint_types/srv/_GetWaypoint.py
+/home/hua/shenlan-control/stanley/pro2_stanley/devel/.private/carla_waypoint_types/lib/python3/dist-packages/carla_waypoint_types/srv/_GetWaypoint.py

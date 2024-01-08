@@ -1,4 +1,13 @@
-Symlinking /home/hua/deepblue_planning_control-master/pro2_stanley/devel/share/carla_ros_bridge/cmake/carla_ros_bridgeConfig.cmake
-Symlinking /home/hua/deepblue_planning_control-master/pro2_stanley/devel/share/carla_ros_bridge/cmake/carla_ros_bridgeConfig-version.cmake
-Symlinking /home/hua/deepblue_planning_control-master/pro2_stanley/devel/lib/python3/dist-packages/carla_ros_bridge/__init__.py
-Symlinking /home/hua/deepblue_planning_control-master/pro2_stanley/devel/lib/pkgconfig/carla_ros_bridge.pc
+Symlinking /home/hua/shenlan-control/stanley/pro2_stanley/devel/share/carla_ros_bridge/cmake/carla_ros_bridgeConfig.cmake
+Symlinking /home/hua/shenlan-control/stanley/pro2_stanley/devel/share/carla_ros_bridge/cmake/carla_ros_bridgeConfig-version.cmake
+Symlinking /home/hua/shenlan-control/stanley/pro2_stanley/devel/lib/python3/dist-packages/carla_ros_bridge/__init__.py
+Symlinking /home/hua/shenlan-control/stanley/pro2_stanley/devel/lib/pkgconfig/carla_ros_bridge.pc
+Cleaning: (/home/hua/deepblue_planning_control-master/pro2_stanley/devel/.private/carla_ros_bridge/cmake.lock, /home/hua/deepblue_planning_control-master/pro2_stanley/devel/./cmake.lock)
+Cleaning: (/home/hua/deepblue_planning_control-master/pro2_stanley/devel/.private/carla_ros_bridge/share/carla_ros_bridge/cmake/carla_ros_bridgeConfig.cmake, /home/hua/deepblue_planning_control-master/pro2_stanley/devel/share/carla_ros_bridge/cmake/carla_ros_bridgeConfig.cmake)
+Cleaning: (/home/hua/deepblue_planning_control-master/pro2_stanley/devel/.private/carla_ros_bridge/share/carla_ros_bridge/cmake/carla_ros_bridgeConfig-version.cmake, /home/hua/deepblue_planning_control-master/pro2_stanley/devel/share/carla_ros_bridge/cmake/carla_ros_bridgeConfig-version.cmake)
+Cleaning: (/home/hua/deepblue_planning_control-master/pro2_stanley/devel/.private/carla_ros_bridge/lib/python3/dist-packages/carla_ros_bridge/__init__.py, /home/hua/deepblue_planning_control-master/pro2_stanley/devel/lib/python3/dist-packages/carla_ros_bridge/__init__.py)
+Cleaning: (/home/hua/deepblue_planning_control-master/pro2_stanley/devel/.private/carla_ros_bridge/lib/pkgconfig/carla_ros_bridge.pc, /home/hua/deepblue_planning_control-master/pro2_stanley/devel/lib/pkgconfig/carla_ros_bridge.pc)
+Unlinking: /home/hua/deepblue_planning_control-master/pro2_stanley/devel/share/carla_ros_bridge/cmake/carla_ros_bridgeConfig.cmake
+Unlinking: /home/hua/deepblue_planning_control-master/pro2_stanley/devel/share/carla_ros_bridge/cmake/carla_ros_bridgeConfig-version.cmake
+Unlinking: /home/hua/deepblue_planning_control-master/pro2_stanley/devel/lib/python3/dist-packages/carla_ros_bridge/__init__.py
+Unlinking: /home/hua/deepblue_planning_control-master/pro2_stanley/devel/lib/pkgconfig/carla_ros_bridge.pc

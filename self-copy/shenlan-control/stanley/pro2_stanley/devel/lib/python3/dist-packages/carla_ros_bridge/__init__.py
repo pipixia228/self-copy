@@ -1,1 +1,1 @@
-/home/hua/deepblue_planning_control-master/pro2_stanley/devel/.private/carla_ros_bridge/lib/python3/dist-packages/carla_ros_bridge/__init__.py
+/home/hua/shenlan-control/stanley/pro2_stanley/devel/.private/carla_ros_bridge/lib/python3/dist-packages/carla_ros_bridge/__init__.py

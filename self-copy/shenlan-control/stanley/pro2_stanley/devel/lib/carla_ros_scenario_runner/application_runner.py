@@ -1,1 +1,1 @@
-/home/hua/deepblue_planning_control-master/pro2_stanley/devel/.private/carla_ros_scenario_runner/lib/carla_ros_scenario_runner/application_runner.py
+/home/hua/shenlan-control/stanley/pro2_stanley/devel/.private/carla_ros_scenario_runner/lib/carla_ros_scenario_runner/application_runner.py

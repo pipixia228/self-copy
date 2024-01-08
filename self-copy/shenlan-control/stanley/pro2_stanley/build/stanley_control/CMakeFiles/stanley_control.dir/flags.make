@@ -6,5 +6,5 @@ CXX_FLAGS =   -Wall -g
 
 CXX_DEFINES = -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\"stanley_control\"
 
-CXX_INCLUDES = -I/home/hua/deepblue_planning_control-master/pro2_stanley/src/stanley_control/include -I/home/hua/deepblue_planning_control-master/pro2_stanley/devel/.private/carla_msgs/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/eigen3 
+CXX_INCLUDES = -I/home/hua/shenlan-control/stanley/pro2_stanley/src/stanley_control/include -I/home/hua/shenlan-control/stanley/pro2_stanley/devel/.private/carla_msgs/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/eigen3 
 

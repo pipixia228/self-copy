@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/hua/deepblue_planning_control-master/pro2_stanley/src/carla-ros-bridge/carla_waypoint_publisher
+CMAKE_SOURCE_DIR = /home/hua/shenlan-control/stanley/pro2_stanley/src/carla-ros-bridge/carla_waypoint_publisher
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/hua/deepblue_planning_control-master/pro2_stanley/build/carla_waypoint_publisher
+CMAKE_BINARY_DIR = /home/hua/shenlan-control/stanley/pro2_stanley/build/carla_waypoint_publisher
 
 # Utility rule file for doxygen.
 
@@ -67,6 +67,6 @@ CMakeFiles/doxygen.dir/clean:
 .PHONY : CMakeFiles/doxygen.dir/clean
 
 CMakeFiles/doxygen.dir/depend:
-	cd /home/hua/deepblue_planning_control-master/pro2_stanley/build/carla_waypoint_publisher && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/hua/deepblue_planning_control-master/pro2_stanley/src/carla-ros-bridge/carla_waypoint_publisher /home/hua/deepblue_planning_control-master/pro2_stanley/src/carla-ros-bridge/carla_waypoint_publisher /home/hua/deepblue_planning_control-master/pro2_stanley/build/carla_waypoint_publisher /home/hua/deepblue_planning_control-master/pro2_stanley/build/carla_waypoint_publisher /home/hua/deepblue_planning_control-master/pro2_stanley/build/carla_waypoint_publisher/CMakeFiles/doxygen.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/hua/shenlan-control/stanley/pro2_stanley/build/carla_waypoint_publisher && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/hua/shenlan-control/stanley/pro2_stanley/src/carla-ros-bridge/carla_waypoint_publisher /home/hua/shenlan-control/stanley/pro2_stanley/src/carla-ros-bridge/carla_waypoint_publisher /home/hua/shenlan-control/stanley/pro2_stanley/build/carla_waypoint_publisher /home/hua/shenlan-control/stanley/pro2_stanley/build/carla_waypoint_publisher /home/hua/shenlan-control/stanley/pro2_stanley/build/carla_waypoint_publisher/CMakeFiles/doxygen.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/doxygen.dir/depend
 

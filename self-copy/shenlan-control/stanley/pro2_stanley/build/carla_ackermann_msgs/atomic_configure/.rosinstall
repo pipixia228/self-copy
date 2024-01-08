@@ -1,2 +1,2 @@
 - setup-file:
-    local-name: /home/hua/deepblue_planning_control-master/pro2_stanley/devel/.private/carla_ackermann_msgs/setup.sh
+    local-name: /home/hua/shenlan-control/stanley/pro2_stanley/devel/.private/carla_ackermann_msgs/setup.sh

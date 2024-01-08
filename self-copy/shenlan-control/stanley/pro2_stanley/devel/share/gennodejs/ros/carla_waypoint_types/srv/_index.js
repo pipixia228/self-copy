@@ -1,1 +1,1 @@
-/home/hua/deepblue_planning_control-master/pro2_stanley/devel/.private/carla_waypoint_types/share/gennodejs/ros/carla_waypoint_types/srv/_index.js
+/home/hua/shenlan-control/stanley/pro2_stanley/devel/.private/carla_waypoint_types/share/gennodejs/ros/carla_waypoint_types/srv/_index.js

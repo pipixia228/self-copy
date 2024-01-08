@@ -1,0 +1,1 @@
+/home/hua/shenlan-control/stanley/catkin_ws_correct/devel/.private/stanley_control/share/stanley_control/cmake/stanley_controlConfig-version.cmake

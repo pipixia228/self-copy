@@ -67,14 +67,14 @@ set(rviz_carla_plugin_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(rviz_carla_plugin_SOURCE_PREFIX /home/hua/deepblue_planning_control-master/pro2_stanley/src/carla-ros-bridge/rviz_carla_plugin)
-  set(rviz_carla_plugin_DEVEL_PREFIX /home/hua/deepblue_planning_control-master/pro2_stanley/devel/.private/rviz_carla_plugin)
+  set(rviz_carla_plugin_SOURCE_PREFIX /home/hua/shenlan-control/stanley/pro2_stanley/src/carla-ros-bridge/rviz_carla_plugin)
+  set(rviz_carla_plugin_DEVEL_PREFIX /home/hua/shenlan-control/stanley/pro2_stanley/devel/.private/rviz_carla_plugin)
   set(rviz_carla_plugin_INSTALL_PREFIX "")
   set(rviz_carla_plugin_PREFIX ${rviz_carla_plugin_DEVEL_PREFIX})
 else()
   set(rviz_carla_plugin_SOURCE_PREFIX "")
   set(rviz_carla_plugin_DEVEL_PREFIX "")
-  set(rviz_carla_plugin_INSTALL_PREFIX /home/hua/deepblue_planning_control-master/pro2_stanley/install)
+  set(rviz_carla_plugin_INSTALL_PREFIX /home/hua/shenlan-control/stanley/pro2_stanley/install)
   set(rviz_carla_plugin_PREFIX ${rviz_carla_plugin_INSTALL_PREFIX})
 endif()
 
@@ -154,7 +154,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/hua/deepblue_planning_control-master/pro2_stanley/install/lib;/home/hua/deepblue_planning_control-master/pro2_stanley/devel/lib;/opt/ros/noetic/lib)
+    foreach(path /home/hua/shenlan-control/stanley/pro2_stanley/install/lib;/home/hua/shenlan-control/stanley/pro2_stanley/devel/lib;/opt/ros/noetic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

@@ -1,1 +1,0 @@
-/home/hua/shenlan-control/mpc/catkin_ws/devel/.private/rosbridge_library/lib/python3/dist-packages/rosbridge_library/srv/_TestRequestOnly.py

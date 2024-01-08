@@ -1,6 +1,19 @@
-Symlinking /home/hua/deepblue_planning_control-master/pro2_stanley/devel/share/carla_common/cmake/carla_commonConfig.cmake
-Symlinking /home/hua/deepblue_planning_control-master/pro2_stanley/devel/share/carla_common/cmake/carla_commonConfig-version.cmake
-Symlinking /home/hua/deepblue_planning_control-master/pro2_stanley/devel/lib/python3/dist-packages/carla_common/__init__.py
-Symlinking /home/hua/deepblue_planning_control-master/pro2_stanley/devel/lib/pkgconfig/carla_common.pc
-Symlinking /home/hua/deepblue_planning_control-master/pro2_stanley/devel/lib/carla_common/transforms.py
-Symlinking /home/hua/deepblue_planning_control-master/pro2_stanley/devel/lib/carla_common/cmake.lock
+Symlinking /home/hua/shenlan-control/stanley/pro2_stanley/devel/share/carla_common/cmake/carla_commonConfig.cmake
+Symlinking /home/hua/shenlan-control/stanley/pro2_stanley/devel/share/carla_common/cmake/carla_commonConfig-version.cmake
+Symlinking /home/hua/shenlan-control/stanley/pro2_stanley/devel/lib/python3/dist-packages/carla_common/__init__.py
+Symlinking /home/hua/shenlan-control/stanley/pro2_stanley/devel/lib/pkgconfig/carla_common.pc
+Symlinking /home/hua/shenlan-control/stanley/pro2_stanley/devel/lib/carla_common/transforms.py
+Symlinking /home/hua/shenlan-control/stanley/pro2_stanley/devel/lib/carla_common/cmake.lock
+Cleaning: (/home/hua/deepblue_planning_control-master/pro2_stanley/devel/.private/carla_common/cmake.lock, /home/hua/deepblue_planning_control-master/pro2_stanley/devel/./cmake.lock)
+Cleaning: (/home/hua/deepblue_planning_control-master/pro2_stanley/devel/.private/carla_common/share/carla_common/cmake/carla_commonConfig.cmake, /home/hua/deepblue_planning_control-master/pro2_stanley/devel/share/carla_common/cmake/carla_commonConfig.cmake)
+Cleaning: (/home/hua/deepblue_planning_control-master/pro2_stanley/devel/.private/carla_common/share/carla_common/cmake/carla_commonConfig-version.cmake, /home/hua/deepblue_planning_control-master/pro2_stanley/devel/share/carla_common/cmake/carla_commonConfig-version.cmake)
+Cleaning: (/home/hua/deepblue_planning_control-master/pro2_stanley/devel/.private/carla_common/lib/python3/dist-packages/carla_common/__init__.py, /home/hua/deepblue_planning_control-master/pro2_stanley/devel/lib/python3/dist-packages/carla_common/__init__.py)
+Cleaning: (/home/hua/deepblue_planning_control-master/pro2_stanley/devel/.private/carla_common/lib/pkgconfig/carla_common.pc, /home/hua/deepblue_planning_control-master/pro2_stanley/devel/lib/pkgconfig/carla_common.pc)
+Cleaning: (/home/hua/deepblue_planning_control-master/pro2_stanley/devel/.private/carla_common/lib/carla_common/transforms.py, /home/hua/deepblue_planning_control-master/pro2_stanley/devel/lib/carla_common/transforms.py)
+Cleaning: (/home/hua/deepblue_planning_control-master/pro2_stanley/devel/.private/carla_common/lib/carla_common/cmake.lock, /home/hua/deepblue_planning_control-master/pro2_stanley/devel/lib/carla_common/cmake.lock)
+Unlinking: /home/hua/deepblue_planning_control-master/pro2_stanley/devel/share/carla_common/cmake/carla_commonConfig.cmake
+Unlinking: /home/hua/deepblue_planning_control-master/pro2_stanley/devel/share/carla_common/cmake/carla_commonConfig-version.cmake
+Unlinking: /home/hua/deepblue_planning_control-master/pro2_stanley/devel/lib/python3/dist-packages/carla_common/__init__.py
+Unlinking: /home/hua/deepblue_planning_control-master/pro2_stanley/devel/lib/pkgconfig/carla_common.pc
+Unlinking: /home/hua/deepblue_planning_control-master/pro2_stanley/devel/lib/carla_common/transforms.py
+Unlinking: /home/hua/deepblue_planning_control-master/pro2_stanley/devel/lib/carla_common/cmake.lock

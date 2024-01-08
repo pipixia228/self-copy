@@ -1,1 +1,1 @@
-/home/hua/deepblue_planning_control-master/pro2_stanley/devel/.private/catkin_tools_prebuild/local_setup.sh
+/home/hua/shenlan-control/stanley/pro2_stanley/devel/.private/catkin_tools_prebuild/local_setup.sh

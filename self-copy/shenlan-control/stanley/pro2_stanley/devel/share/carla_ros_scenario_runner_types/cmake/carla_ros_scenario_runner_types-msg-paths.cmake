@@ -1,1 +1,1 @@
-/home/hua/deepblue_planning_control-master/pro2_stanley/devel/.private/carla_ros_scenario_runner_types/share/carla_ros_scenario_runner_types/cmake/carla_ros_scenario_runner_types-msg-paths.cmake
+/home/hua/shenlan-control/stanley/pro2_stanley/devel/.private/carla_ros_scenario_runner_types/share/carla_ros_scenario_runner_types/cmake/carla_ros_scenario_runner_types-msg-paths.cmake

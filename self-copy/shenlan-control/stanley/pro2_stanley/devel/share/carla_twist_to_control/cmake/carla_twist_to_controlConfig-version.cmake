@@ -1,1 +1,1 @@
-/home/hua/deepblue_planning_control-master/pro2_stanley/devel/.private/carla_twist_to_control/share/carla_twist_to_control/cmake/carla_twist_to_controlConfig-version.cmake
+/home/hua/shenlan-control/stanley/pro2_stanley/devel/.private/carla_twist_to_control/share/carla_twist_to_control/cmake/carla_twist_to_controlConfig-version.cmake

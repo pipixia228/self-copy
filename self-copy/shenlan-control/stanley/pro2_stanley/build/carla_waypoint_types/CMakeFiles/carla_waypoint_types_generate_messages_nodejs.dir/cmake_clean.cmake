@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
-  "/home/hua/deepblue_planning_control-master/pro2_stanley/devel/.private/carla_waypoint_types/share/gennodejs/ros/carla_waypoint_types/msg/CarlaWaypoint.js"
-  "/home/hua/deepblue_planning_control-master/pro2_stanley/devel/.private/carla_waypoint_types/share/gennodejs/ros/carla_waypoint_types/srv/GetActorWaypoint.js"
-  "/home/hua/deepblue_planning_control-master/pro2_stanley/devel/.private/carla_waypoint_types/share/gennodejs/ros/carla_waypoint_types/srv/GetWaypoint.js"
+  "/home/hua/shenlan-control/stanley/pro2_stanley/devel/.private/carla_waypoint_types/share/gennodejs/ros/carla_waypoint_types/msg/CarlaWaypoint.js"
+  "/home/hua/shenlan-control/stanley/pro2_stanley/devel/.private/carla_waypoint_types/share/gennodejs/ros/carla_waypoint_types/srv/GetActorWaypoint.js"
+  "/home/hua/shenlan-control/stanley/pro2_stanley/devel/.private/carla_waypoint_types/share/gennodejs/ros/carla_waypoint_types/srv/GetWaypoint.js"
   "CMakeFiles/carla_waypoint_types_generate_messages_nodejs"
 )
 

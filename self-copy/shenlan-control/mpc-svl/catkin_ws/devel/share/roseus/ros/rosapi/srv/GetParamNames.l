@@ -1,1 +1,0 @@
-/home/hua/shenlan-control/mpc/catkin_ws/devel/.private/rosapi/share/roseus/ros/rosapi/srv/GetParamNames.l

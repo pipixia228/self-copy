@@ -2,7 +2,7 @@
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/hua/deepblue_planning_control-master/pro2_stanley/install")
+  set(CMAKE_INSTALL_PREFIX "/home/hua/shenlan-control/stanley/pro2_stanley/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -39,7 +39,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/hua/deepblue_planning_control-master/pro2_stanley/build/carla_ros_scenario_runner_types/gtest/googletest/cmake_install.cmake")
+  include("/home/hua/shenlan-control/stanley/pro2_stanley/build/carla_ros_scenario_runner_types/gtest/googletest/cmake_install.cmake")
 
 endif()
 

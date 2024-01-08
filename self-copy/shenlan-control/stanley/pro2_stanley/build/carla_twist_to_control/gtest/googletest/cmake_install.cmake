@@ -2,7 +2,7 @@
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/hua/deepblue_planning_control-master/pro2_stanley/install")
+  set(CMAKE_INSTALL_PREFIX "/home/hua/shenlan-control/stanley/pro2_stanley/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 

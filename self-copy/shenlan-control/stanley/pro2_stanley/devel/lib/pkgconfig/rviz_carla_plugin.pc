@@ -1,1 +1,1 @@
-/home/hua/deepblue_planning_control-master/pro2_stanley/devel/.private/rviz_carla_plugin/lib/pkgconfig/rviz_carla_plugin.pc
+/home/hua/shenlan-control/stanley/pro2_stanley/devel/.private/rviz_carla_plugin/lib/pkgconfig/rviz_carla_plugin.pc

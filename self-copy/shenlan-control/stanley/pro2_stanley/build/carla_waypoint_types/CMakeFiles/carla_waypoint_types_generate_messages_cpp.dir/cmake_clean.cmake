@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
-  "/home/hua/deepblue_planning_control-master/pro2_stanley/devel/.private/carla_waypoint_types/include/carla_waypoint_types/CarlaWaypoint.h"
-  "/home/hua/deepblue_planning_control-master/pro2_stanley/devel/.private/carla_waypoint_types/include/carla_waypoint_types/GetActorWaypoint.h"
-  "/home/hua/deepblue_planning_control-master/pro2_stanley/devel/.private/carla_waypoint_types/include/carla_waypoint_types/GetWaypoint.h"
+  "/home/hua/shenlan-control/stanley/pro2_stanley/devel/.private/carla_waypoint_types/include/carla_waypoint_types/CarlaWaypoint.h"
+  "/home/hua/shenlan-control/stanley/pro2_stanley/devel/.private/carla_waypoint_types/include/carla_waypoint_types/GetActorWaypoint.h"
+  "/home/hua/shenlan-control/stanley/pro2_stanley/devel/.private/carla_waypoint_types/include/carla_waypoint_types/GetWaypoint.h"
   "CMakeFiles/carla_waypoint_types_generate_messages_cpp"
 )
 

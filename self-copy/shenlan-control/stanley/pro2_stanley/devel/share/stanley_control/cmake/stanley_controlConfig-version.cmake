@@ -1,1 +1,1 @@
-/home/hua/deepblue_planning_control-master/pro2_stanley/devel/.private/stanley_control/share/stanley_control/cmake/stanley_controlConfig-version.cmake
+/home/hua/shenlan-control/stanley/pro2_stanley/devel/.private/stanley_control/share/stanley_control/cmake/stanley_controlConfig-version.cmake

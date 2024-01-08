@@ -1,6 +1,6 @@
 carla-ros-bridge/carla_ad_agent
-/home/hua/deepblue_planning_control-master/pro2_stanley/devel/.private/carla_ad_agent/cmake.lock /home/hua/deepblue_planning_control-master/pro2_stanley/devel/./cmake.lock
-/home/hua/deepblue_planning_control-master/pro2_stanley/devel/.private/carla_ad_agent/share/carla_ad_agent/cmake/carla_ad_agentConfig.cmake /home/hua/deepblue_planning_control-master/pro2_stanley/devel/share/carla_ad_agent/cmake/carla_ad_agentConfig.cmake
-/home/hua/deepblue_planning_control-master/pro2_stanley/devel/.private/carla_ad_agent/share/carla_ad_agent/cmake/carla_ad_agentConfig-version.cmake /home/hua/deepblue_planning_control-master/pro2_stanley/devel/share/carla_ad_agent/cmake/carla_ad_agentConfig-version.cmake
-/home/hua/deepblue_planning_control-master/pro2_stanley/devel/.private/carla_ad_agent/lib/python3/dist-packages/carla_ad_agent/__init__.py /home/hua/deepblue_planning_control-master/pro2_stanley/devel/lib/python3/dist-packages/carla_ad_agent/__init__.py
-/home/hua/deepblue_planning_control-master/pro2_stanley/devel/.private/carla_ad_agent/lib/pkgconfig/carla_ad_agent.pc /home/hua/deepblue_planning_control-master/pro2_stanley/devel/lib/pkgconfig/carla_ad_agent.pc
+/home/hua/shenlan-control/stanley/pro2_stanley/devel/.private/carla_ad_agent/cmake.lock /home/hua/shenlan-control/stanley/pro2_stanley/devel/./cmake.lock
+/home/hua/shenlan-control/stanley/pro2_stanley/devel/.private/carla_ad_agent/share/carla_ad_agent/cmake/carla_ad_agentConfig.cmake /home/hua/shenlan-control/stanley/pro2_stanley/devel/share/carla_ad_agent/cmake/carla_ad_agentConfig.cmake
+/home/hua/shenlan-control/stanley/pro2_stanley/devel/.private/carla_ad_agent/share/carla_ad_agent/cmake/carla_ad_agentConfig-version.cmake /home/hua/shenlan-control/stanley/pro2_stanley/devel/share/carla_ad_agent/cmake/carla_ad_agentConfig-version.cmake
+/home/hua/shenlan-control/stanley/pro2_stanley/devel/.private/carla_ad_agent/lib/python3/dist-packages/carla_ad_agent/__init__.py /home/hua/shenlan-control/stanley/pro2_stanley/devel/lib/python3/dist-packages/carla_ad_agent/__init__.py
+/home/hua/shenlan-control/stanley/pro2_stanley/devel/.private/carla_ad_agent/lib/pkgconfig/carla_ad_agent.pc /home/hua/shenlan-control/stanley/pro2_stanley/devel/lib/pkgconfig/carla_ad_agent.pc

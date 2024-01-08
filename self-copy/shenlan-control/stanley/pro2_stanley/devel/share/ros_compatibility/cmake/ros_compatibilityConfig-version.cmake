@@ -1,1 +1,1 @@
-/home/hua/deepblue_planning_control-master/pro2_stanley/devel/.private/ros_compatibility/share/ros_compatibility/cmake/ros_compatibilityConfig-version.cmake
+/home/hua/shenlan-control/stanley/pro2_stanley/devel/.private/ros_compatibility/share/ros_compatibility/cmake/ros_compatibilityConfig-version.cmake

@@ -4,5 +4,5 @@ PROJECT_PKG_CONFIG_INCLUDE_DIRS = "".split(';') if "" != "" else []
 PROJECT_CATKIN_DEPENDS = "".replace(';', ' ')
 PKG_CONFIG_LIBRARIES_WITH_PREFIX = "".split(';') if "" != "" else []
 PROJECT_NAME = "rviz_carla_plugin"
-PROJECT_SPACE_DIR = "/home/hua/deepblue_planning_control-master/pro2_stanley/devel/.private/rviz_carla_plugin"
+PROJECT_SPACE_DIR = "/home/hua/shenlan-control/stanley/pro2_stanley/devel/.private/rviz_carla_plugin"
 PROJECT_VERSION = "0.0.1"

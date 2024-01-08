@@ -1,9 +1,9 @@
 file(REMOVE_RECURSE
-  "/home/hua/deepblue_planning_control-master/pro2_stanley/devel/.private/carla_ackermann_msgs/share/common-lisp/ros/carla_ackermann_msgs/msg/EgoVehicleControlCurrent.lisp"
-  "/home/hua/deepblue_planning_control-master/pro2_stanley/devel/.private/carla_ackermann_msgs/share/common-lisp/ros/carla_ackermann_msgs/msg/EgoVehicleControlInfo.lisp"
-  "/home/hua/deepblue_planning_control-master/pro2_stanley/devel/.private/carla_ackermann_msgs/share/common-lisp/ros/carla_ackermann_msgs/msg/EgoVehicleControlMaxima.lisp"
-  "/home/hua/deepblue_planning_control-master/pro2_stanley/devel/.private/carla_ackermann_msgs/share/common-lisp/ros/carla_ackermann_msgs/msg/EgoVehicleControlStatus.lisp"
-  "/home/hua/deepblue_planning_control-master/pro2_stanley/devel/.private/carla_ackermann_msgs/share/common-lisp/ros/carla_ackermann_msgs/msg/EgoVehicleControlTarget.lisp"
+  "/home/hua/shenlan-control/stanley/pro2_stanley/devel/.private/carla_ackermann_msgs/share/common-lisp/ros/carla_ackermann_msgs/msg/EgoVehicleControlCurrent.lisp"
+  "/home/hua/shenlan-control/stanley/pro2_stanley/devel/.private/carla_ackermann_msgs/share/common-lisp/ros/carla_ackermann_msgs/msg/EgoVehicleControlInfo.lisp"
+  "/home/hua/shenlan-control/stanley/pro2_stanley/devel/.private/carla_ackermann_msgs/share/common-lisp/ros/carla_ackermann_msgs/msg/EgoVehicleControlMaxima.lisp"
+  "/home/hua/shenlan-control/stanley/pro2_stanley/devel/.private/carla_ackermann_msgs/share/common-lisp/ros/carla_ackermann_msgs/msg/EgoVehicleControlStatus.lisp"
+  "/home/hua/shenlan-control/stanley/pro2_stanley/devel/.private/carla_ackermann_msgs/share/common-lisp/ros/carla_ackermann_msgs/msg/EgoVehicleControlTarget.lisp"
   "CMakeFiles/carla_ackermann_msgs_generate_messages_lisp"
 )
 

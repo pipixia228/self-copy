@@ -1,4 +1,4 @@
-prefix=/home/hua/deepblue_planning_control-master/pro2_stanley/install
+prefix=/home/hua/shenlan-control/stanley/pro2_stanley/install
 
 Name: carla_ros_scenario_runner_types
 Description: Description of carla_ros_scenario_runner_types

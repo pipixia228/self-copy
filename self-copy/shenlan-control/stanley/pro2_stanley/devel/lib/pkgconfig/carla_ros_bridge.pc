@@ -1,1 +1,1 @@
-/home/hua/deepblue_planning_control-master/pro2_stanley/devel/.private/carla_ros_bridge/lib/pkgconfig/carla_ros_bridge.pc
+/home/hua/shenlan-control/stanley/pro2_stanley/devel/.private/carla_ros_bridge/lib/pkgconfig/carla_ros_bridge.pc

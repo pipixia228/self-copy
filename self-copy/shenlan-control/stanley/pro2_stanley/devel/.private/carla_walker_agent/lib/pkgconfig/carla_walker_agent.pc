@@ -1,4 +1,4 @@
-prefix=/home/hua/deepblue_planning_control-master/pro2_stanley/devel/.private/carla_walker_agent
+prefix=/home/hua/shenlan-control/stanley/pro2_stanley/devel/.private/carla_walker_agent
 
 Name: carla_walker_agent
 Description: Description of carla_walker_agent

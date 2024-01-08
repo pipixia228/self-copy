@@ -1,0 +1,1 @@
+/home/hua/shenlan-control/stanley/catkin_ws_correct/devel/.private/carla_spawn_objects/lib/carla_spawn_objects/set_initial_pose.py

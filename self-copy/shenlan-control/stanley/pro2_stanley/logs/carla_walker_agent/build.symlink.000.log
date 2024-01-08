@@ -1,6 +1,19 @@
-Symlinking /home/hua/deepblue_planning_control-master/pro2_stanley/devel/share/carla_walker_agent/cmake/carla_walker_agentConfig.cmake
-Symlinking /home/hua/deepblue_planning_control-master/pro2_stanley/devel/share/carla_walker_agent/cmake/carla_walker_agentConfig-version.cmake
-Symlinking /home/hua/deepblue_planning_control-master/pro2_stanley/devel/lib/python3/dist-packages/carla_walker_agent/__init__.py
-Symlinking /home/hua/deepblue_planning_control-master/pro2_stanley/devel/lib/pkgconfig/carla_walker_agent.pc
-Symlinking /home/hua/deepblue_planning_control-master/pro2_stanley/devel/lib/carla_walker_agent/carla_walker_agent.py
-Symlinking /home/hua/deepblue_planning_control-master/pro2_stanley/devel/lib/carla_walker_agent/cmake.lock
+Symlinking /home/hua/shenlan-control/stanley/pro2_stanley/devel/share/carla_walker_agent/cmake/carla_walker_agentConfig.cmake
+Symlinking /home/hua/shenlan-control/stanley/pro2_stanley/devel/share/carla_walker_agent/cmake/carla_walker_agentConfig-version.cmake
+Symlinking /home/hua/shenlan-control/stanley/pro2_stanley/devel/lib/python3/dist-packages/carla_walker_agent/__init__.py
+Symlinking /home/hua/shenlan-control/stanley/pro2_stanley/devel/lib/pkgconfig/carla_walker_agent.pc
+Symlinking /home/hua/shenlan-control/stanley/pro2_stanley/devel/lib/carla_walker_agent/carla_walker_agent.py
+Symlinking /home/hua/shenlan-control/stanley/pro2_stanley/devel/lib/carla_walker_agent/cmake.lock
+Cleaning: (/home/hua/deepblue_planning_control-master/pro2_stanley/devel/.private/carla_walker_agent/cmake.lock, /home/hua/deepblue_planning_control-master/pro2_stanley/devel/./cmake.lock)
+Cleaning: (/home/hua/deepblue_planning_control-master/pro2_stanley/devel/.private/carla_walker_agent/share/carla_walker_agent/cmake/carla_walker_agentConfig.cmake, /home/hua/deepblue_planning_control-master/pro2_stanley/devel/share/carla_walker_agent/cmake/carla_walker_agentConfig.cmake)
+Cleaning: (/home/hua/deepblue_planning_control-master/pro2_stanley/devel/.private/carla_walker_agent/share/carla_walker_agent/cmake/carla_walker_agentConfig-version.cmake, /home/hua/deepblue_planning_control-master/pro2_stanley/devel/share/carla_walker_agent/cmake/carla_walker_agentConfig-version.cmake)
+Cleaning: (/home/hua/deepblue_planning_control-master/pro2_stanley/devel/.private/carla_walker_agent/lib/python3/dist-packages/carla_walker_agent/__init__.py, /home/hua/deepblue_planning_control-master/pro2_stanley/devel/lib/python3/dist-packages/carla_walker_agent/__init__.py)
+Cleaning: (/home/hua/deepblue_planning_control-master/pro2_stanley/devel/.private/carla_walker_agent/lib/pkgconfig/carla_walker_agent.pc, /home/hua/deepblue_planning_control-master/pro2_stanley/devel/lib/pkgconfig/carla_walker_agent.pc)
+Cleaning: (/home/hua/deepblue_planning_control-master/pro2_stanley/devel/.private/carla_walker_agent/lib/carla_walker_agent/carla_walker_agent.py, /home/hua/deepblue_planning_control-master/pro2_stanley/devel/lib/carla_walker_agent/carla_walker_agent.py)
+Cleaning: (/home/hua/deepblue_planning_control-master/pro2_stanley/devel/.private/carla_walker_agent/lib/carla_walker_agent/cmake.lock, /home/hua/deepblue_planning_control-master/pro2_stanley/devel/lib/carla_walker_agent/cmake.lock)
+Unlinking: /home/hua/deepblue_planning_control-master/pro2_stanley/devel/share/carla_walker_agent/cmake/carla_walker_agentConfig.cmake
+Unlinking: /home/hua/deepblue_planning_control-master/pro2_stanley/devel/share/carla_walker_agent/cmake/carla_walker_agentConfig-version.cmake
+Unlinking: /home/hua/deepblue_planning_control-master/pro2_stanley/devel/lib/python3/dist-packages/carla_walker_agent/__init__.py
+Unlinking: /home/hua/deepblue_planning_control-master/pro2_stanley/devel/lib/pkgconfig/carla_walker_agent.pc
+Unlinking: /home/hua/deepblue_planning_control-master/pro2_stanley/devel/lib/carla_walker_agent/carla_walker_agent.py
+Unlinking: /home/hua/deepblue_planning_control-master/pro2_stanley/devel/lib/carla_walker_agent/cmake.lock

@@ -1,1 +1,1 @@
-/home/hua/deepblue_planning_control-master/pro2_stanley/devel/.private/carla_waypoint_publisher/lib/carla_waypoint_publisher/carla_waypoint_publisher.py
+/home/hua/shenlan-control/stanley/pro2_stanley/devel/.private/carla_waypoint_publisher/lib/carla_waypoint_publisher/carla_waypoint_publisher.py

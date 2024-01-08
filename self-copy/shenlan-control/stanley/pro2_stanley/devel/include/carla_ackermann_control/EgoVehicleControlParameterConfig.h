@@ -1,1 +1,1 @@
-/home/hua/deepblue_planning_control-master/pro2_stanley/devel/.private/carla_ackermann_control/include/carla_ackermann_control/EgoVehicleControlParameterConfig.h
+/home/hua/shenlan-control/stanley/pro2_stanley/devel/.private/carla_ackermann_control/include/carla_ackermann_control/EgoVehicleControlParameterConfig.h

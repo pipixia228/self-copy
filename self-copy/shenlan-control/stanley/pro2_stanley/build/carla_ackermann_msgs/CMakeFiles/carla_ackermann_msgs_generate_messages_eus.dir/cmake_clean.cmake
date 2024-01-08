@@ -1,10 +1,10 @@
 file(REMOVE_RECURSE
-  "/home/hua/deepblue_planning_control-master/pro2_stanley/devel/.private/carla_ackermann_msgs/share/roseus/ros/carla_ackermann_msgs/manifest.l"
-  "/home/hua/deepblue_planning_control-master/pro2_stanley/devel/.private/carla_ackermann_msgs/share/roseus/ros/carla_ackermann_msgs/msg/EgoVehicleControlCurrent.l"
-  "/home/hua/deepblue_planning_control-master/pro2_stanley/devel/.private/carla_ackermann_msgs/share/roseus/ros/carla_ackermann_msgs/msg/EgoVehicleControlInfo.l"
-  "/home/hua/deepblue_planning_control-master/pro2_stanley/devel/.private/carla_ackermann_msgs/share/roseus/ros/carla_ackermann_msgs/msg/EgoVehicleControlMaxima.l"
-  "/home/hua/deepblue_planning_control-master/pro2_stanley/devel/.private/carla_ackermann_msgs/share/roseus/ros/carla_ackermann_msgs/msg/EgoVehicleControlStatus.l"
-  "/home/hua/deepblue_planning_control-master/pro2_stanley/devel/.private/carla_ackermann_msgs/share/roseus/ros/carla_ackermann_msgs/msg/EgoVehicleControlTarget.l"
+  "/home/hua/shenlan-control/stanley/pro2_stanley/devel/.private/carla_ackermann_msgs/share/roseus/ros/carla_ackermann_msgs/manifest.l"
+  "/home/hua/shenlan-control/stanley/pro2_stanley/devel/.private/carla_ackermann_msgs/share/roseus/ros/carla_ackermann_msgs/msg/EgoVehicleControlCurrent.l"
+  "/home/hua/shenlan-control/stanley/pro2_stanley/devel/.private/carla_ackermann_msgs/share/roseus/ros/carla_ackermann_msgs/msg/EgoVehicleControlInfo.l"
+  "/home/hua/shenlan-control/stanley/pro2_stanley/devel/.private/carla_ackermann_msgs/share/roseus/ros/carla_ackermann_msgs/msg/EgoVehicleControlMaxima.l"
+  "/home/hua/shenlan-control/stanley/pro2_stanley/devel/.private/carla_ackermann_msgs/share/roseus/ros/carla_ackermann_msgs/msg/EgoVehicleControlStatus.l"
+  "/home/hua/shenlan-control/stanley/pro2_stanley/devel/.private/carla_ackermann_msgs/share/roseus/ros/carla_ackermann_msgs/msg/EgoVehicleControlTarget.l"
   "CMakeFiles/carla_ackermann_msgs_generate_messages_eus"
 )
 

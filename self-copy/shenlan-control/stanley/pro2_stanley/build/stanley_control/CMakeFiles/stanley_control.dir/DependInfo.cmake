@@ -4,10 +4,10 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/hua/deepblue_planning_control-master/pro2_stanley/src/stanley_control/src/main.cpp" "/home/hua/deepblue_planning_control-master/pro2_stanley/build/stanley_control/CMakeFiles/stanley_control.dir/src/main.cpp.o"
-  "/home/hua/deepblue_planning_control-master/pro2_stanley/src/stanley_control/src/pid_controller.cpp" "/home/hua/deepblue_planning_control-master/pro2_stanley/build/stanley_control/CMakeFiles/stanley_control.dir/src/pid_controller.cpp.o"
-  "/home/hua/deepblue_planning_control-master/pro2_stanley/src/stanley_control/src/reference_line.cpp" "/home/hua/deepblue_planning_control-master/pro2_stanley/build/stanley_control/CMakeFiles/stanley_control.dir/src/reference_line.cpp.o"
-  "/home/hua/deepblue_planning_control-master/pro2_stanley/src/stanley_control/src/stanley_control.cpp" "/home/hua/deepblue_planning_control-master/pro2_stanley/build/stanley_control/CMakeFiles/stanley_control.dir/src/stanley_control.cpp.o"
+  "/home/hua/shenlan-control/stanley/pro2_stanley/src/stanley_control/src/main.cpp" "/home/hua/shenlan-control/stanley/pro2_stanley/build/stanley_control/CMakeFiles/stanley_control.dir/src/main.cpp.o"
+  "/home/hua/shenlan-control/stanley/pro2_stanley/src/stanley_control/src/pid_controller.cpp" "/home/hua/shenlan-control/stanley/pro2_stanley/build/stanley_control/CMakeFiles/stanley_control.dir/src/pid_controller.cpp.o"
+  "/home/hua/shenlan-control/stanley/pro2_stanley/src/stanley_control/src/reference_line.cpp" "/home/hua/shenlan-control/stanley/pro2_stanley/build/stanley_control/CMakeFiles/stanley_control.dir/src/reference_line.cpp.o"
+  "/home/hua/shenlan-control/stanley/pro2_stanley/src/stanley_control/src/stanley_control.cpp" "/home/hua/shenlan-control/stanley/pro2_stanley/build/stanley_control/CMakeFiles/stanley_control.dir/src/stanley_control.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -20,8 +20,8 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "/home/hua/deepblue_planning_control-master/pro2_stanley/src/stanley_control/include"
-  "/home/hua/deepblue_planning_control-master/pro2_stanley/devel/.private/carla_msgs/include"
+  "/home/hua/shenlan-control/stanley/pro2_stanley/src/stanley_control/include"
+  "/home/hua/shenlan-control/stanley/pro2_stanley/devel/.private/carla_msgs/include"
   "/opt/ros/noetic/include"
   "/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp"
   "/usr/include/eigen3"

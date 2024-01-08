@@ -1,4 +1,13 @@
-Symlinking /home/hua/deepblue_planning_control-master/pro2_stanley/devel/share/rviz_carla_plugin/cmake/rviz_carla_pluginConfig-version.cmake
-Symlinking /home/hua/deepblue_planning_control-master/pro2_stanley/devel/share/rviz_carla_plugin/cmake/rviz_carla_pluginConfig.cmake
-Symlinking /home/hua/deepblue_planning_control-master/pro2_stanley/devel/lib/librviz_carla_plugin.so
-Symlinking /home/hua/deepblue_planning_control-master/pro2_stanley/devel/lib/pkgconfig/rviz_carla_plugin.pc
+Symlinking /home/hua/shenlan-control/stanley/pro2_stanley/devel/share/rviz_carla_plugin/cmake/rviz_carla_pluginConfig-version.cmake
+Symlinking /home/hua/shenlan-control/stanley/pro2_stanley/devel/share/rviz_carla_plugin/cmake/rviz_carla_pluginConfig.cmake
+Symlinking /home/hua/shenlan-control/stanley/pro2_stanley/devel/lib/librviz_carla_plugin.so
+Symlinking /home/hua/shenlan-control/stanley/pro2_stanley/devel/lib/pkgconfig/rviz_carla_plugin.pc
+Cleaning: (/home/hua/deepblue_planning_control-master/pro2_stanley/devel/.private/rviz_carla_plugin/cmake.lock, /home/hua/deepblue_planning_control-master/pro2_stanley/devel/./cmake.lock)
+Cleaning: (/home/hua/deepblue_planning_control-master/pro2_stanley/devel/.private/rviz_carla_plugin/share/rviz_carla_plugin/cmake/rviz_carla_pluginConfig-version.cmake, /home/hua/deepblue_planning_control-master/pro2_stanley/devel/share/rviz_carla_plugin/cmake/rviz_carla_pluginConfig-version.cmake)
+Cleaning: (/home/hua/deepblue_planning_control-master/pro2_stanley/devel/.private/rviz_carla_plugin/share/rviz_carla_plugin/cmake/rviz_carla_pluginConfig.cmake, /home/hua/deepblue_planning_control-master/pro2_stanley/devel/share/rviz_carla_plugin/cmake/rviz_carla_pluginConfig.cmake)
+Cleaning: (/home/hua/deepblue_planning_control-master/pro2_stanley/devel/.private/rviz_carla_plugin/lib/librviz_carla_plugin.so, /home/hua/deepblue_planning_control-master/pro2_stanley/devel/lib/librviz_carla_plugin.so)
+Cleaning: (/home/hua/deepblue_planning_control-master/pro2_stanley/devel/.private/rviz_carla_plugin/lib/pkgconfig/rviz_carla_plugin.pc, /home/hua/deepblue_planning_control-master/pro2_stanley/devel/lib/pkgconfig/rviz_carla_plugin.pc)
+Unlinking: /home/hua/deepblue_planning_control-master/pro2_stanley/devel/share/rviz_carla_plugin/cmake/rviz_carla_pluginConfig-version.cmake
+Unlinking: /home/hua/deepblue_planning_control-master/pro2_stanley/devel/share/rviz_carla_plugin/cmake/rviz_carla_pluginConfig.cmake
+Unlinking: /home/hua/deepblue_planning_control-master/pro2_stanley/devel/lib/librviz_carla_plugin.so
+Unlinking: /home/hua/deepblue_planning_control-master/pro2_stanley/devel/lib/pkgconfig/rviz_carla_plugin.pc

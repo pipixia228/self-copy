@@ -1,0 +1,1 @@
+/home/hua/shenlan-control/stanley/catkin_ws_correct/devel/.private/ros_compatibility/share/ros_compatibility/cmake/ros_compatibilityConfig-version.cmake

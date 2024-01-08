@@ -1,0 +1,6 @@
+carla-ros-bridge/ros_compatibility
+/home/hua/shenlan-control/stanley/catkin_ws_correct/devel/.private/ros_compatibility/cmake.lock /home/hua/shenlan-control/stanley/catkin_ws_correct/devel/./cmake.lock
+/home/hua/shenlan-control/stanley/catkin_ws_correct/devel/.private/ros_compatibility/share/ros_compatibility/cmake/ros_compatibilityConfig.cmake /home/hua/shenlan-control/stanley/catkin_ws_correct/devel/share/ros_compatibility/cmake/ros_compatibilityConfig.cmake
+/home/hua/shenlan-control/stanley/catkin_ws_correct/devel/.private/ros_compatibility/share/ros_compatibility/cmake/ros_compatibilityConfig-version.cmake /home/hua/shenlan-control/stanley/catkin_ws_correct/devel/share/ros_compatibility/cmake/ros_compatibilityConfig-version.cmake
+/home/hua/shenlan-control/stanley/catkin_ws_correct/devel/.private/ros_compatibility/lib/python3/dist-packages/ros_compatibility/__init__.py /home/hua/shenlan-control/stanley/catkin_ws_correct/devel/lib/python3/dist-packages/ros_compatibility/__init__.py
+/home/hua/shenlan-control/stanley/catkin_ws_correct/devel/.private/ros_compatibility/lib/pkgconfig/ros_compatibility.pc /home/hua/shenlan-control/stanley/catkin_ws_correct/devel/lib/pkgconfig/ros_compatibility.pc

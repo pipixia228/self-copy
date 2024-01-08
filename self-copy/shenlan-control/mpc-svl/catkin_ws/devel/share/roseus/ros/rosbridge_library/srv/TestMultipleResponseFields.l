@@ -1,1 +1,0 @@
-/home/hua/shenlan-control/mpc/catkin_ws/devel/.private/rosbridge_library/share/roseus/ros/rosbridge_library/srv/TestMultipleResponseFields.l

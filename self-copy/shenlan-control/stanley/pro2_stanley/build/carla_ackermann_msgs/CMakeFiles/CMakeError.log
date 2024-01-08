@@ -1,21 +1,21 @@
 Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD failed with the following output:
-Change Dir: /home/hua/deepblue_planning_control-master/pro2_stanley/build/carla_ackermann_msgs/CMakeFiles/CMakeTmp
+Change Dir: /home/hua/shenlan-control/stanley/pro2_stanley/build/carla_ackermann_msgs/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_d8c1a/fast && /usr/bin/make -f CMakeFiles/cmTC_d8c1a.dir/build.make CMakeFiles/cmTC_d8c1a.dir/build
-make[1]: 进入目录“/home/hua/deepblue_planning_control-master/pro2_stanley/build/carla_ackermann_msgs/CMakeFiles/CMakeTmp”
-Building C object CMakeFiles/cmTC_d8c1a.dir/src.c.o
-/usr/bin/cc   -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_d8c1a.dir/src.c.o   -c /home/hua/deepblue_planning_control-master/pro2_stanley/build/carla_ackermann_msgs/CMakeFiles/CMakeTmp/src.c
-Linking C executable cmTC_d8c1a
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d8c1a.dir/link.txt --verbose=1
-/usr/bin/cc  -DCMAKE_HAVE_LIBC_PTHREAD    -rdynamic CMakeFiles/cmTC_d8c1a.dir/src.c.o  -o cmTC_d8c1a 
-/usr/bin/ld: CMakeFiles/cmTC_d8c1a.dir/src.c.o: in function `main':
+Run Build Command(s):/usr/bin/make cmTC_fc266/fast && /usr/bin/make -f CMakeFiles/cmTC_fc266.dir/build.make CMakeFiles/cmTC_fc266.dir/build
+make[1]: 进入目录“/home/hua/shenlan-control/stanley/pro2_stanley/build/carla_ackermann_msgs/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_fc266.dir/src.c.o
+/usr/bin/cc   -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_fc266.dir/src.c.o   -c /home/hua/shenlan-control/stanley/pro2_stanley/build/carla_ackermann_msgs/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_fc266
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fc266.dir/link.txt --verbose=1
+/usr/bin/cc  -DCMAKE_HAVE_LIBC_PTHREAD    -rdynamic CMakeFiles/cmTC_fc266.dir/src.c.o  -o cmTC_fc266 
+/usr/bin/ld: CMakeFiles/cmTC_fc266.dir/src.c.o: in function `main':
 src.c:(.text+0x46): undefined reference to `pthread_create'
 /usr/bin/ld: src.c:(.text+0x52): undefined reference to `pthread_detach'
 /usr/bin/ld: src.c:(.text+0x63): undefined reference to `pthread_join'
 collect2: error: ld returned 1 exit status
-make[1]: *** [CMakeFiles/cmTC_d8c1a.dir/build.make:87：cmTC_d8c1a] 错误 1
-make[1]: 离开目录“/home/hua/deepblue_planning_control-master/pro2_stanley/build/carla_ackermann_msgs/CMakeFiles/CMakeTmp”
-make: *** [Makefile:121：cmTC_d8c1a/fast] 错误 2
+make[1]: *** [CMakeFiles/cmTC_fc266.dir/build.make:87：cmTC_fc266] 错误 1
+make[1]: 离开目录“/home/hua/shenlan-control/stanley/pro2_stanley/build/carla_ackermann_msgs/CMakeFiles/CMakeTmp”
+make: *** [Makefile:121：cmTC_fc266/fast] 错误 2
 
 
 Source file was:
@@ -39,20 +39,20 @@ int main(void)
 }
 
 Determining if the function pthread_create exists in the pthreads failed with the following output:
-Change Dir: /home/hua/deepblue_planning_control-master/pro2_stanley/build/carla_ackermann_msgs/CMakeFiles/CMakeTmp
+Change Dir: /home/hua/shenlan-control/stanley/pro2_stanley/build/carla_ackermann_msgs/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_94291/fast && /usr/bin/make -f CMakeFiles/cmTC_94291.dir/build.make CMakeFiles/cmTC_94291.dir/build
-make[1]: 进入目录“/home/hua/deepblue_planning_control-master/pro2_stanley/build/carla_ackermann_msgs/CMakeFiles/CMakeTmp”
-Building C object CMakeFiles/cmTC_94291.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_94291.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
-Linking C executable cmTC_94291
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_94291.dir/link.txt --verbose=1
-/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_94291.dir/CheckFunctionExists.c.o  -o cmTC_94291  -lpthreads 
+Run Build Command(s):/usr/bin/make cmTC_86479/fast && /usr/bin/make -f CMakeFiles/cmTC_86479.dir/build.make CMakeFiles/cmTC_86479.dir/build
+make[1]: 进入目录“/home/hua/shenlan-control/stanley/pro2_stanley/build/carla_ackermann_msgs/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_86479.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_86479.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_86479
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_86479.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_86479.dir/CheckFunctionExists.c.o  -o cmTC_86479  -lpthreads 
 /usr/bin/ld: 找不到 -lpthreads
 collect2: error: ld returned 1 exit status
-make[1]: *** [CMakeFiles/cmTC_94291.dir/build.make:87：cmTC_94291] 错误 1
-make[1]: 离开目录“/home/hua/deepblue_planning_control-master/pro2_stanley/build/carla_ackermann_msgs/CMakeFiles/CMakeTmp”
-make: *** [Makefile:121：cmTC_94291/fast] 错误 2
+make[1]: *** [CMakeFiles/cmTC_86479.dir/build.make:87：cmTC_86479] 错误 1
+make[1]: 离开目录“/home/hua/shenlan-control/stanley/pro2_stanley/build/carla_ackermann_msgs/CMakeFiles/CMakeTmp”
+make: *** [Makefile:121：cmTC_86479/fast] 错误 2
 
 
 

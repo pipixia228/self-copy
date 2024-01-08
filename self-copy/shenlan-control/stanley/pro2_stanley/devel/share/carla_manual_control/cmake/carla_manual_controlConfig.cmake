@@ -1,1 +1,1 @@
-/home/hua/deepblue_planning_control-master/pro2_stanley/devel/.private/carla_manual_control/share/carla_manual_control/cmake/carla_manual_controlConfig.cmake
+/home/hua/shenlan-control/stanley/pro2_stanley/devel/.private/carla_manual_control/share/carla_manual_control/cmake/carla_manual_controlConfig.cmake

@@ -1,6 +1,6 @@
 carla-ros-bridge/pcl_recorder
-/home/hua/deepblue_planning_control-master/pro2_stanley/devel/.private/pcl_recorder/cmake.lock /home/hua/deepblue_planning_control-master/pro2_stanley/devel/./cmake.lock
-/home/hua/deepblue_planning_control-master/pro2_stanley/devel/.private/pcl_recorder/share/pcl_recorder/cmake/pcl_recorderConfig-version.cmake /home/hua/deepblue_planning_control-master/pro2_stanley/devel/share/pcl_recorder/cmake/pcl_recorderConfig-version.cmake
-/home/hua/deepblue_planning_control-master/pro2_stanley/devel/.private/pcl_recorder/share/pcl_recorder/cmake/pcl_recorderConfig.cmake /home/hua/deepblue_planning_control-master/pro2_stanley/devel/share/pcl_recorder/cmake/pcl_recorderConfig.cmake
-/home/hua/deepblue_planning_control-master/pro2_stanley/devel/.private/pcl_recorder/lib/pkgconfig/pcl_recorder.pc /home/hua/deepblue_planning_control-master/pro2_stanley/devel/lib/pkgconfig/pcl_recorder.pc
-/home/hua/deepblue_planning_control-master/pro2_stanley/devel/.private/pcl_recorder/lib/pcl_recorder/pcl_recorder_node /home/hua/deepblue_planning_control-master/pro2_stanley/devel/lib/pcl_recorder/pcl_recorder_node
+/home/hua/shenlan-control/stanley/pro2_stanley/devel/.private/pcl_recorder/cmake.lock /home/hua/shenlan-control/stanley/pro2_stanley/devel/./cmake.lock
+/home/hua/shenlan-control/stanley/pro2_stanley/devel/.private/pcl_recorder/share/pcl_recorder/cmake/pcl_recorderConfig-version.cmake /home/hua/shenlan-control/stanley/pro2_stanley/devel/share/pcl_recorder/cmake/pcl_recorderConfig-version.cmake
+/home/hua/shenlan-control/stanley/pro2_stanley/devel/.private/pcl_recorder/share/pcl_recorder/cmake/pcl_recorderConfig.cmake /home/hua/shenlan-control/stanley/pro2_stanley/devel/share/pcl_recorder/cmake/pcl_recorderConfig.cmake
+/home/hua/shenlan-control/stanley/pro2_stanley/devel/.private/pcl_recorder/lib/pkgconfig/pcl_recorder.pc /home/hua/shenlan-control/stanley/pro2_stanley/devel/lib/pkgconfig/pcl_recorder.pc
+/home/hua/shenlan-control/stanley/pro2_stanley/devel/.private/pcl_recorder/lib/pcl_recorder/pcl_recorder_node /home/hua/shenlan-control/stanley/pro2_stanley/devel/lib/pcl_recorder/pcl_recorder_node

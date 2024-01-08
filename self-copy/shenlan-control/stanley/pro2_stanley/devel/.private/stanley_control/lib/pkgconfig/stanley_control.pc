@@ -1,4 +1,4 @@
-prefix=/home/hua/deepblue_planning_control-master/pro2_stanley/devel/.private/stanley_control
+prefix=/home/hua/shenlan-control/stanley/pro2_stanley/devel/.private/stanley_control
 
 Name: stanley_control
 Description: Description of stanley_control

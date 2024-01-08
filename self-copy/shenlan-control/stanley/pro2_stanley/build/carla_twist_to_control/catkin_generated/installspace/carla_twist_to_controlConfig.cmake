@@ -67,14 +67,14 @@ set(carla_twist_to_control_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(carla_twist_to_control_SOURCE_PREFIX /home/hua/deepblue_planning_control-master/pro2_stanley/src/carla-ros-bridge/carla_twist_to_control)
-  set(carla_twist_to_control_DEVEL_PREFIX /home/hua/deepblue_planning_control-master/pro2_stanley/devel/.private/carla_twist_to_control)
+  set(carla_twist_to_control_SOURCE_PREFIX /home/hua/shenlan-control/stanley/pro2_stanley/src/carla-ros-bridge/carla_twist_to_control)
+  set(carla_twist_to_control_DEVEL_PREFIX /home/hua/shenlan-control/stanley/pro2_stanley/devel/.private/carla_twist_to_control)
   set(carla_twist_to_control_INSTALL_PREFIX "")
   set(carla_twist_to_control_PREFIX ${carla_twist_to_control_DEVEL_PREFIX})
 else()
   set(carla_twist_to_control_SOURCE_PREFIX "")
   set(carla_twist_to_control_DEVEL_PREFIX "")
-  set(carla_twist_to_control_INSTALL_PREFIX /home/hua/deepblue_planning_control-master/pro2_stanley/install)
+  set(carla_twist_to_control_INSTALL_PREFIX /home/hua/shenlan-control/stanley/pro2_stanley/install)
   set(carla_twist_to_control_PREFIX ${carla_twist_to_control_INSTALL_PREFIX})
 endif()
 
@@ -154,7 +154,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/hua/deepblue_planning_control-master/pro2_stanley/install/lib;/home/hua/deepblue_planning_control-master/pro2_stanley/devel/lib;/opt/ros/noetic/lib)
+    foreach(path /home/hua/shenlan-control/stanley/pro2_stanley/install/lib;/home/hua/shenlan-control/stanley/pro2_stanley/devel/lib;/opt/ros/noetic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

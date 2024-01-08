@@ -1,1 +1,1 @@
-/home/hua/deepblue_planning_control-master/pro2_stanley/devel/.private/carla_msgs/share/roseus/ros/carla_msgs/srv/GetBlueprints.l
+/home/hua/shenlan-control/stanley/pro2_stanley/devel/.private/carla_msgs/share/roseus/ros/carla_msgs/srv/GetBlueprints.l

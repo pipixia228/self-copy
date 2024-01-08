@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/hua/deepblue_planning_control-master/pro2_stanley/src/carla-ros-bridge/carla_msgs
+CMAKE_SOURCE_DIR = /home/hua/shenlan-control/stanley/pro2_stanley/src/carla-ros-bridge/carla_msgs
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/hua/deepblue_planning_control-master/pro2_stanley/build/carla_msgs
+CMAKE_BINARY_DIR = /home/hua/shenlan-control/stanley/pro2_stanley/build/carla_msgs
 
 # Utility rule file for carla_msgs_geneus.
 
@@ -67,6 +67,6 @@ CMakeFiles/carla_msgs_geneus.dir/clean:
 .PHONY : CMakeFiles/carla_msgs_geneus.dir/clean
 
 CMakeFiles/carla_msgs_geneus.dir/depend:
-	cd /home/hua/deepblue_planning_control-master/pro2_stanley/build/carla_msgs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/hua/deepblue_planning_control-master/pro2_stanley/src/carla-ros-bridge/carla_msgs /home/hua/deepblue_planning_control-master/pro2_stanley/src/carla-ros-bridge/carla_msgs /home/hua/deepblue_planning_control-master/pro2_stanley/build/carla_msgs /home/hua/deepblue_planning_control-master/pro2_stanley/build/carla_msgs /home/hua/deepblue_planning_control-master/pro2_stanley/build/carla_msgs/CMakeFiles/carla_msgs_geneus.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/hua/shenlan-control/stanley/pro2_stanley/build/carla_msgs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/hua/shenlan-control/stanley/pro2_stanley/src/carla-ros-bridge/carla_msgs /home/hua/shenlan-control/stanley/pro2_stanley/src/carla-ros-bridge/carla_msgs /home/hua/shenlan-control/stanley/pro2_stanley/build/carla_msgs /home/hua/shenlan-control/stanley/pro2_stanley/build/carla_msgs /home/hua/shenlan-control/stanley/pro2_stanley/build/carla_msgs/CMakeFiles/carla_msgs_geneus.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/carla_msgs_geneus.dir/depend
 

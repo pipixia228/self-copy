@@ -1,1 +1,1 @@
-/home/hua/deepblue_planning_control-master/pro2_stanley/devel/.private/carla_ackermann_msgs/share/roseus/ros/carla_ackermann_msgs/msg/EgoVehicleControlTarget.l
+/home/hua/shenlan-control/stanley/pro2_stanley/devel/.private/carla_ackermann_msgs/share/roseus/ros/carla_ackermann_msgs/msg/EgoVehicleControlTarget.l

@@ -1,10 +1,10 @@
 file(REMOVE_RECURSE
-  "/home/hua/deepblue_planning_control-master/pro2_stanley/devel/.private/carla_ros_scenario_runner_types/lib/python3/dist-packages/carla_ros_scenario_runner_types/msg/_CarlaScenario.py"
-  "/home/hua/deepblue_planning_control-master/pro2_stanley/devel/.private/carla_ros_scenario_runner_types/lib/python3/dist-packages/carla_ros_scenario_runner_types/msg/_CarlaScenarioList.py"
-  "/home/hua/deepblue_planning_control-master/pro2_stanley/devel/.private/carla_ros_scenario_runner_types/lib/python3/dist-packages/carla_ros_scenario_runner_types/msg/_CarlaScenarioRunnerStatus.py"
-  "/home/hua/deepblue_planning_control-master/pro2_stanley/devel/.private/carla_ros_scenario_runner_types/lib/python3/dist-packages/carla_ros_scenario_runner_types/msg/__init__.py"
-  "/home/hua/deepblue_planning_control-master/pro2_stanley/devel/.private/carla_ros_scenario_runner_types/lib/python3/dist-packages/carla_ros_scenario_runner_types/srv/_ExecuteScenario.py"
-  "/home/hua/deepblue_planning_control-master/pro2_stanley/devel/.private/carla_ros_scenario_runner_types/lib/python3/dist-packages/carla_ros_scenario_runner_types/srv/__init__.py"
+  "/home/hua/shenlan-control/stanley/pro2_stanley/devel/.private/carla_ros_scenario_runner_types/lib/python3/dist-packages/carla_ros_scenario_runner_types/msg/_CarlaScenario.py"
+  "/home/hua/shenlan-control/stanley/pro2_stanley/devel/.private/carla_ros_scenario_runner_types/lib/python3/dist-packages/carla_ros_scenario_runner_types/msg/_CarlaScenarioList.py"
+  "/home/hua/shenlan-control/stanley/pro2_stanley/devel/.private/carla_ros_scenario_runner_types/lib/python3/dist-packages/carla_ros_scenario_runner_types/msg/_CarlaScenarioRunnerStatus.py"
+  "/home/hua/shenlan-control/stanley/pro2_stanley/devel/.private/carla_ros_scenario_runner_types/lib/python3/dist-packages/carla_ros_scenario_runner_types/msg/__init__.py"
+  "/home/hua/shenlan-control/stanley/pro2_stanley/devel/.private/carla_ros_scenario_runner_types/lib/python3/dist-packages/carla_ros_scenario_runner_types/srv/_ExecuteScenario.py"
+  "/home/hua/shenlan-control/stanley/pro2_stanley/devel/.private/carla_ros_scenario_runner_types/lib/python3/dist-packages/carla_ros_scenario_runner_types/srv/__init__.py"
   "CMakeFiles/carla_ros_scenario_runner_types_generate_messages_py"
 )
 

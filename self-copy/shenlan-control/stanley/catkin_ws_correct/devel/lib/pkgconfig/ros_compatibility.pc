@@ -1,0 +1,1 @@
+/home/hua/shenlan-control/stanley/catkin_ws_correct/devel/.private/ros_compatibility/lib/pkgconfig/ros_compatibility.pc

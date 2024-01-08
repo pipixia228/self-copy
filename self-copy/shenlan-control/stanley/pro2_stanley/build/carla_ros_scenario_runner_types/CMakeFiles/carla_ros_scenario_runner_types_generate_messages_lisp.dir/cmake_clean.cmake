@@ -1,8 +1,8 @@
 file(REMOVE_RECURSE
-  "/home/hua/deepblue_planning_control-master/pro2_stanley/devel/.private/carla_ros_scenario_runner_types/share/common-lisp/ros/carla_ros_scenario_runner_types/msg/CarlaScenario.lisp"
-  "/home/hua/deepblue_planning_control-master/pro2_stanley/devel/.private/carla_ros_scenario_runner_types/share/common-lisp/ros/carla_ros_scenario_runner_types/msg/CarlaScenarioList.lisp"
-  "/home/hua/deepblue_planning_control-master/pro2_stanley/devel/.private/carla_ros_scenario_runner_types/share/common-lisp/ros/carla_ros_scenario_runner_types/msg/CarlaScenarioRunnerStatus.lisp"
-  "/home/hua/deepblue_planning_control-master/pro2_stanley/devel/.private/carla_ros_scenario_runner_types/share/common-lisp/ros/carla_ros_scenario_runner_types/srv/ExecuteScenario.lisp"
+  "/home/hua/shenlan-control/stanley/pro2_stanley/devel/.private/carla_ros_scenario_runner_types/share/common-lisp/ros/carla_ros_scenario_runner_types/msg/CarlaScenario.lisp"
+  "/home/hua/shenlan-control/stanley/pro2_stanley/devel/.private/carla_ros_scenario_runner_types/share/common-lisp/ros/carla_ros_scenario_runner_types/msg/CarlaScenarioList.lisp"
+  "/home/hua/shenlan-control/stanley/pro2_stanley/devel/.private/carla_ros_scenario_runner_types/share/common-lisp/ros/carla_ros_scenario_runner_types/msg/CarlaScenarioRunnerStatus.lisp"
+  "/home/hua/shenlan-control/stanley/pro2_stanley/devel/.private/carla_ros_scenario_runner_types/share/common-lisp/ros/carla_ros_scenario_runner_types/srv/ExecuteScenario.lisp"
   "CMakeFiles/carla_ros_scenario_runner_types_generate_messages_lisp"
 )
 

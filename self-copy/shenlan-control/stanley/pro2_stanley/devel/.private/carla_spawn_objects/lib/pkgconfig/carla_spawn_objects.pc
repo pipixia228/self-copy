@@ -1,4 +1,4 @@
-prefix=/home/hua/deepblue_planning_control-master/pro2_stanley/devel/.private/carla_spawn_objects
+prefix=/home/hua/shenlan-control/stanley/pro2_stanley/devel/.private/carla_spawn_objects
 
 Name: carla_spawn_objects
 Description: Description of carla_spawn_objects

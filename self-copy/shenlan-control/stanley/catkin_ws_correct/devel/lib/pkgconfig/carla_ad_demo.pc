@@ -1,0 +1,1 @@
+/home/hua/shenlan-control/stanley/catkin_ws_correct/devel/.private/carla_ad_demo/lib/pkgconfig/carla_ad_demo.pc

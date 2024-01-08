@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/hua/deepblue_planning_control-master/pro2_stanley/src/carla-ros-bridge/carla_spawn_objects
+CMAKE_SOURCE_DIR = /home/hua/shenlan-control/stanley/pro2_stanley/src/carla-ros-bridge/carla_spawn_objects
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/hua/deepblue_planning_control-master/pro2_stanley/build/carla_spawn_objects
+CMAKE_BINARY_DIR = /home/hua/shenlan-control/stanley/pro2_stanley/build/carla_spawn_objects
 
 # Utility rule file for run_tests_carla_spawn_objects.
 
@@ -67,6 +67,6 @@ CMakeFiles/run_tests_carla_spawn_objects.dir/clean:
 .PHONY : CMakeFiles/run_tests_carla_spawn_objects.dir/clean
 
 CMakeFiles/run_tests_carla_spawn_objects.dir/depend:
-	cd /home/hua/deepblue_planning_control-master/pro2_stanley/build/carla_spawn_objects && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/hua/deepblue_planning_control-master/pro2_stanley/src/carla-ros-bridge/carla_spawn_objects /home/hua/deepblue_planning_control-master/pro2_stanley/src/carla-ros-bridge/carla_spawn_objects /home/hua/deepblue_planning_control-master/pro2_stanley/build/carla_spawn_objects /home/hua/deepblue_planning_control-master/pro2_stanley/build/carla_spawn_objects /home/hua/deepblue_planning_control-master/pro2_stanley/build/carla_spawn_objects/CMakeFiles/run_tests_carla_spawn_objects.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/hua/shenlan-control/stanley/pro2_stanley/build/carla_spawn_objects && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/hua/shenlan-control/stanley/pro2_stanley/src/carla-ros-bridge/carla_spawn_objects /home/hua/shenlan-control/stanley/pro2_stanley/src/carla-ros-bridge/carla_spawn_objects /home/hua/shenlan-control/stanley/pro2_stanley/build/carla_spawn_objects /home/hua/shenlan-control/stanley/pro2_stanley/build/carla_spawn_objects /home/hua/shenlan-control/stanley/pro2_stanley/build/carla_spawn_objects/CMakeFiles/run_tests_carla_spawn_objects.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/run_tests_carla_spawn_objects.dir/depend
 
