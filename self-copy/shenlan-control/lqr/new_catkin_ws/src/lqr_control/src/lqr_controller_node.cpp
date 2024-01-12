@@ -111,3 +111,142 @@ void LQRControllerNode::odomCallback(const nav_msgs::Odometry : ConstPtr &msg)
                   msg->twist.twist.angular.y * msg->twist.twist.angular.y);
     vehicleState_.acceleration = 0.0; // 加速度
 }
+
+bool LQRControllerNode::loadRoadmap(const std::string &roadmap_path,
+                                    const double target_speed)
+{
+    // 读取参考线路径
+    std::ifstream infile;
+    infile.open(roadmap_path); // 连接文件流与文件
+    if (!infile.is_open())
+    {
+        return false;
+    }
+
+    std::vector<std::pair<double, double>> xy_points; // 存储读取到的路径点坐标
+    std::string s, x, y;                              // 存储读取的字符串和坐标值
+    while (getline(infile, s))                        // 按行读取文件内容
+    {
+        std::stringstream word(s); // 从当前读取的行中创建文件流对象
+        word >> x;
+        word >> y;
+        // 将读取的坐标值转换为double类型
+        double pt_x = std::atof(x.c_str());
+        double pt_y = std::atof(y.c_str());
+        xy_points.push_back(std::make_pair(pt_x, pt_y)); // 将读取的坐标值u保存到vector中
+    }
+    infile.close(); // 关闭文件
+
+    // 构建参考路径的配置文件
+    using namespace hua::control;
+    std::vector<double> headings.accumulated_s, kappas, dkappas;
+
+    // 根据离散点组成的路径，生成路网航向角，累计距离，曲率，曲率倒数
+    std::unique_ptr<ReferenceLine> reference_line =
+        std::make_unique<ReferenceLine>(xy_points);
+    reference_line->ComputePathProfile(&headings, &accumulated_s, &kappas, &dkappas);
+
+    // 将每个路径点的信息构造成TrajectoryPoint对象，并添加到planningPublishedTrajectory_.trajectory_points中
+    for (size_t i = 0; i < headings.size(); i++)
+    {
+        TrajectoryPoint trajectory_pt;
+        trajectory_pt.x = xy_points[i].first;                                    // 路径点x坐标
+        trajectory_pt.y = xy_points[i].second;                                   // 路径点y坐标
+        trajectory_pt.v = target_speed;                                          // 路径点速度
+        trajectory_pt.a = 0.0;                                                   // 路径点加速度
+        trajectory_pt.heading = headings[i];                                     // 路径点航向角
+        trajectory_pt.kappas = kappas[i];                                        // 路径点曲率
+        planningPublishedTrajectory_.trajectory_points.push_back(trajectory_pt); // 将构造好的路径点添加到现有轨迹中
+    }
+
+    return true; // 成功加载
+}
+
+void LQRControllerNode::addRoadmapMarker(
+    const std::vector<TrajectoryPoint> &path, const std::string &frame_id)
+{
+    roadmapMakerPtr_->clear();         // 清空可视化路网消息
+    std::string ns = "reference_path"; // 可视化消息的namespace
+    // 创建一个新的线条标记，用于可视化参考路径
+    visualization_msgs::Maker maker_linestrip = RosVizTools::newLineStrip(
+        0.5, ns, 0, ros_viz_tools::LIGHT_BLUE, frame_id);
+    /**
+     * 0.5：线条的宽度，这里设置为0.5。
+     * ns：可视化消息的命名空间，这里使用了之前定义的ns变量，其中存储了命名空间的名称。
+     * 0：线条的ID，用于标识不同的可视化消息对象，这里设置为0。
+     * ros_viz_tools::LIGHT_BLUE：线条的颜色，ros_viz_tools是一个命名空间，LIGHT_BLUE是其中定义的一个颜色常量，表示浅蓝色。
+     * frame_id：线条所属的坐标系，用于确定线条在哪个坐标系下进行绘制。
+     */
+
+    // 将路径点添加到线条标记的points字段
+    for (auto path_point : path)
+    {
+        // 遍历路径点
+        geometry_msgs::Point p;
+        p.x = path_point.x;
+        p.y = path_point.y;
+        p.z = 0;
+        maker_linestrip.points.push_back(p);
+    }
+    std::cout << "path size is " << maker_linestrip.points.size() << std::endl;
+    roadmapMakerPtr_->append(maker_linestrip);
+    return;
+}
+
+void LQRControllerNode::visTimerLoop(const ros::TimerEvent &)
+{
+    // 定时器回调函数
+    roadmapMakerPtr_->publish();
+}
+
+void LQRControllerNode::controlTimerLoop(const ros::TimerEvent &)
+{
+    ControlCmd cmd; // 控制指令对象
+    if (!firstRecord_)
+    {
+        // 若车辆与目标点的距离小于设定距离，将目标速度设置为0、设置isReachGoal_为true
+        if (pointDistance(goalPoint_, vehicleState_.x, vehicleState_.y) < goalTolerance_)
+        {
+            targetSpeed_ = 0;
+            isReachGoal_ = true;
+        }
+
+        if (!isReachGoal_)
+        {
+            // 未达到目标点则使用LQR控制器计算控制命令
+            lqrController_->ComputeControlCommand(vehicleState_, planningPublishedTrajectory_, cmd);
+        }
+
+        carla_msgs::CarlaEgoVehicleControl control_cmd; // 车辆控制指令对象
+        control_cmd.header.stamp = ros::Time::now();    // 设置控制时间戳
+        control_cmd.reverse = false;                    // 设置是否倒车
+        control_cmd.manual_gear_shift = false;          // 设置是否手动换档
+        control_cmd.hand_brake = false;                 // 设置是否手刹
+        control_cmd.gear = 0;                           // 设置档位
+
+        // 纵向控制
+        double acc_cmd = pid_control();
+
+        // 根据纵向控制指令更新油门和刹车
+        if (acc_cmd >= 0)
+        {
+            control_cmd.throttle = min(1.0, acc_cmd); // 若控制指令大于等于0，将油门置为1.0
+            control_cmd.brake = 0.0;                  // 刹车为0
+        }
+        else
+        {
+            control_cmd.throttle = 0.0;             // 油门为0
+            control_cmd.brake = min(1.0, -acc_cmd); // 若控制指令小于0，刹车置为1.0
+        }
+
+        if (targetSpeed_ == 0)
+        {
+            control_cmd.throttle = 0.0; // 速度为0则不需要油门控制
+        }
+
+        // 横向控制
+        control_cmd.steer = cmd.steer_target; // 将LQR控制器计算的横向控制指令更新到控制指令对象的steer字段
+
+        controlPub_.publish(control_cmd); // 发布控制指令到ROS话题
+    }
+}
