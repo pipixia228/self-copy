@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<launch>
+    <!-- 启动 LQR 控制器节点 -->
+    <node pkg="lqr_control" type="lqr_control_node" name="lqr_control_node" output="screen">
+        <!-- 车辆里程计话题 -->
+        <param name="vehicle_odom_topic" value="/carla/ego_vehicle/odometry" />
+        <!-- 车辆控制命令话题 -->
+        <param name="vehicle_cmd_topic" value="/carla/ego_vehicle/vehicle_control_cmd" />
+        <!-- 道路地图文件路径 -->
+        <param name="roadmap_path" value="$(find lqr_control)/data/town02_reference_line.txt" />
+        <!-- 目标速度 -->
+        <param name="target_speed" value="4" />
+        <!-- 目标容差 -->
+        <param name="goal_tolerance" value="0.5" />
+        <!-- 控制频率 -->
+        <param name="control_frequency" value="100" />
+        <!-- 可视化频率 -->
+        <param name="vis_frequency" value="0.5" />
+        <!-- 路径可视化话题 -->
+        <param name="path_vis_topic" value="path_vis" />
+        <!-- PID控制器参数：比例 -->
+        <param name="speed_P" value="1.5" />
+        <!-- PID控制器参数：积分 -->
+        <param name="speed_I" value="0.1" />
+        <!-- PID控制器参数：微分 -->
+        <param name="speed_D" value="0" />
+        <!-- 坐标系名称 -->
+        <param name="frame_id" value="map" />
+    </node>
+
+    <!-- 启动 RViz 可视化工具 -->
+    <node name="rviz" pkg="rviz" type="rviz" args="-d $(find lqr_control)/rviz/lqr_control.rviz"> </node>
+</launch>
