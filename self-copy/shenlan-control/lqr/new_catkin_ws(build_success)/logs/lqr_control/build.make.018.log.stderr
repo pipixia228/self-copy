@@ -1,0 +1,6 @@
+/usr/bin/ld: CMakeFiles/lqr_control_node.dir/src/lqr_controller_node.cpp.o: in function `std::default_delete<hua::control::ReferenceLine>::operator()(hua::control::ReferenceLine*) const':
+/usr/include/c++/9/bits/unique_ptr.h:81: undefined reference to `hua::control::ReferenceLine::~ReferenceLine()'
+collect2: error: ld returned 1 exit status
+make[2]: *** [CMakeFiles/lqr_control_node.dir/build.make:123：/home/hua/new_catkin_ws/devel/.private/lqr_control/lib/lqr_control/lqr_control_node] 错误 1
+make[1]: *** [CMakeFiles/Makefile2:1584：CMakeFiles/lqr_control_node.dir/all] 错误 2
+make: *** [Makefile:141：all] 错误 2

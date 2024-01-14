@@ -1,0 +1,8 @@
+carla-ros-bridge/carla_twist_to_control
+/home/hua/new_catkin_ws/devel/.private/carla_twist_to_control/cmake.lock /home/hua/new_catkin_ws/devel/./cmake.lock
+/home/hua/new_catkin_ws/devel/.private/carla_twist_to_control/share/carla_twist_to_control/cmake/carla_twist_to_controlConfig.cmake /home/hua/new_catkin_ws/devel/share/carla_twist_to_control/cmake/carla_twist_to_controlConfig.cmake
+/home/hua/new_catkin_ws/devel/.private/carla_twist_to_control/share/carla_twist_to_control/cmake/carla_twist_to_controlConfig-version.cmake /home/hua/new_catkin_ws/devel/share/carla_twist_to_control/cmake/carla_twist_to_controlConfig-version.cmake
+/home/hua/new_catkin_ws/devel/.private/carla_twist_to_control/lib/python3/dist-packages/carla_twist_to_control/__init__.py /home/hua/new_catkin_ws/devel/lib/python3/dist-packages/carla_twist_to_control/__init__.py
+/home/hua/new_catkin_ws/devel/.private/carla_twist_to_control/lib/pkgconfig/carla_twist_to_control.pc /home/hua/new_catkin_ws/devel/lib/pkgconfig/carla_twist_to_control.pc
+/home/hua/new_catkin_ws/devel/.private/carla_twist_to_control/lib/carla_twist_to_control/cmake.lock /home/hua/new_catkin_ws/devel/lib/carla_twist_to_control/cmake.lock
+/home/hua/new_catkin_ws/devel/.private/carla_twist_to_control/lib/carla_twist_to_control/carla_twist_to_control.py /home/hua/new_catkin_ws/devel/lib/carla_twist_to_control/carla_twist_to_control.py

@@ -1,0 +1,1 @@
+/home/hua/new_catkin_ws/devel/.private/carla_ros_scenario_runner/lib/python3/dist-packages/carla_ros_scenario_runner/__init__.py

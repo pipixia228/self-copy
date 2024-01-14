@@ -1,0 +1,1 @@
+/home/hua/new_catkin_ws/devel/.private/carla_ackermann_msgs/share/roseus/ros/carla_ackermann_msgs/msg/EgoVehicleControlInfo.l

@@ -1,0 +1,100 @@
+In file included from [01m[K/home/hua/new_catkin_ws/src/lqr_control/src/main.cpp:3[m[K:
+[01m[K/home/hua/new_catkin_ws/src/lqr_control/include/lqr_controller_node.h:71:2:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ after class definition
+   71 | }
+      |  [01;31m[K^[m[K
+      |  [32m[K;[m[K
+In file included from [01m[K/home/hua/new_catkin_ws/src/lqr_control/src/lqr_controller_node.cpp:1[m[K:
+[01m[K/home/hua/new_catkin_ws/src/lqr_control/include/lqr_controller_node.h:16:1:[m[K [01;31m[Kerror: [m[Knew types may not be defined in a return type
+   16 | [01;31m[Kclass[m[K LQRControllerNode
+      | [01;31m[K^~~~~[m[K
+[01m[K/home/hua/new_catkin_ws/src/lqr_control/include/lqr_controller_node.h:16:1:[m[K [01;36m[Knote: [m[K(perhaps a semicolon is missing after the definition of ‘[01m[KLQRControllerNode[m[K’)
+[01m[K/home/hua/new_catkin_ws/src/lqr_control/src/lqr_controller_node.cpp:4:38:[m[K [01;31m[Kerror: [m[Kreturn type specification for constructor invalid
+    4 | LQRControllerNode::LQRControllerNode([01;31m[K)[m[K : pnh_("~") {}
+      |                                      [01;31m[K^[m[K
+[01m[K/home/hua/new_catkin_ws/src/lqr_control/src/lqr_controller_node.cpp:[m[K In member function ‘[01m[Kbool LQRControllerNode::init()[m[K’:
+[01m[K/home/hua/new_catkin_ws/src/lqr_control/src/lqr_controller_node.cpp:38:5:[m[K [01;31m[Kerror: [m[K‘[01m[KspeedPidControllerPtr_[m[K’ was not declared in this scope; did you mean ‘[01m[KspeedPIDControllerPtr_[m[K’?
+   38 |     [01;31m[KspeedPidControllerPtr_[m[K = std::shared_ptr<PIDController>(
+      |     [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+      |     [32m[KspeedPIDControllerPtr_[m[K
+[01m[K/home/hua/new_catkin_ws/src/lqr_control/src/lqr_controller_node.cpp:51:23:[m[K [01;31m[Kerror: [m[K‘[01m[Knh[m[K’ was not declared in this scope; did you mean ‘[01m[Knh_[m[K’?
+   51 |     VehiclePoseSub_ = [01;31m[Knh[m[K.subscribe(vehicle_odom_topic, 10, &LQRControllerNode::odomCallback, this);
+      |                       [01;31m[K^~[m[K
+      |                       [32m[Knh_[m[K
+[01m[K/home/hua/new_catkin_ws/src/lqr_control/src/lqr_controller_node.cpp:54:66:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+   54 |     controlPub_ = nh.advertise<carla_msgs::CarlaEgoVehicleControl[01;31m[K>[m[K(vehicle_cmd_topic, 1000);
+      |                                                                  [01;31m[K^[m[K
+[01m[K/home/hua/new_catkin_ws/src/lqr_control/src/lqr_controller_node.cpp:54:68:[m[K [01;35m[Kwarning: [m[Kleft operand of comma operator has no effect [[01;35m[K-Wunused-value[m[K]
+   54 |     controlPub_ = nh.advertise<carla_msgs::CarlaEgoVehicleControl>([01;35m[Kvehicle_cmd_topic[m[K, 1000);
+      |                                                                    [01;35m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/hua/new_catkin_ws/src/lqr_control/src/lqr_controller_node.cpp:60:18:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Knh[m[K’
+   60 |     controlTimer_[01;31m[K [m[K[32m[Knh[m[K.creatTimer(ros::Duration(1 / controlFrequency_), &LQRControllerNode::controlTimerLoop, this);
+      |                  [01;31m[K^[m[K[32m[K~~[m[K
+      |                  [32m[K;[m[K
+[01m[K/home/hua/new_catkin_ws/src/lqr_control/src/lqr_controller_node.cpp:60:5:[m[K [01;35m[Kwarning: [m[Kstatement has no effect [[01;35m[K-Wunused-value[m[K]
+   60 |     [01;35m[KcontrolTimer_[m[K nh.creatTimer(ros::Duration(1 / controlFrequency_), &LQRControllerNode::controlTimerLoop, this);
+      |     [01;35m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/hua/new_catkin_ws/src/lqr_control/src/lqr_controller_node.cpp:63:5:[m[K [01;31m[Kerror: [m[K‘[01m[KaddRoadmapMarker[m[K’ was not declared in this scope; did you mean ‘[01m[KaddRoadmapMaker[m[K’?
+   63 |     [01;31m[KaddRoadmapMarker[m[K(planningPublishedTrajectory_.trajectory_points, frame_id);
+      |     [01;31m[K^~~~~~~~~~~~~~~~[m[K
+      |     [32m[KaddRoadmapMaker[m[K
+[01m[K/home/hua/new_catkin_ws/src/lqr_control/src/lqr_controller_node.cpp:68:5:[m[K [01;31m[Kerror: [m[K‘[01m[KROS_INO[m[K’ was not declared in this scope; did you mean ‘[01m[KROS_INFO[m[K’?
+   68 |     [01;31m[KROS_INO[m[K("lqr_control_node init finish");
+      |     [01;31m[K^~~~~~~[m[K
+      |     [32m[KROS_INFO[m[K
+[01m[K/home/hua/new_catkin_ws/src/lqr_control/src/lqr_controller_node.cpp:[m[K In member function ‘[01m[Kdouble LQRControllerNode::pid_control()[m[K’:
+[01m[K/home/hua/new_catkin_ws/src/lqr_control/src/lqr_controller_node.cpp:75:20:[m[K [01;31m[Kerror: [m[K‘[01m[KtargetSpeed_[m[K’ was not declared in this scope; did you mean ‘[01m[KtargetSpeed[m[K’?
+   75 |     double v_err = [01;31m[KtargetSpeed_[m[K - ego_speed;   // 目标车速和当前车速的误差
+      |                    [01;31m[K^~~~~~~~~~~~[m[K
+      |                    [32m[KtargetSpeed[m[K
+[01m[K/home/hua/new_catkin_ws/src/lqr_control/src/lqr_controller_node.cpp:79:31:[m[K [01;31m[Kerror: [m[K‘[01m[KspeedPidControllerPtr_[m[K’ was not declared in this scope; did you mean ‘[01m[KspeedPIDControllerPtr_[m[K’?
+   79 |     double acceleration_cmd = [01;31m[KspeedPidControllerPtr_[m[K->Control(v_err, 1 / controlFrequency_);
+      |                               [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+      |                               [32m[KspeedPIDControllerPtr_[m[K
+[01m[K/home/hua/new_catkin_ws/src/lqr_control/src/lqr_controller_node.cpp:[m[K At global scope:
+[01m[K/home/hua/new_catkin_ws/src/lqr_control/src/lqr_controller_node.cpp:83:63:[m[K [01;31m[Kerror: [m[Kfound ‘[01m[K:[m[K’ in nested-name-specifier, expected ‘[01m[K::[m[K’
+   83 | void LQRControllerNode::odomCallback(const nav_msgs::Odometry [01;31m[K:[m[K ConstPtr &msg)
+      |                                                               [01;31m[K^[m[K
+      |                                                               [32m[K::[m[K
+[01m[K/home/hua/new_catkin_ws/src/lqr_control/src/lqr_controller_node.cpp:[m[K In member function ‘[01m[Kbool LQRControllerNode::loadRoadmap(const string&, double)[m[K’:
+[01m[K/home/hua/new_catkin_ws/src/lqr_control/src/lqr_controller_node.cpp:142:33:[m[K [01;31m[Kerror: [m[Kexpected initializer before ‘[01m[K.[m[K’ token
+  142 |     std::vector<double> headings[01;31m[K.[m[Kaccumulated_s, kappas, dkappas;
+      |                                 [01;31m[K^[m[K
+[01m[K/home/hua/new_catkin_ws/src/lqr_control/src/lqr_controller_node.cpp:147:41:[m[K [01;31m[Kerror: [m[K‘[01m[Kheadings[m[K’ was not declared in this scope
+  147 |     reference_line->ComputePathProfile(&[01;31m[Kheadings[m[K, &accumulated_s, &kappas, &dkappas);
+      |                                         [01;31m[K^~~~~~~~[m[K
+[01m[K/home/hua/new_catkin_ws/src/lqr_control/src/lqr_controller_node.cpp:147:52:[m[K [01;31m[Kerror: [m[K‘[01m[Kaccumulated_s[m[K’ was not declared in this scope
+  147 |     reference_line->ComputePathProfile(&headings, &[01;31m[Kaccumulated_s[m[K, &kappas, &dkappas);
+      |                                                    [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/hua/new_catkin_ws/src/lqr_control/src/lqr_controller_node.cpp:147:68:[m[K [01;31m[Kerror: [m[K‘[01m[Kkappas[m[K’ was not declared in this scope
+  147 |     reference_line->ComputePathProfile(&headings, &accumulated_s, &[01;31m[Kkappas[m[K, &dkappas);
+      |                                                                    [01;31m[K^~~~~~[m[K
+[01m[K/home/hua/new_catkin_ws/src/lqr_control/src/lqr_controller_node.cpp:147:77:[m[K [01;31m[Kerror: [m[K‘[01m[Kdkappas[m[K’ was not declared in this scope
+  147 |     reference_line->ComputePathProfile(&headings, &accumulated_s, &kappas, &[01;31m[Kdkappas[m[K);
+      |                                                                             [01;31m[K^~~~~~~[m[K
+[01m[K/home/hua/new_catkin_ws/src/lqr_control/src/lqr_controller_node.cpp:158:23:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct TrajectoryPoint[m[K’ has no member named ‘[01m[Kkappas[m[K’; did you mean ‘[01m[Kkappa[m[K’?
+  158 |         trajectory_pt.[01;31m[Kkappas[m[K = kappas[i];                                        // 路径点曲率
+      |                       [01;31m[K^~~~~~[m[K
+      |                       [32m[Kkappa[m[K
+[01m[K/home/hua/new_catkin_ws/src/lqr_control/src/lqr_controller_node.cpp:[m[K At global scope:
+[01m[K/home/hua/new_catkin_ws/src/lqr_control/src/lqr_controller_node.cpp:165:6:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Kvoid LQRControllerNode::addRoadmapMarker(const std::vector<TrajectoryPoint>&, const string&)[m[K’
+  165 | void [01;31m[KLQRControllerNode[m[K::addRoadmapMarker(
+      |      [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/hua/new_catkin_ws/src/lqr_control/src/lqr_controller_node.cpp:165:6:[m[K [01;36m[Knote: [m[Kno functions named ‘[01m[Kvoid LQRControllerNode::addRoadmapMarker(const std::vector<TrajectoryPoint>&, const string&)[m[K’
+In file included from [01m[K/home/hua/new_catkin_ws/src/lqr_control/src/lqr_controller_node.cpp:1[m[K:
+[01m[K/home/hua/new_catkin_ws/src/lqr_control/include/lqr_controller_node.h:16:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass LQRControllerNode[m[K’ defined here
+   16 | class [01;36m[KLQRControllerNode[m[K
+      |       [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/hua/new_catkin_ws/src/lqr_control/src/lqr_controller_node.cpp:[m[K In member function ‘[01m[Kvoid LQRControllerNode::controlTimerLoop(const ros::TimerEvent&)[m[K’:
+[01m[K/home/hua/new_catkin_ws/src/lqr_control/src/lqr_controller_node.cpp:210:13:[m[K [01;31m[Kerror: [m[K‘[01m[KtargetSpeed_[m[K’ was not declared in this scope; did you mean ‘[01m[KtargetSpeed[m[K’?
+  210 |             [01;31m[KtargetSpeed_[m[K = 0;
+      |             [01;31m[K^~~~~~~~~~~~[m[K
+      |             [32m[KtargetSpeed[m[K
+[01m[K/home/hua/new_catkin_ws/src/lqr_control/src/lqr_controller_node.cpp:242:13:[m[K [01;31m[Kerror: [m[K‘[01m[KtargetSpeed_[m[K’ was not declared in this scope; did you mean ‘[01m[KtargetSpeed[m[K’?
+  242 |         if ([01;31m[KtargetSpeed_[m[K == 0)
+      |             [01;31m[K^~~~~~~~~~~~[m[K
+      |             [32m[KtargetSpeed[m[K
+make[2]: *** [CMakeFiles/lqr_control_node.dir/build.make:63：CMakeFiles/lqr_control_node.dir/src/main.cpp.o] 错误 1
+make[2]: *** 正在等待未完成的任务....
+make[2]: *** [CMakeFiles/lqr_control_node.dir/build.make:76：CMakeFiles/lqr_control_node.dir/src/lqr_controller_node.cpp.o] 错误 1
+make[1]: *** [CMakeFiles/Makefile2:1584：CMakeFiles/lqr_control_node.dir/all] 错误 2
+make: *** [Makefile:141：all] 错误 2

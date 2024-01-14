@@ -1,0 +1,402 @@
+[01m[K/home/hua/new_catkin_ws/src/lqr_control/src/lqr_controller.cpp:17:9:[m[K [01;31m[Kerror: [m[K‘[01m[KLqrController[m[K’ does not name a type; did you mean ‘[01m[Klqr_controller[m[K’?
+   17 |         [01;31m[KLqrController[m[K::LqrController() {}
+      |         [01;31m[K^~~~~~~~~~~~~[m[K
+      |         [32m[Klqr_controller[m[K
+[01m[K/home/hua/new_catkin_ws/src/lqr_control/src/lqr_controller.cpp:19:9:[m[K [01;31m[Kerror: [m[K‘[01m[KLqrController[m[K’ does not name a type; did you mean ‘[01m[Klqr_controller[m[K’?
+   19 |         [01;31m[KLqrController[m[K::~LqrController() {}
+      |         [01;31m[K^~~~~~~~~~~~~[m[K
+      |         [32m[Klqr_controller[m[K
+[01m[K/home/hua/new_catkin_ws/src/lqr_control/src/lqr_controller.cpp:22:14:[m[K [01;31m[Kerror: [m[K‘[01m[KLqrController[m[K’ has not been declared
+   22 |         void [01;31m[KLqrController[m[K::LoadControlConf()
+      |              [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/hua/new_catkin_ws/src/lqr_control/src/lqr_controller.cpp:[m[K In function ‘[01m[Kvoid hua::lqr_controller::LoadControlConf()[m[K’:
+[01m[K/home/hua/new_catkin_ws/src/lqr_control/src/lqr_controller.cpp:24:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kts[m[K’ was not declared in this scope; did you mean ‘[01m[Ktf[m[K’?
+   24 |             [01;31m[Kts[m[K = 0.01; // 每隔0.01秒进行一次控制
+      |             [01;31m[K^~[m[K
+      |             [32m[Ktf[m[K
+[01m[K/home/hua/new_catkin_ws/src/lqr_control/src/lqr_controller.cpp:26:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kcf_[m[K’ was not declared in this scope
+   26 |             [01;31m[Kcf_[m[K = 155494.663;                           // 左右轮前轮侧扁刚度之和
+      |             [01;31m[K^~~[m[K
+[01m[K/home/hua/new_catkin_ws/src/lqr_control/src/lqr_controller.cpp:27:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kcr_[m[K’ was not declared in this scope
+   27 |             [01;31m[Kcr_[m[K = 155494.663;                           // 左右轮后轮侧扁刚度之和
+      |             [01;31m[K^~~[m[K
+[01m[K/home/hua/new_catkin_ws/src/lqr_control/src/lqr_controller.cpp:28:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kwheelbase_[m[K’ was not declared in this scope
+   28 |             [01;31m[Kwheelbase_[m[K = 2.852;                         // 轴距
+      |             [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/hua/new_catkin_ws/src/lqr_control/src/lqr_controller.cpp:29:13:[m[K [01;31m[Kerror: [m[K‘[01m[Ksteer_ratio_[m[K’ was not declared in this scope
+   29 |             [01;31m[Ksteer_ratio_[m[K = 16;                          // 方向盘转角与轮胎转角之间的比之系数
+      |             [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/hua/new_catkin_ws/src/lqr_control/src/lqr_controller.cpp:30:13:[m[K [01;31m[Kerror: [m[K‘[01m[Ksteer_single_direction_max_degree_[m[K’ was not declared in this scope
+   30 |             [01;31m[Ksteer_single_direction_max_degree_[m[K = 470.0; // 最大方向转角
+      |             [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/hua/new_catkin_ws/src/lqr_control/src/lqr_controller.cpp:38:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kmass_[m[K’ was not declared in this scope; did you mean ‘[01m[Kmass_rr[m[K’?
+   38 |             [01;31m[Kmass_[m[K = mass_front + mass_rear;
+      |             [01;31m[K^~~~~[m[K
+      |             [32m[Kmass_rr[m[K
+[01m[K/home/hua/new_catkin_ws/src/lqr_control/src/lqr_controller.cpp:40:13:[m[K [01;31m[Kerror: [m[K‘[01m[Klf_[m[K’ was not declared in this scope
+   40 |             [01;31m[Klf_[m[K = wheelbase_ * (1.0 - mass_front / mass_); // 前轴到质心的距离
+      |             [01;31m[K^~~[m[K
+[01m[K/home/hua/new_catkin_ws/src/lqr_control/src/lqr_controller.cpp:41:13:[m[K [01;31m[Kerror: [m[K‘[01m[Klr_[m[K’ was not declared in this scope
+   41 |             [01;31m[Klr_[m[K = wheelbase_ * (1.0 - mass_rear / mass_);  // 后轴到质心的距离
+      |             [01;31m[K^~~[m[K
+[01m[K/home/hua/new_catkin_ws/src/lqr_control/src/lqr_controller.cpp:43:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kiz_[m[K’ was not declared in this scope
+   43 |             [01;31m[Kiz_[m[K = lf_ * lf_ * mass_front + lr_ * lr_ * mass_rear; // 汽车转动惯量
+      |             [01;31m[K^~~[m[K
+[01m[K/home/hua/new_catkin_ws/src/lqr_control/src/lqr_controller.cpp:45:13:[m[K [01;31m[Kerror: [m[K‘[01m[Klqr_eps_[m[K’ was not declared in this scope
+   45 |             [01;31m[Klqr_eps_[m[K = 0.01;            // lqr迭代求解器精度
+      |             [01;31m[K^~~~~~~~[m[K
+[01m[K/home/hua/new_catkin_ws/src/lqr_control/src/lqr_controller.cpp:46:13:[m[K [01;31m[Kerror: [m[K‘[01m[Klqr_max_interation_[m[K’ was not declared in this scope
+   46 |             [01;31m[Klqr_max_interation_[m[K = 1500; // lqr迭代次数
+      |             [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/hua/new_catkin_ws/src/lqr_control/src/lqr_controller.cpp:[m[K At global scope:
+[01m[K/home/hua/new_catkin_ws/src/lqr_control/src/lqr_controller.cpp:52:14:[m[K [01;31m[Kerror: [m[K‘[01m[KLqrController[m[K’ has not been declared
+   52 |         void [01;31m[KLqrController[m[K::Init()
+      |              [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/hua/new_catkin_ws/src/lqr_control/src/lqr_controller.cpp:[m[K In function ‘[01m[Kvoid hua::lqr_controller::Init()[m[K’:
+[01m[K/home/hua/new_catkin_ws/src/lqr_control/src/lqr_controller.cpp:55:37:[m[K [01;31m[Kerror: [m[K‘[01m[Kbasic_state_size_[m[K’ was not declared in this scope
+   55 |             const int matrix_size = [01;31m[Kbasic_state_size_[m[K;
+      |                                     [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/hua/new_catkin_ws/src/lqr_control/src/lqr_controller.cpp:56:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kmatrix_a_[m[K’ was not declared in this scope; did you mean ‘[01m[Kmatrix_size[m[K’?
+   56 |             [01;31m[Kmatrix_a_[m[K = Matrix::Zero(basic_state_size_, basic_state_size_);
+      |             [01;31m[K^~~~~~~~~[m[K
+      |             [32m[Kmatrix_size[m[K
+[01m[K/home/hua/new_catkin_ws/src/lqr_control/src/lqr_controller.cpp:56:25:[m[K [01;31m[Kerror: [m[K‘[01m[KMatrix[m[K’ has not been declared
+   56 |             matrix_a_ = [01;31m[KMatrix[m[K::Zero(basic_state_size_, basic_state_size_);
+      |                         [01;31m[K^~~~~~[m[K
+[01m[K/home/hua/new_catkin_ws/src/lqr_control/src/lqr_controller.cpp:57:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kmatrix_ad_[m[K’ was not declared in this scope
+   57 |             [01;31m[Kmatrix_ad_[m[K = Matrix::Zero(basic_state_size_, basic_state_size_); // matrix_ad_ 为 matrix_a_ 离散化的版本
+      |             [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/hua/new_catkin_ws/src/lqr_control/src/lqr_controller.cpp:57:26:[m[K [01;31m[Kerror: [m[K‘[01m[KMatrix[m[K’ has not been declared
+   57 |             matrix_ad_ = [01;31m[KMatrix[m[K::Zero(basic_state_size_, basic_state_size_); // matrix_ad_ 为 matrix_a_ 离散化的版本
+      |                          [01;31m[K^~~~~~[m[K
+[01m[K/home/hua/new_catkin_ws/src/lqr_control/src/lqr_controller.cpp:69:32:[m[K [01;31m[Kerror: [m[K‘[01m[Kcf_[m[K’ was not declared in this scope
+   69 |             matrix_a_(1, 2) = ([01;31m[Kcf_[m[K + cr_) / mass_;
+      |                                [01;31m[K^~~[m[K
+[01m[K/home/hua/new_catkin_ws/src/lqr_control/src/lqr_controller.cpp:69:38:[m[K [01;31m[Kerror: [m[K‘[01m[Kcr_[m[K’ was not declared in this scope
+   69 |             matrix_a_(1, 2) = (cf_ + [01;31m[Kcr_[m[K) / mass_;
+      |                                      [01;31m[K^~~[m[K
+[01m[K/home/hua/new_catkin_ws/src/lqr_control/src/lqr_controller.cpp:69:45:[m[K [01;31m[Kerror: [m[K‘[01m[Kmass_[m[K’ was not declared in this scope
+   69 |             matrix_a_(1, 2) = (cf_ + cr_) / [01;31m[Kmass_[m[K;
+      |                                             [01;31m[K^~~~~[m[K
+[01m[K/home/hua/new_catkin_ws/src/lqr_control/src/lqr_controller.cpp:71:32:[m[K [01;31m[Kerror: [m[K‘[01m[Klf_[m[K’ was not declared in this scope
+   71 |             matrix_a_(3, 2) = ([01;31m[Klf_[m[K * cf_ - lr_ * cr_) / iz_;
+      |                                [01;31m[K^~~[m[K
+[01m[K/home/hua/new_catkin_ws/src/lqr_control/src/lqr_controller.cpp:71:44:[m[K [01;31m[Kerror: [m[K‘[01m[Klr_[m[K’ was not declared in this scope
+   71 |             matrix_a_(3, 2) = (lf_ * cf_ - [01;31m[Klr_[m[K * cr_) / iz_;
+      |                                            [01;31m[K^~~[m[K
+[01m[K/home/hua/new_catkin_ws/src/lqr_control/src/lqr_controller.cpp:71:57:[m[K [01;31m[Kerror: [m[K‘[01m[Kiz_[m[K’ was not declared in this scope
+   71 |             matrix_a_(3, 2) = (lf_ * cf_ - lr_ * cr_) / [01;31m[Kiz_[m[K;
+      |                                                         [01;31m[K^~~[m[K
+[01m[K/home/hua/new_catkin_ws/src/lqr_control/src/lqr_controller.cpp:74:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kmatrix_a_coeff_[m[K’ was not declared in this scope
+   74 |             [01;31m[Kmatrix_a_coeff_[m[K = Matrix::Zero(matrix_size, matrix_size);
+      |             [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/hua/new_catkin_ws/src/lqr_control/src/lqr_controller.cpp:74:31:[m[K [01;31m[Kerror: [m[K‘[01m[KMatrix[m[K’ has not been declared
+   74 |             matrix_a_coeff_ = [01;31m[KMatrix[m[K::Zero(matrix_size, matrix_size);
+      |                               [01;31m[K^~~~~~[m[K
+[01m[K/home/hua/new_catkin_ws/src/lqr_control/src/lqr_controller.cpp:85:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kmatrix_b_[m[K’ was not declared in this scope; did you mean ‘[01m[Kmatrix_size[m[K’?
+   85 |             [01;31m[Kmatrix_b_[m[K = Matrix::Zero(basic_state_size_, 1);
+      |             [01;31m[K^~~~~~~~~[m[K
+      |             [32m[Kmatrix_size[m[K
+[01m[K/home/hua/new_catkin_ws/src/lqr_control/src/lqr_controller.cpp:85:25:[m[K [01;31m[Kerror: [m[K‘[01m[KMatrix[m[K’ has not been declared
+   85 |             matrix_b_ = [01;31m[KMatrix[m[K::Zero(basic_state_size_, 1);
+      |                         [01;31m[K^~~~~~[m[K
+[01m[K/home/hua/new_catkin_ws/src/lqr_control/src/lqr_controller.cpp:86:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kmatrix_bd_[m[K’ was not declared in this scope
+   86 |             [01;31m[Kmatrix_bd_[m[K = Matrix::Zero(basic_state_size_, 1); // matrix_bd_ 为 matrix_b_ 离散化的版本
+      |             [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/hua/new_catkin_ws/src/lqr_control/src/lqr_controller.cpp:86:26:[m[K [01;31m[Kerror: [m[K‘[01m[KMatrix[m[K’ has not been declared
+   86 |             matrix_bd_ = [01;31m[KMatrix[m[K::Zero(basic_state_size_, 1); // matrix_bd_ 为 matrix_b_ 离散化的版本
+      |                          [01;31m[K^~~~~~[m[K
+[01m[K/home/hua/new_catkin_ws/src/lqr_control/src/lqr_controller.cpp:88:43:[m[K [01;31m[Kerror: [m[K‘[01m[Kiz[m[K’ was not declared in this scope
+   88 |             matrix_b_(3, 0) = lf_ * cf_ / [01;31m[Kiz[m[K;
+      |                                           [01;31m[K^~[m[K
+[01m[K/home/hua/new_catkin_ws/src/lqr_control/src/lqr_controller.cpp:89:38:[m[K [01;31m[Kerror: [m[K‘[01m[Kts_[m[K’ was not declared in this scope
+   89 |             matrix_bd_ = matrix_b_ * [01;31m[Kts_[m[K; // 离散化B_d = B * dt 向前欧拉离散化方法
+      |                                      [01;31m[K^~~[m[K
+[01m[K/home/hua/new_catkin_ws/src/lqr_control/src/lqr_controller.cpp:92:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kmatrix_state_[m[K’ was not declared in this scope; did you mean ‘[01m[Kmatrix_size[m[K’?
+   92 |             [01;31m[Kmatrix_state_[m[K = Matrix::Zero(matrix_size, 1);
+      |             [01;31m[K^~~~~~~~~~~~~[m[K
+      |             [32m[Kmatrix_size[m[K
+[01m[K/home/hua/new_catkin_ws/src/lqr_control/src/lqr_controller.cpp:92:29:[m[K [01;31m[Kerror: [m[K‘[01m[KMatrix[m[K’ has not been declared
+   92 |             matrix_state_ = [01;31m[KMatrix[m[K::Zero(matrix_size, 1);
+      |                             [01;31m[K^~~~~~[m[K
+[01m[K/home/hua/new_catkin_ws/src/lqr_control/src/lqr_controller.cpp:94:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kmatrix_k_[m[K’ was not declared in this scope; did you mean ‘[01m[Kmatrix_size[m[K’?
+   94 |             [01;31m[Kmatrix_k_[m[K = Matrix::Zero(1, matrix_size);
+      |             [01;31m[K^~~~~~~~~[m[K
+      |             [32m[Kmatrix_size[m[K
+[01m[K/home/hua/new_catkin_ws/src/lqr_control/src/lqr_controller.cpp:94:25:[m[K [01;31m[Kerror: [m[K‘[01m[KMatrix[m[K’ has not been declared
+   94 |             matrix_k_ = [01;31m[KMatrix[m[K::Zero(1, matrix_size);
+      |                         [01;31m[K^~~~~~[m[K
+[01m[K/home/hua/new_catkin_ws/src/lqr_control/src/lqr_controller.cpp:96:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kmatrix_r_[m[K’ was not declared in this scope; did you mean ‘[01m[Kmatrix_size[m[K’?
+   96 |             [01;31m[Kmatrix_r_[m[K = Matrix::Identity(1, 1); // Identity 是线性代数中的一个概念，表示单位矩阵。该处表示一个1*1的单位矩阵
+      |             [01;31m[K^~~~~~~~~[m[K
+      |             [32m[Kmatrix_size[m[K
+[01m[K/home/hua/new_catkin_ws/src/lqr_control/src/lqr_controller.cpp:96:25:[m[K [01;31m[Kerror: [m[K‘[01m[KMatrix[m[K’ has not been declared
+   96 |             matrix_r_ = [01;31m[KMatrix[m[K::Identity(1, 1); // Identity 是线性代数中的一个概念，表示单位矩阵。该处表示一个1*1的单位矩阵
+      |                         [01;31m[K^~~~~~[m[K
+[01m[K/home/hua/new_catkin_ws/src/lqr_control/src/lqr_controller.cpp:99:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kmatrix_q_[m[K’ was not declared in this scope; did you mean ‘[01m[Kmatrix_size[m[K’?
+   99 |             [01;31m[Kmatrix_q_[m[K = Matrix::Zero(matrix_size, matrix_size);
+      |             [01;31m[K^~~~~~~~~[m[K
+      |             [32m[Kmatrix_size[m[K
+[01m[K/home/hua/new_catkin_ws/src/lqr_control/src/lqr_controller.cpp:99:25:[m[K [01;31m[Kerror: [m[K‘[01m[KMatrix[m[K’ has not been declared
+   99 |             matrix_q_ = [01;31m[KMatrix[m[K::Zero(matrix_size, matrix_size);
+      |                         [01;31m[K^~~~~~[m[K
+[01m[K/home/hua/new_catkin_ws/src/lqr_control/src/lqr_controller.cpp:107:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kmatrix_q_updated_[m[K’ was not declared in this scope
+  107 |             [01;31m[Kmatrix_q_updated_[m[K = matrix_q_; // 更新q矩阵
+      |             [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/hua/new_catkin_ws/src/lqr_control/src/lqr_controller.cpp:[m[K At global scope:
+[01m[K/home/hua/new_catkin_ws/src/lqr_control/src/lqr_controller.cpp:134:14:[m[K [01;31m[Kerror: [m[K‘[01m[KLqrController[m[K’ has not been declared
+  134 |         bool [01;31m[KLqrController[m[K::ComputeControlCommand(
+      |              [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/hua/new_catkin_ws/src/lqr_control/src/lqr_controller.cpp:[m[K In function ‘[01m[Kbool hua::lqr_controller::ComputeControlCommand(const VehicleState&, const TrajectoryData&, ControlCmd&)[m[K’:
+[01m[K/home/hua/new_catkin_ws/src/lqr_control/src/lqr_controller.cpp:139:13:[m[K [01;31m[Kerror: [m[K‘[01m[Ktrajectory_points_[m[K’ was not declared in this scope; did you mean ‘[01m[KTrajectoryPoint[m[K’?
+  139 |             [01;31m[Ktrajectory_points_[m[K = planning_published_trajectory.trajectory_points;
+      |             [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+      |             [32m[KTrajectoryPoint[m[K
+[01m[K/home/hua/new_catkin_ws/src/lqr_control/src/lqr_controller.cpp:149:57:[m[K [01;31m[Kerror: [m[K‘[01m[Kminimum_speed_protection_[m[K’ was not declared in this scope
+  149 |             double v_ = std::max(localization.velocity, [01;31m[Kminimum_speed_protection_[m[K);
+      |                                                         [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/hua/new_catkin_ws/src/lqr_control/src/lqr_controller.cpp:150:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kmatrix_a_[m[K’ was not declared in this scope
+  150 |             [01;31m[Kmatrix_a_[m[K(1, 1) = matrix_a_coeff_(1, 1) / v_;
+      |             [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/hua/new_catkin_ws/src/lqr_control/src/lqr_controller.cpp:150:31:[m[K [01;31m[Kerror: [m[K‘[01m[Kmatrix_a_coeff_[m[K’ was not declared in this scope
+  150 |             matrix_a_(1, 1) = [01;31m[Kmatrix_a_coeff_[m[K(1, 1) / v_;
+      |                               [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/hua/new_catkin_ws/src/lqr_control/src/lqr_controller.cpp:162:13:[m[K [01;31m[Kerror: [m[K‘[01m[KUpdateState[m[K’ was not declared in this scope
+  162 |             [01;31m[KUpdateState[m[K(localization);
+      |             [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/hua/new_catkin_ws/src/lqr_control/src/lqr_controller.cpp:165:13:[m[K [01;31m[Kerror: [m[K‘[01m[KUpdateMatrix[m[K’ was not declared in this scope
+  165 |             [01;31m[KUpdateMatrix[m[K(localization);
+      |             [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/hua/new_catkin_ws/src/lqr_control/src/lqr_controller.cpp:177:29:[m[K [01;31m[Kerror: [m[K‘[01m[Kmatrix_ad_[m[K’ was not declared in this scope
+  177 |             SolveLQRProblem([01;31m[Kmatrix_ad_[m[K, matrix_bd_, matrix_q_, matrix_r_, lqr_eps_,
+      |                             [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/hua/new_catkin_ws/src/lqr_control/src/lqr_controller.cpp:177:41:[m[K [01;31m[Kerror: [m[K‘[01m[Kmatrix_bd_[m[K’ was not declared in this scope
+  177 |             SolveLQRProblem(matrix_ad_, [01;31m[Kmatrix_bd_[m[K, matrix_q_, matrix_r_, lqr_eps_,
+      |                                         [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/hua/new_catkin_ws/src/lqr_control/src/lqr_controller.cpp:177:53:[m[K [01;31m[Kerror: [m[K‘[01m[Kmatrix_q_[m[K’ was not declared in this scope
+  177 |             SolveLQRProblem(matrix_ad_, matrix_bd_, [01;31m[Kmatrix_q_[m[K, matrix_r_, lqr_eps_,
+      |                                                     [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/hua/new_catkin_ws/src/lqr_control/src/lqr_controller.cpp:177:64:[m[K [01;31m[Kerror: [m[K‘[01m[Kmatrix_r_[m[K’ was not declared in this scope
+  177 |             SolveLQRProblem(matrix_ad_, matrix_bd_, matrix_q_, [01;31m[Kmatrix_r_[m[K, lqr_eps_,
+      |                                                                [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/hua/new_catkin_ws/src/lqr_control/src/lqr_controller.cpp:177:75:[m[K [01;31m[Kerror: [m[K‘[01m[Klqr_eps_[m[K’ was not declared in this scope
+  177 |             SolveLQRProblem(matrix_ad_, matrix_bd_, matrix_q_, matrix_r_, [01;31m[Klqr_eps_[m[K,
+      |                                                                           [01;31m[K^~~~~~~~[m[K
+[01m[K/home/hua/new_catkin_ws/src/lqr_control/src/lqr_controller.cpp:178:29:[m[K [01;31m[Kerror: [m[K‘[01m[Klqr_max_iteration_[m[K’ was not declared in this scope
+  178 |                             [01;31m[Klqr_max_iteration_[m[K, &matrix_k_);
+      |                             [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/hua/new_catkin_ws/src/lqr_control/src/lqr_controller.cpp:178:50:[m[K [01;31m[Kerror: [m[K‘[01m[Kmatrix_k_[m[K’ was not declared in this scope
+  178 |                             lqr_max_iteration_, &[01;31m[Kmatrix_k_[m[K);
+      |                                                  [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/hua/new_catkin_ws/src/lqr_control/src/lqr_controller.cpp:177:13:[m[K [01;31m[Kerror: [m[K‘[01m[KSolveLQRProblem[m[K’ was not declared in this scope
+  177 |             [01;31m[KSolveLQRProblem[m[K(matrix_ad_, matrix_bd_, matrix_q_, matrix_r_, lqr_eps_,
+      |             [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/hua/new_catkin_ws/src/lqr_control/src/lqr_controller.cpp:191:50:[m[K [01;31m[Kerror: [m[K‘[01m[Kmatrix_state_[m[K’ was not declared in this scope
+  191 |             steer_angle_feedback = -(matrix_k_ * [01;31m[Kmatrix_state_[m[K)(0, 0);
+      |                                                  [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/hua/new_catkin_ws/src/lqr_control/src/lqr_controller.cpp:196:72:[m[K [01;31m[Kerror: [m[K‘[01m[Kref_curv_[m[K’ was not declared in this scope
+  196 |             steer_angle_feedforward = ComputeFeedForward(localization, [01;31m[Kref_curv_[m[K);
+      |                                                                        [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/hua/new_catkin_ws/src/lqr_control/src/lqr_controller.cpp:196:39:[m[K [01;31m[Kerror: [m[K‘[01m[KComputeFeedForward[m[K’ was not declared in this scope
+  196 |             steer_angle_feedforward = [01;31m[KComputeFeedForward[m[K(localization, ref_curv_);
+      |                                       [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/hua/new_catkin_ws/src/lqr_control/src/lqr_controller.cpp:[m[K At global scope:
+[01m[K/home/hua/new_catkin_ws/src/lqr_control/src/lqr_controller.cpp:217:14:[m[K [01;31m[Kerror: [m[K‘[01m[KLqrController[m[K’ has not been declared
+  217 |         void [01;31m[KLqrController[m[K::UpdateState(const VehicleState &vehicle_state)
+      |              [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/hua/new_catkin_ws/src/lqr_control/src/lqr_controller.cpp:[m[K In function ‘[01m[Kvoid hua::lqr_controller::UpdateState(const VehicleState&)[m[K’:
+[01m[K/home/hua/new_catkin_ws/src/lqr_control/src/lqr_controller.cpp:225:34:[m[K [01;31m[Kerror: [m[K‘[01m[Kvehicle[m[K’ was not declared in this scope
+  225 |                                  [01;31m[Kvehicle[m[K.velocity, vehicle_state.angular_velocity,
+      |                                  [01;31m[K^~~~~~~[m[K
+[01m[K/home/hua/new_catkin_ws/src/lqr_control/src/lqr_controller.cpp:224:13:[m[K [01;31m[Kerror: [m[K‘[01m[KComputeLateralErrors[m[K’ was not declared in this scope
+  224 |             [01;31m[KComputeLateralErrors[m[K(vehicle_state.x, vehicle_state.y, vehicle_state.heading,
+      |             [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/hua/new_catkin_ws/src/lqr_control/src/lqr_controller.cpp:229:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kmatrix_state_[m[K’ was not declared in this scope
+  229 |             [01;31m[Kmatrix_state_[m[K(0, 0) = lat_con_err->lateral_error;
+      |             [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/hua/new_catkin_ws/src/lqr_control/src/lqr_controller.cpp:[m[K At global scope:
+[01m[K/home/hua/new_catkin_ws/src/lqr_control/src/lqr_controller.cpp:236:14:[m[K [01;31m[Kerror: [m[K‘[01m[KLqrController[m[K’ has not been declared
+  236 |         void [01;31m[KLqrController[m[K::UpdateMatrix(const VehicleState &vehicle_state)
+      |              [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/hua/new_catkin_ws/src/lqr_control/src/lqr_controller.cpp:[m[K In function ‘[01m[Kvoid hua::lqr_controller::UpdateMatrix(const VehicleState&)[m[K’:
+[01m[K/home/hua/new_catkin_ws/src/lqr_control/src/lqr_controller.cpp:239:13:[m[K [01;31m[Kerror: [m[K‘[01m[KMatrix[m[K’ was not declared in this scope
+  239 |             [01;31m[KMatrix[m[K matrix_I = Matrix::Identity(matrix_a_.cols(), matrix_a_.rows());
+      |             [01;31m[K^~~~~~[m[K
+[01m[K/home/hua/new_catkin_ws/src/lqr_control/src/lqr_controller.cpp:239:13:[m[K [01;36m[Knote: [m[Ksuggested alternatives:
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:365[m[K,
+                 from [01m[K/home/hua/new_catkin_ws/src/lqr_control/include/lqr_controller.h:8[m[K,
+                 from [01m[K/home/hua/new_catkin_ws/src/lqr_control/src/lqr_controller.cpp:1[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/util/ForwardDeclarations.h:74:9:[m[K [01;36m[Knote: [m[K  ‘[01m[KEigen::Matrix[m[K’
+   74 | > class [01;36m[KMatrix[m[K;
+      |         [01;36m[K^~~~~~[m[K
+In file included from [01m[K/home/hua/new_catkin_ws/src/lqr_control/src/lqr_controller.cpp:1[m[K:
+[01m[K/home/hua/new_catkin_ws/src/lqr_control/include/lqr_controller.h:15:15:[m[K [01;36m[Knote: [m[K  ‘[01m[Khua::control::Matrix[m[K’
+   15 |         using [01;36m[KMatrix[m[K = Eigen::MatrixXd;
+      |               [01;36m[K^~~~~~[m[K
+[01m[K/home/hua/new_catkin_ws/src/lqr_control/src/lqr_controller.cpp:243:19:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Kmatrix_temp[m[K’
+  243 |             Matrix[01;31m[K [m[K[32m[Kmatrix_temp[m[K = (matrix_I - 0.5 * ts_ * matrix_a_).inverse();
+      |                   [01;31m[K^[m[K[32m[K~~~~~~~~~~~[m[K
+      |                   [32m[K;[m[K
+[01m[K/home/hua/new_catkin_ws/src/lqr_control/src/lqr_controller.cpp:245:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kmatrix_ad_[m[K’ was not declared in this scope
+  245 |             [01;31m[Kmatrix_ad_[m[K = matrix_temp * (matrix_I + 0.5 * ts_ * matrix_a_);
+      |             [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/hua/new_catkin_ws/src/lqr_control/src/lqr_controller.cpp:245:26:[m[K [01;31m[Kerror: [m[K‘[01m[Kmatrix_temp[m[K’ was not declared in this scope
+  245 |             matrix_ad_ = [01;31m[Kmatrix_temp[m[K * (matrix_I + 0.5 * ts_ * matrix_a_);
+      |                          [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/hua/new_catkin_ws/src/lqr_control/src/lqr_controller.cpp:245:41:[m[K [01;31m[Kerror: [m[K‘[01m[Kmatrix_I[m[K’ was not declared in this scope
+  245 |             matrix_ad_ = matrix_temp * ([01;31m[Kmatrix_I[m[K + 0.5 * ts_ * matrix_a_);
+      |                                         [01;31m[K^~~~~~~~[m[K
+[01m[K/home/hua/new_catkin_ws/src/lqr_control/src/lqr_controller.cpp:245:58:[m[K [01;31m[Kerror: [m[K‘[01m[Kts_[m[K’ was not declared in this scope
+  245 |             matrix_ad_ = matrix_temp * (matrix_I + 0.5 * [01;31m[Kts_[m[K * matrix_a_);
+      |                                                          [01;31m[K^~~[m[K
+[01m[K/home/hua/new_catkin_ws/src/lqr_control/src/lqr_controller.cpp:245:64:[m[K [01;31m[Kerror: [m[K‘[01m[Kmatrix_a_[m[K’ was not declared in this scope
+  245 |             matrix_ad_ = matrix_temp * (matrix_I + 0.5 * ts_ * [01;31m[Kmatrix_a_[m[K);
+      |                                                                [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/hua/new_catkin_ws/src/lqr_control/src/lqr_controller.cpp:[m[K At global scope:
+[01m[K/home/hua/new_catkin_ws/src/lqr_control/src/lqr_controller.cpp:249:16:[m[K [01;31m[Kerror: [m[K‘[01m[KLqrController[m[K’ has not been declared
+  249 |         double [01;31m[KLqrController[m[K::ComputeFeedForward(const VehicleState &localization,
+      |                [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/hua/new_catkin_ws/src/lqr_control/src/lqr_controller.cpp:[m[K In function ‘[01m[Kdouble hua::lqr_controller::ComputeFeedForward(const VehicleState&, double)[m[K’:
+[01m[K/home/hua/new_catkin_ws/src/lqr_control/src/lqr_controller.cpp:252:31:[m[K [01;31m[Kerror: [m[K‘[01m[Klr_[m[K’ was not declared in this scope
+  252 |             const double kv = [01;31m[Klr_[m[K * mass_ / 2 / cf_ / wheelbase_ - lf_ * mass_ / 2 / cr_ / wheelbase_;
+      |                               [01;31m[K^~~[m[K
+[01m[K/home/hua/new_catkin_ws/src/lqr_control/src/lqr_controller.cpp:252:37:[m[K [01;31m[Kerror: [m[K‘[01m[Kmass_[m[K’ was not declared in this scope
+  252 |             const double kv = lr_ * [01;31m[Kmass_[m[K / 2 / cf_ / wheelbase_ - lf_ * mass_ / 2 / cr_ / wheelbase_;
+      |                                     [01;31m[K^~~~~[m[K
+[01m[K/home/hua/new_catkin_ws/src/lqr_control/src/lqr_controller.cpp:252:49:[m[K [01;31m[Kerror: [m[K‘[01m[Kcf_[m[K’ was not declared in this scope
+  252 |             const double kv = lr_ * mass_ / 2 / [01;31m[Kcf_[m[K / wheelbase_ - lf_ * mass_ / 2 / cr_ / wheelbase_;
+      |                                                 [01;31m[K^~~[m[K
+[01m[K/home/hua/new_catkin_ws/src/lqr_control/src/lqr_controller.cpp:252:55:[m[K [01;31m[Kerror: [m[K‘[01m[Kwheelbase_[m[K’ was not declared in this scope
+  252 |             const double kv = lr_ * mass_ / 2 / cf_ / [01;31m[Kwheelbase_[m[K - lf_ * mass_ / 2 / cr_ / wheelbase_;
+      |                                                       [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/hua/new_catkin_ws/src/lqr_control/src/lqr_controller.cpp:252:68:[m[K [01;31m[Kerror: [m[K‘[01m[Klf_[m[K’ was not declared in this scope
+  252 |             const double kv = lr_ * mass_ / 2 / cf_ / wheelbase_ - [01;31m[Klf_[m[K * mass_ / 2 / cr_ / wheelbase_;
+      |                                                                    [01;31m[K^~~[m[K
+[01m[K/home/hua/new_catkin_ws/src/lqr_control/src/lqr_controller.cpp:252:86:[m[K [01;31m[Kerror: [m[K‘[01m[Kcr_[m[K’ was not declared in this scope
+  252 |             const double kv = lr_ * mass_ / 2 / cf_ / wheelbase_ - lf_ * mass_ / 2 / [01;31m[Kcr_[m[K / wheelbase_;
+      |                                                                                      [01;31m[K^~~[m[K
+[01m[K/home/hua/new_catkin_ws/src/lqr_control/src/lqr_controller.cpp:255:50:[m[K [01;31m[Kerror: [m[K‘[01m[Kmatrix_k_[m[K’ was not declared in this scope
+  255 |                                                  [01;31m[Kmatrix_k_[m[K(0, 2) * (lr_ * ref_curvature -
+      |                                                  [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/hua/new_catkin_ws/src/lqr_control/src/lqr_controller.cpp:[m[K At global scope:
+[01m[K/home/hua/new_catkin_ws/src/lqr_control/src/lqr_controller.cpp:261:14:[m[K [01;31m[Kerror: [m[K‘[01m[KLqrController[m[K’ has not been declared
+  261 |         void [01;31m[KLqrController[m[K::ComputeLateralErrors(const double x, const double y,
+      |              [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/hua/new_catkin_ws/src/lqr_control/src/lqr_controller.cpp:[m[K In function ‘[01m[Kvoid hua::lqr_controller::ComputeLateralErrors(double, double, double, double, double, double, LateralControlErrorPtr&)[m[K’:
+[01m[K/home/hua/new_catkin_ws/src/lqr_control/src/lqr_controller.cpp:269:43:[m[K [01;31m[Kerror: [m[K‘[01m[KQueryNearestPointByPosition[m[K’ was not declared in this scope
+  269 |             TrajectoryPoint match_point = [01;31m[KQueryNearestPointByPosition[m[K(x, y);
+      |                                           [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/hua/new_catkin_ws/src/lqr_control/src/lqr_controller.cpp:290:13:[m[K [01;31m[Kerror: [m[K‘[01m[Klar_con_err[m[K’ was not declared in this scope; did you mean ‘[01m[Klat_con_err[m[K’?
+  290 |             [01;31m[Klar_con_err[m[K->heading_error_rate = match_point.v * match_point.kappa - angular_v;
+      |             [01;31m[K^~~~~~~~~~~[m[K
+      |             [32m[Klat_con_err[m[K
+[01m[K/home/hua/new_catkin_ws/src/lqr_control/src/lqr_controller.cpp:[m[K At global scope:
+[01m[K/home/hua/new_catkin_ws/src/lqr_control/src/lqr_controller.cpp:294:25:[m[K [01;31m[Kerror: [m[K‘[01m[KLqrController[m[K’ has not been declared
+  294 |         TrajectoryPoint [01;31m[KLqrController[m[K::QueryNearestPointByPosition(const double x, const double y)
+      |                         [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/hua/new_catkin_ws/src/lqr_control/src/lqr_controller.cpp:[m[K In function ‘[01m[KTrajectoryPoint hua::lqr_controller::QueryNearestPointByPosition(double, double)[m[K’:
+[01m[K/home/hua/new_catkin_ws/src/lqr_control/src/lqr_controller.cpp:296:48:[m[K [01;31m[Kerror: [m[K‘[01m[Ktrajectory_points_[m[K’ was not declared in this scope; did you mean ‘[01m[KTrajectoryPoint[m[K’?
+  296 |             double d_min = PointDistanceSquare([01;31m[Ktrajectory_points_[m[K.front(), x, y);
+      |                                                [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+      |                                                [32m[KTrajectoryPoint[m[K
+[01m[K/home/hua/new_catkin_ws/src/lqr_control/src/lqr_controller.cpp:309:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kref_curv_[m[K’ was not declared in this scope
+  309 |             [01;31m[Kref_curv_[m[K = trajectory_points_[index_min].kappa; // 对应的最近的轨迹点上的曲率
+      |             [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/hua/new_catkin_ws/src/lqr_control/src/lqr_controller.cpp:[m[K At global scope:
+[01m[K/home/hua/new_catkin_ws/src/lqr_control/src/lqr_controller.cpp:315:14:[m[K [01;31m[Kerror: [m[K‘[01m[KLqrController[m[K’ has not been declared
+  315 |         void [01;31m[KLqrController[m[K::SolveLQRProblem(const Matrix &A, const Matrix &B,
+      |              [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/hua/new_catkin_ws/src/lqr_control/src/lqr_controller.cpp:315:51:[m[K [01;31m[Kerror: [m[K‘[01m[KMatrix[m[K’ does not name a type
+  315 |         void LqrController::SolveLQRProblem(const [01;31m[KMatrix[m[K &A, const Matrix &B,
+      |                                                   [01;31m[K^~~~~~[m[K
+[01m[K/home/hua/new_catkin_ws/src/lqr_control/src/lqr_controller.cpp:315:68:[m[K [01;31m[Kerror: [m[K‘[01m[KMatrix[m[K’ does not name a type
+  315 |         void LqrController::SolveLQRProblem(const Matrix &A, const [01;31m[KMatrix[m[K &B,
+      |                                                                    [01;31m[K^~~~~~[m[K
+[01m[K/home/hua/new_catkin_ws/src/lqr_control/src/lqr_controller.cpp:316:51:[m[K [01;31m[Kerror: [m[K‘[01m[KMatrix[m[K’ does not name a type
+  316 |                                             const [01;31m[KMatrix[m[K &Q, const Matrix &R,
+      |                                                   [01;31m[K^~~~~~[m[K
+[01m[K/home/hua/new_catkin_ws/src/lqr_control/src/lqr_controller.cpp:316:68:[m[K [01;31m[Kerror: [m[K‘[01m[KMatrix[m[K’ does not name a type
+  316 |                                             const Matrix &Q, const [01;31m[KMatrix[m[K &R,
+      |                                                                    [01;31m[K^~~~~~[m[K
+[01m[K/home/hua/new_catkin_ws/src/lqr_control/src/lqr_controller.cpp:319:45:[m[K [01;31m[Kerror: [m[K‘[01m[KMatrix[m[K’ has not been declared
+  319 |                                             [01;31m[KMatrix[m[K *ptr_K)
+      |                                             [01;31m[K^~~~~~[m[K
+[01m[K/home/hua/new_catkin_ws/src/lqr_control/src/lqr_controller.cpp:[m[K In function ‘[01m[Kvoid hua::lqr_controller::SolveLQRProblem(const int&, const int&, const int&, const int&, double, uint, int*)[m[K’:
+[01m[K/home/hua/new_catkin_ws/src/lqr_control/src/lqr_controller.cpp:322:16:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Krows[m[K’ in ‘[01m[KA[m[K’, which is of non-class type ‘[01m[Kconst int[m[K’
+  322 |             (A.[01;31m[Krows[m[K() != A.cols() || B.rows() != A.rows() || Q.rows() != Q.cols() ||
+      |                [01;31m[K^~~~[m[K
+[01m[K/home/hua/new_catkin_ws/src/lqr_control/src/lqr_controller.cpp:322:28:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kcols[m[K’ in ‘[01m[KA[m[K’, which is of non-class type ‘[01m[Kconst int[m[K’
+  322 |             (A.rows() != A.[01;31m[Kcols[m[K() || B.rows() != A.rows() || Q.rows() != Q.cols() ||
+      |                            [01;31m[K^~~~[m[K
+[01m[K/home/hua/new_catkin_ws/src/lqr_control/src/lqr_controller.cpp:322:40:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Krows[m[K’ in ‘[01m[KB[m[K’, which is of non-class type ‘[01m[Kconst int[m[K’
+  322 |             (A.rows() != A.cols() || B.[01;31m[Krows[m[K() != A.rows() || Q.rows() != Q.cols() ||
+      |                                        [01;31m[K^~~~[m[K
+[01m[K/home/hua/new_catkin_ws/src/lqr_control/src/lqr_controller.cpp:322:52:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Krows[m[K’ in ‘[01m[KA[m[K’, which is of non-class type ‘[01m[Kconst int[m[K’
+  322 |             (A.rows() != A.cols() || B.rows() != A.[01;31m[Krows[m[K() || Q.rows() != Q.cols() ||
+      |                                                    [01;31m[K^~~~[m[K
+[01m[K/home/hua/new_catkin_ws/src/lqr_control/src/lqr_controller.cpp:322:64:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Krows[m[K’ in ‘[01m[KQ[m[K’, which is of non-class type ‘[01m[Kconst int[m[K’
+  322 |             (A.rows() != A.cols() || B.rows() != A.rows() || Q.[01;31m[Krows[m[K() != Q.cols() ||
+      |                                                                [01;31m[K^~~~[m[K
+[01m[K/home/hua/new_catkin_ws/src/lqr_control/src/lqr_controller.cpp:322:76:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kcols[m[K’ in ‘[01m[KQ[m[K’, which is of non-class type ‘[01m[Kconst int[m[K’
+  322 |             (A.rows() != A.cols() || B.rows() != A.rows() || Q.rows() != Q.[01;31m[Kcols[m[K() ||
+      |                                                                            [01;31m[K^~~~[m[K
+[01m[K/home/hua/new_catkin_ws/src/lqr_control/src/lqr_controller.cpp:323:16:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Krows[m[K’ in ‘[01m[KQ[m[K’, which is of non-class type ‘[01m[Kconst int[m[K’
+  323 |              Q.[01;31m[Krows[m[K() != A.rows() || R.rows() != R.cols() || R.rows() != B.cols())
+      |                [01;31m[K^~~~[m[K
+[01m[K/home/hua/new_catkin_ws/src/lqr_control/src/lqr_controller.cpp:323:28:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Krows[m[K’ in ‘[01m[KA[m[K’, which is of non-class type ‘[01m[Kconst int[m[K’
+  323 |              Q.rows() != A.[01;31m[Krows[m[K() || R.rows() != R.cols() || R.rows() != B.cols())
+      |                            [01;31m[K^~~~[m[K
+[01m[K/home/hua/new_catkin_ws/src/lqr_control/src/lqr_controller.cpp:323:40:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Krows[m[K’ in ‘[01m[KR[m[K’, which is of non-class type ‘[01m[Kconst int[m[K’
+  323 |              Q.rows() != A.rows() || R.[01;31m[Krows[m[K() != R.cols() || R.rows() != B.cols())
+      |                                        [01;31m[K^~~~[m[K
+[01m[K/home/hua/new_catkin_ws/src/lqr_control/src/lqr_controller.cpp:323:52:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kcols[m[K’ in ‘[01m[KR[m[K’, which is of non-class type ‘[01m[Kconst int[m[K’
+  323 |              Q.rows() != A.rows() || R.rows() != R.[01;31m[Kcols[m[K() || R.rows() != B.cols())
+      |                                                    [01;31m[K^~~~[m[K
+[01m[K/home/hua/new_catkin_ws/src/lqr_control/src/lqr_controller.cpp:323:64:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Krows[m[K’ in ‘[01m[KR[m[K’, which is of non-class type ‘[01m[Kconst int[m[K’
+  323 |              Q.rows() != A.rows() || R.rows() != R.cols() || R.[01;31m[Krows[m[K() != B.cols())
+      |                                                                [01;31m[K^~~~[m[K
+[01m[K/home/hua/new_catkin_ws/src/lqr_control/src/lqr_controller.cpp:323:76:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kcols[m[K’ in ‘[01m[KB[m[K’, which is of non-class type ‘[01m[Kconst int[m[K’
+  323 |              Q.rows() != A.rows() || R.rows() != R.cols() || R.rows() != B.[01;31m[Kcols[m[K())
+      |                                                                            [01;31m[K^~~~[m[K
+[01m[K/home/hua/new_catkin_ws/src/lqr_control/src/lqr_controller.cpp:332:13:[m[K [01;31m[Kerror: [m[K‘[01m[KMatrix[m[K’ was not declared in this scope
+  332 |             [01;31m[KMatrix[m[K A_trans = A.transpose();
+      |             [01;31m[K^~~~~~[m[K
+[01m[K/home/hua/new_catkin_ws/src/lqr_control/src/lqr_controller.cpp:332:13:[m[K [01;36m[Knote: [m[Ksuggested alternatives:
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:365[m[K,
+                 from [01m[K/home/hua/new_catkin_ws/src/lqr_control/include/lqr_controller.h:8[m[K,
+                 from [01m[K/home/hua/new_catkin_ws/src/lqr_control/src/lqr_controller.cpp:1[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/util/ForwardDeclarations.h:74:9:[m[K [01;36m[Knote: [m[K  ‘[01m[KEigen::Matrix[m[K’
+   74 | > class [01;36m[KMatrix[m[K;
+      |         [01;36m[K^~~~~~[m[K
+In file included from [01m[K/home/hua/new_catkin_ws/src/lqr_control/src/lqr_controller.cpp:1[m[K:
+[01m[K/home/hua/new_catkin_ws/src/lqr_control/include/lqr_controller.h:15:15:[m[K [01;36m[Knote: [m[K  ‘[01m[Khua::control::Matrix[m[K’
+   15 |         using [01;36m[KMatrix[m[K = Eigen::MatrixXd;
+      |               [01;36m[K^~~~~~[m[K
+[01m[K/home/hua/new_catkin_ws/src/lqr_control/src/lqr_controller.cpp:333:19:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[KB_trans[m[K’
+  333 |             Matrix[01;31m[K [m[K[32m[KB_trans[m[K = B.transpose();
+      |                   [01;31m[K^[m[K[32m[K~~~~~~~[m[K
+      |                   [32m[K;[m[K
+[01m[K/home/hua/new_catkin_ws/src/lqr_control/src/lqr_controller.cpp:341:19:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[KP[m[K’
+  341 |             Matrix[01;31m[K [m[K[32m[KP[m[K = Q;
+      |                   [01;31m[K^[m[K[32m[K~[m[K
+      |                   [32m[K;[m[K
+[01m[K/home/hua/new_catkin_ws/src/lqr_control/src/lqr_controller.cpp:348:23:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[KP_next[m[K’
+  348 |                 Matrix[01;31m[K [m[K[32m[KP_next[m[K = Q + A_trans * P * A - A_trans * P * B * (R + B_trans * P * B).inverse() * B_trans * P * A;
+      |                       [01;31m[K^[m[K[32m[K~~~~~~[m[K
+      |                       [32m[K;[m[K
+[01m[K/home/hua/new_catkin_ws/src/lqr_control/src/lqr_controller.cpp:354:33:[m[K [01;31m[Kerror: [m[K‘[01m[KP_next[m[K’ was not declared in this scope
+  354 |                 P_error = fabs(([01;31m[KP_next[m[K - P).maxCoeff());
+      |                                 [01;31m[K^~~~~~[m[K
+[01m[K/home/hua/new_catkin_ws/src/lqr_control/src/lqr_controller.cpp:354:42:[m[K [01;31m[Kerror: [m[K‘[01m[KP[m[K’ was not declared in this scope
+  354 |                 P_error = fabs((P_next - [01;31m[KP[m[K).maxCoeff());
+      |                                          [01;31m[K^[m[K
+[01m[K/home/hua/new_catkin_ws/src/lqr_control/src/lqr_controller.cpp:361:28:[m[K [01;31m[Kerror: [m[K‘[01m[KB_trans[m[K’ was not declared in this scope; did you mean ‘[01m[Kwctrans[m[K’?
+  361 |             *ptr_K = ((R + [01;31m[KB_trans[m[K * P * B).inverse()) * B_trans * P * A;
+      |                            [01;31m[K^~~~~~~[m[K
+      |                            [32m[Kwctrans[m[K
+[01m[K/home/hua/new_catkin_ws/src/lqr_control/src/lqr_controller.cpp:361:38:[m[K [01;31m[Kerror: [m[K‘[01m[KP[m[K’ was not declared in this scope
+  361 |             *ptr_K = ((R + B_trans * [01;31m[KP[m[K * B).inverse()) * B_trans * P * A;
+      |                                      [01;31m[K^[m[K
+make[2]: *** [CMakeFiles/lqr_control.dir/build.make:63：CMakeFiles/lqr_control.dir/src/lqr_controller.cpp.o] 错误 1
+make[1]: *** [CMakeFiles/Makefile2:207：CMakeFiles/lqr_control.dir/all] 错误 2
+make: *** [Makefile:141：all] 错误 2

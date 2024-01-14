@@ -1,0 +1,7 @@
+lqr_control
+/home/hua/new_catkin_ws/devel/.private/lqr_control/cmake.lock /home/hua/new_catkin_ws/devel/./cmake.lock
+/home/hua/new_catkin_ws/devel/.private/lqr_control/share/lqr_control/cmake/lqr_controlConfig-version.cmake /home/hua/new_catkin_ws/devel/share/lqr_control/cmake/lqr_controlConfig-version.cmake
+/home/hua/new_catkin_ws/devel/.private/lqr_control/share/lqr_control/cmake/lqr_controlConfig.cmake /home/hua/new_catkin_ws/devel/share/lqr_control/cmake/lqr_controlConfig.cmake
+/home/hua/new_catkin_ws/devel/.private/lqr_control/lib/liblqr_control.so /home/hua/new_catkin_ws/devel/lib/liblqr_control.so
+/home/hua/new_catkin_ws/devel/.private/lqr_control/lib/pkgconfig/lqr_control.pc /home/hua/new_catkin_ws/devel/lib/pkgconfig/lqr_control.pc
+/home/hua/new_catkin_ws/devel/.private/lqr_control/lib/lqr_control/lqr_control_node /home/hua/new_catkin_ws/devel/lib/lqr_control/lqr_control_node
