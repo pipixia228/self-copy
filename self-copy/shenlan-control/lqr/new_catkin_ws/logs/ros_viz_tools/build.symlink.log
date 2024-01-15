@@ -1,0 +1,5 @@
+Symlinking /home/hua/new_catkin_ws/devel/share/ros_viz_tools/cmake/ros_viz_toolsConfig.cmake
+Symlinking /home/hua/new_catkin_ws/devel/share/ros_viz_tools/cmake/ros_viz_toolsConfig-version.cmake
+Symlinking /home/hua/new_catkin_ws/devel/lib/libros_viz_tools.so
+Symlinking /home/hua/new_catkin_ws/devel/lib/pkgconfig/ros_viz_tools.pc
+Symlinking /home/hua/new_catkin_ws/devel/lib/ros_viz_tools/demo_node
