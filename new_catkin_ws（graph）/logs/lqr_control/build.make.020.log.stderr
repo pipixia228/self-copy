@@ -1,0 +1,15 @@
+In file included from [01m[K/home/hua/new_catkin_ws/src/lqr_control/src/reference_line.cpp:1[m[K:
+[01m[K/home/hua/new_catkin_ws/src/lqr_control/include/reference_line.h:13:34:[m[K [01;31m[Kerror: [m[Kinvalid pure specifier (only ‘[01m[K= 0[m[K’ is allowed) before ‘[01m[Kdefault[m[K’
+   13 |             ~ReferenceLine() = = [01;31m[Kdefault[m[K;
+      |                                  [01;31m[K^~~~~~~[m[K
+make[2]: *** [CMakeFiles/lqr_control.dir/build.make:76：CMakeFiles/lqr_control.dir/src/reference_line.cpp.o] 错误 1
+make[2]: *** 正在等待未完成的任务....
+In file included from [01m[K/home/hua/new_catkin_ws/src/lqr_control/include/common.h:10[m[K,
+                 from [01m[K/home/hua/new_catkin_ws/src/lqr_control/include/lqr_controller.h:9[m[K,
+                 from [01m[K/home/hua/new_catkin_ws/src/lqr_control/src/lqr_controller.cpp:1[m[K:
+[01m[K/home/hua/new_catkin_ws/src/lqr_control/include/reference_line.h:13:34:[m[K [01;31m[Kerror: [m[Kinvalid pure specifier (only ‘[01m[K= 0[m[K’ is allowed) before ‘[01m[Kdefault[m[K’
+   13 |             ~ReferenceLine() = = [01;31m[Kdefault[m[K;
+      |                                  [01;31m[K^~~~~~~[m[K
+make[2]: *** [CMakeFiles/lqr_control.dir/build.make:63：CMakeFiles/lqr_control.dir/src/lqr_controller.cpp.o] 错误 1
+make[1]: *** [CMakeFiles/Makefile2:207：CMakeFiles/lqr_control.dir/all] 错误 2
+make: *** [Makefile:141：all] 错误 2

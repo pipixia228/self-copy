@@ -1,0 +1,29 @@
+[01m[K/home/hua/new_catkin_ws/src/lqr_control/src/lqr_controller.cpp:[m[K In member function ‘[01m[Kvoid hua::control::LqrController::LoadControlConf()[m[K’:
+[01m[K/home/hua/new_catkin_ws/src/lqr_control/src/lqr_controller.cpp:46:13:[m[K [01;31m[Kerror: [m[K‘[01m[Klqr_max_interation_[m[K’ was not declared in this scope; did you mean ‘[01m[Klqr_max_iteration_[m[K’?
+   46 |             [01;31m[Klqr_max_interation_[m[K = 1500; // lqr迭代次数
+      |             [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+      |             [32m[Klqr_max_iteration_[m[K
+[01m[K/home/hua/new_catkin_ws/src/lqr_control/src/lqr_controller.cpp:[m[K In member function ‘[01m[Kvoid hua::control::LqrController::Init()[m[K’:
+[01m[K/home/hua/new_catkin_ws/src/lqr_control/src/lqr_controller.cpp:88:43:[m[K [01;31m[Kerror: [m[K‘[01m[Kiz[m[K’ was not declared in this scope; did you mean ‘[01m[Kiz_[m[K’?
+   88 |             matrix_b_(3, 0) = lf_ * cf_ / [01;31m[Kiz[m[K;
+      |                                           [01;31m[K^~[m[K
+      |                                           [32m[Kiz_[m[K
+[01m[K/home/hua/new_catkin_ws/src/lqr_control/src/lqr_controller.cpp:[m[K In member function ‘[01m[Kvoid hua::control::LqrController::UpdateState(const VehicleState&)[m[K’:
+[01m[K/home/hua/new_catkin_ws/src/lqr_control/src/lqr_controller.cpp:225:34:[m[K [01;31m[Kerror: [m[K‘[01m[Kvehicle[m[K’ was not declared in this scope
+  225 |                                  [01;31m[Kvehicle[m[K.velocity, vehicle_state.angular_velocity,
+      |                                  [01;31m[K^~~~~~~[m[K
+[01m[K/home/hua/new_catkin_ws/src/lqr_control/src/lqr_controller.cpp:[m[K In member function ‘[01m[Kvoid hua::control::LqrController::ComputeLateralErrors(double, double, double, double, double, double, LateralControlErrorPtr&)[m[K’:
+[01m[K/home/hua/new_catkin_ws/src/lqr_control/src/lqr_controller.cpp:290:13:[m[K [01;31m[Kerror: [m[K‘[01m[Klar_con_err[m[K’ was not declared in this scope; did you mean ‘[01m[Klat_con_err[m[K’?
+  290 |             [01;31m[Klar_con_err[m[K->heading_error_rate = match_point.v * match_point.kappa - angular_v;
+      |             [01;31m[K^~~~~~~~~~~[m[K
+      |             [32m[Klat_con_err[m[K
+[01m[K/home/hua/new_catkin_ws/src/lqr_control/src/lqr_controller.cpp:[m[K In member function ‘[01m[Kvoid hua::control::LqrController::SolveLQRProblem(const Matrix&, const Matrix&, const Matrix&, const Matrix&, double, uint, hua::control::Matrix*)[m[K’:
+[01m[K/home/hua/new_catkin_ws/src/lqr_control/src/lqr_controller.cpp:323:83:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K{[m[K’ token
+  323 |              Q.rows() != A.rows() || R.rows() != R.cols() || R.rows() != B.cols())
+      |                                                                                   [01;31m[K^[m[K
+      |                                                                                   [32m[K;[m[K
+  324 |             [32m[K{[m[K
+      |             [32m[K~[m[K                                                                      
+make[2]: *** [CMakeFiles/lqr_control.dir/build.make:63：CMakeFiles/lqr_control.dir/src/lqr_controller.cpp.o] 错误 1
+make[1]: *** [CMakeFiles/Makefile2:207：CMakeFiles/lqr_control.dir/all] 错误 2
+make: *** [Makefile:141：all] 错误 2

@@ -1,0 +1,5 @@
+Symlinking /home/hua/new_catkin_ws/devel/share/lqr_control/cmake/lqr_controlConfig-version.cmake
+Symlinking /home/hua/new_catkin_ws/devel/share/lqr_control/cmake/lqr_controlConfig.cmake
+Symlinking /home/hua/new_catkin_ws/devel/lib/liblqr_control.so
+Symlinking /home/hua/new_catkin_ws/devel/lib/pkgconfig/lqr_control.pc
+Symlinking /home/hua/new_catkin_ws/devel/lib/lqr_control/lqr_control_node
