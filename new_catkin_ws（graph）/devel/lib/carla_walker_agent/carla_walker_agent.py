@@ -1,1 +1,0 @@
-/home/hua/new_catkin_ws/devel/.private/carla_walker_agent/lib/carla_walker_agent/carla_walker_agent.py

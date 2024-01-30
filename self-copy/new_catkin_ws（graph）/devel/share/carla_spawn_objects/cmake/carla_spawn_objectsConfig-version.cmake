@@ -1,0 +1,1 @@
+/home/hua/文档/new_catkin_ws（graph）/devel/.private/carla_spawn_objects/share/carla_spawn_objects/cmake/carla_spawn_objectsConfig-version.cmake

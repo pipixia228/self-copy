@@ -1,0 +1,1 @@
+/home/hua/文档/new_catkin_ws（graph）/devel/.private/carla_ackermann_msgs/share/gennodejs/ros/carla_ackermann_msgs/msg/EgoVehicleControlCurrent.js

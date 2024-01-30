@@ -1,6 +1,0 @@
-Symlinking /home/hua/new_catkin_ws/devel/share/carla_common/cmake/carla_commonConfig.cmake
-Symlinking /home/hua/new_catkin_ws/devel/share/carla_common/cmake/carla_commonConfig-version.cmake
-Symlinking /home/hua/new_catkin_ws/devel/lib/python3/dist-packages/carla_common/__init__.py
-Symlinking /home/hua/new_catkin_ws/devel/lib/pkgconfig/carla_common.pc
-Symlinking /home/hua/new_catkin_ws/devel/lib/carla_common/transforms.py
-Symlinking /home/hua/new_catkin_ws/devel/lib/carla_common/cmake.lock

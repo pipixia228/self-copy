@@ -1,1 +1,0 @@
-/home/hua/new_catkin_ws/devel/.private/carla_ackermann_control/lib/python3/dist-packages/carla_ackermann_control/__init__.py

@@ -1,1 +1,0 @@
-/home/hua/new_catkin_ws/devel/.private/carla_msgs/share/carla_msgs/cmake/carla_msgsConfig-version.cmake

@@ -1,0 +1,1 @@
+/home/hua/文档/new_catkin_ws（graph）/devel/.private/carla_spawn_objects/lib/python3/dist-packages/carla_spawn_objects/__init__.py

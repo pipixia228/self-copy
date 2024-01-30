@@ -1,1 +1,0 @@
-/home/hua/new_catkin_ws/devel/.private/lqr_control/share/lqr_control/cmake/lqr_controlConfig-version.cmake

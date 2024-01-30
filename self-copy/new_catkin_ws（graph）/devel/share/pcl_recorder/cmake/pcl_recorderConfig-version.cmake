@@ -1,0 +1,1 @@
+/home/hua/文档/new_catkin_ws（graph）/devel/.private/pcl_recorder/share/pcl_recorder/cmake/pcl_recorderConfig-version.cmake

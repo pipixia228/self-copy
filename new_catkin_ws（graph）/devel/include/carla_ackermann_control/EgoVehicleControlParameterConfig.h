@@ -1,1 +1,0 @@
-/home/hua/new_catkin_ws/devel/.private/carla_ackermann_control/include/carla_ackermann_control/EgoVehicleControlParameterConfig.h

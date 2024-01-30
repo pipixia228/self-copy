@@ -1,1 +1,0 @@
-/home/hua/new_catkin_ws/devel/.private/carla_msgs/share/roseus/ros/carla_msgs/msg/CarlaEgoVehicleControl.l

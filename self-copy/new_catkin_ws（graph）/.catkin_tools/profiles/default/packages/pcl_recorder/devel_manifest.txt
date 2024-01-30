@@ -1,0 +1,6 @@
+carla-ros-bridge/pcl_recorder
+/home/hua/文档/new_catkin_ws（graph）/devel/.private/pcl_recorder/cmake.lock /home/hua/文档/new_catkin_ws（graph）/devel/./cmake.lock
+/home/hua/文档/new_catkin_ws（graph）/devel/.private/pcl_recorder/share/pcl_recorder/cmake/pcl_recorderConfig-version.cmake /home/hua/文档/new_catkin_ws（graph）/devel/share/pcl_recorder/cmake/pcl_recorderConfig-version.cmake
+/home/hua/文档/new_catkin_ws（graph）/devel/.private/pcl_recorder/share/pcl_recorder/cmake/pcl_recorderConfig.cmake /home/hua/文档/new_catkin_ws（graph）/devel/share/pcl_recorder/cmake/pcl_recorderConfig.cmake
+/home/hua/文档/new_catkin_ws（graph）/devel/.private/pcl_recorder/lib/pkgconfig/pcl_recorder.pc /home/hua/文档/new_catkin_ws（graph）/devel/lib/pkgconfig/pcl_recorder.pc
+/home/hua/文档/new_catkin_ws（graph）/devel/.private/pcl_recorder/lib/pcl_recorder/pcl_recorder_node /home/hua/文档/new_catkin_ws（graph）/devel/lib/pcl_recorder/pcl_recorder_node

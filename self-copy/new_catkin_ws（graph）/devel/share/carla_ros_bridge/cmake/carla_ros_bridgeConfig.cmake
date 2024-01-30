@@ -1,0 +1,1 @@
+/home/hua/文档/new_catkin_ws（graph）/devel/.private/carla_ros_bridge/share/carla_ros_bridge/cmake/carla_ros_bridgeConfig.cmake

@@ -1,6 +1,0 @@
-Symlinking /home/hua/new_catkin_ws/devel/share/carla_waypoint_publisher/cmake/carla_waypoint_publisherConfig-version.cmake
-Symlinking /home/hua/new_catkin_ws/devel/share/carla_waypoint_publisher/cmake/carla_waypoint_publisherConfig.cmake
-Symlinking /home/hua/new_catkin_ws/devel/lib/python3/dist-packages/carla_waypoint_publisher/__init__.py
-Symlinking /home/hua/new_catkin_ws/devel/lib/pkgconfig/carla_waypoint_publisher.pc
-Symlinking /home/hua/new_catkin_ws/devel/lib/carla_waypoint_publisher/carla_waypoint_publisher.py
-Symlinking /home/hua/new_catkin_ws/devel/lib/carla_waypoint_publisher/cmake.lock

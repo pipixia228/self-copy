@@ -1,0 +1,1 @@
+/home/hua/文档/new_catkin_ws（graph）/devel/.private/ros_compatibility/share/ros_compatibility/cmake/ros_compatibilityConfig.cmake

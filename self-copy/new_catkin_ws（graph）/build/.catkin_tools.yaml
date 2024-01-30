@@ -1,0 +1,6 @@
+devel_space: "/home/hua/\u6587\u6863/new_catkin_ws\uFF08graph\uFF09/devel"
+install: false
+install_space: "/home/hua/\u6587\u6863/new_catkin_ws\uFF08graph\uFF09/install"
+profile: default
+source_space: "/home/hua/\u6587\u6863/new_catkin_ws\uFF08graph\uFF09/src"
+workspace: "/home/hua/\u6587\u6863/new_catkin_ws\uFF08graph\uFF09"

@@ -1,6 +1,0 @@
-devel_space: /home/hua/new_catkin_ws/devel
-install: false
-install_space: /home/hua/new_catkin_ws/install
-profile: default
-source_space: /home/hua/new_catkin_ws/src
-workspace: /home/hua/new_catkin_ws

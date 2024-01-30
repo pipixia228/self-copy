@@ -1,0 +1,1 @@
+/home/hua/文档/new_catkin_ws（graph）/devel/.private/lqr_control/share/lqr_control/cmake/lqr_controlConfig.cmake

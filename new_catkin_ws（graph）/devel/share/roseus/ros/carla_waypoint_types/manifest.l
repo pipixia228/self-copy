@@ -1,1 +1,0 @@
-/home/hua/new_catkin_ws/devel/.private/carla_waypoint_types/share/roseus/ros/carla_waypoint_types/manifest.l
